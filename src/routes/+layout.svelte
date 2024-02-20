@@ -1,5 +1,7 @@
 <script lang="ts">
 	import '../app.css';
+	import type { Config } from '@sveltejs/adapter-vercel';
+	export const config: Config = { runtime: 'edge' };
 </script>
 
 <section>
