@@ -5,6 +5,11 @@
 	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
+<svelte:head>
+	<title
+		>Acacia Village. Welcome to one of Juba’s safest and most comfortable residential compounds.
+	</title>
+</svelte:head>
 <Navbar />
 <Banner />
 <AboutSection />
