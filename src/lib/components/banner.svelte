@@ -51,7 +51,7 @@
 			</div>
 		</div>
 	</div>
-	<img src={BannerImg} alt="Acacia Drinks being served in glasses" />
+	<img src={BannerImg} alt="Acacia Drinks being served in glasses" loading="lazy" />
 	<aside
 		class="h-24 flex justify-center px-8 items-center gap-4 rounded w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"
 	>

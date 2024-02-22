@@ -1,8 +1,11 @@
 <script>
 	import AboutSection from '$lib/components/about-section.svelte';
 	import Banner from '$lib/components/banner.svelte';
+	import Footer from '$lib/components/footer.svelte';
 	import Moments from '$lib/components/moments.svelte';
 	import Navbar from '$lib/components/navbar.svelte';
+	import Services from '$lib/components/services.svelte';
+	import Socials from '$lib/components/socials.svelte';
 </script>
 
 <svelte:head>
@@ -14,3 +17,6 @@
 <Banner />
 <AboutSection />
 <Moments />
+<Services />
+<Socials />
+<Footer />

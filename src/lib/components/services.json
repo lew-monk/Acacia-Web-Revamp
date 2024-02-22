@@ -1,0 +1,7 @@
+[
+	{
+		"service": "Accomodation",
+		"description": "Hotel",
+		"icon": "$lib/images/accomodation.svelte"
+	}
+]
