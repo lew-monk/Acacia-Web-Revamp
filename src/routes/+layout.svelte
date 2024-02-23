@@ -2,9 +2,16 @@
 	import '../app.css';
 	import type { Config } from '@sveltejs/adapter-vercel';
 	export const config: Config = { runtime: 'edge' };
+	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
+<svelte:head>
+	<title
+		>Acacia Village. Welcome to one of Juba’s safest and most comfortable residential compounds.
+	</title>
+</svelte:head>
 <section>
+	<Navbar />
 	<slot />
 </section>
 

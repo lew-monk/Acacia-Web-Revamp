@@ -1,15 +1,11 @@
 <script>
 	import AboutSection from '$lib/components/about-section.svelte';
-	import Banner from '$lib/components/banner.svelte';
+	import BookRoom from '$lib/components/book-room.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Moments from '$lib/components/moments.svelte';
-	import Services from '$lib/components/services.svelte';
-	import Socials from '$lib/components/socials.svelte';
+	import Accomodation from '$lib/images/svg/accomodation.svelte';
 </script>
 
-<Banner />
 <AboutSection />
-<Moments />
-<Services />
-<Socials />
+<BookRoom />
 <Footer />
