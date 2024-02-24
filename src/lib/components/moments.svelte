@@ -9,7 +9,7 @@
 	import { Button } from './ui/button';
 </script>
 
-<section class="py-24 bg-[#DDE0C7] flex items-center">
+<section id="gallery" class="py-24 bg-[#DDE0C7] flex items-center">
 	<div class="grid gap-4">
 		<h2 class="text-xl text-primary relative oasis">Our Gallery</h2>
 

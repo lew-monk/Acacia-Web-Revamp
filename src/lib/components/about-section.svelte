@@ -3,7 +3,7 @@
 	import { Button } from './ui/button';
 </script>
 
-<section class=" bg-[#F6F6EF] flex items-center">
+<section class=" bg-[#F6F6EF] flex items-center" id="stay">
 	<div class="py-24">
 		<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
 		<div class="w-full h-full flex justify-center items-center flex-col">
@@ -25,7 +25,7 @@
 				</p>
 				<div>
 					<Button
-						href="/login"
+						href="/book"
 						label="Contact Us"
 						class="shadow-none items-center bg-none rounded h-16 px-12"
 					>
