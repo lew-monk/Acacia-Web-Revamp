@@ -40,8 +40,7 @@
 
 				<Button
 					variant="outline"
-					href="/login"
-					label="Contact Us"
+					href="/contact"
 					class="shadow-none bg-none border-2 border-primary rounded h-16 px-12">Contact Us</Button
 				>
 			</div>
