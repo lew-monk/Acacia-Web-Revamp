@@ -15,8 +15,7 @@
 <Carousel.Root
 	plugins={[
 		Autoplay({
-			delay: 4000,
-			jump: true
+			delay: 4000
 		})
 	]}
 	opts={{ loop: true, slidesToScroll: 'auto' }}
