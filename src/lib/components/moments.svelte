@@ -5,13 +5,18 @@
 	import Bed from '../images/bedroom.avif';
 	import Lounge from '../images/Rectangle 20 (1).avif';
 	import Lounger2 from '../images/Rectangle 20.avif';
+	import Bar from '../images/Bar.avif';
+	import Bar2 from '../images/Bar-2.avif';
+	import Bar3 from '../images/Bar-3.avif';
 	import { MoveLeft, MoveRight } from 'lucide-svelte';
 	import { Button } from './ui/button';
+
+	const images = [Food, Banner, Lounge, Cottages, Bed, Lounger2, Bar, Bar2, Bar3];
 </script>
 
 <section id="gallery" class="py-24 bg-[#DDE0C7] flex items-center">
 	<div class="grid gap-4">
-		<h2 class="text-xl text-primary relative oasis">Our Gallery</h2>
+		<!-- <h2 class="text-xl text-primary relative oasis">Our Gallery</h2> -->
 
 		<div class="flex w-full items-center">
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">

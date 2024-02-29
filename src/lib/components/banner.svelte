@@ -3,18 +3,19 @@
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
+	import Carousel from './carousel.svelte';
 </script>
 
-<section class="relative">
-	<div class="w-full bg-bgDark h-full flex justify-center flex-col">
+<section class="relative h-[80vh]">
+	<div class="w-full bg-bgDark flex justify-center flex-col">
 		<div class="w-5/6 flex gap-8 flex-col -mt-40 ml-[120px]">
-			<h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2>
+			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
 			<h1 class="text-6xl leading-snug text-textPrimary font-medium">
-				Welcome to Acacia Village - <span class="text-primary">Juba</span>
+				Welcome to Acacia Village - <span class="text-primary">An Oasis in Juba</span>
 			</h1>
-			<p class="text-base w-10/12 leading-snug font-medium">
+			<!-- <p class="text-base w-10/12 leading-snug font-medium">
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
-			</p>
+			</p> -->
 			<div>
 				<Button href="/book" class="shadow-none items-center bg-none rounded h-16 px-12">
 					<div class="flex items-center h-8 gap-4">
@@ -46,7 +47,15 @@
 			</div>
 		</div>
 	</div>
-	<img src={BannerImg} alt="Acacia Drinks being served in glasses" loading="lazy" />
+	<div class="w-full h-full">
+		<!-- <img
+			src={BannerImg}
+			class="object-cover w-full"
+			alt="Acacia Drinks being served in glasses"
+			loading="lazy"
+		/> -->
+		<Carousel />
+	</div>
 	<aside
 		class="h-24 flex justify-center px-8 items-center gap-4 rounded w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"
 	>

@@ -8,17 +8,17 @@
 		<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
 		<div class="w-full h-full flex justify-center items-center flex-col">
 			<div class="w-5/6 flex gap-4 flex-col">
-				<h2 class="text-xl text-primary relative oasis">About Section</h2>
+				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 				<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
 					Your Stay at <span class="text-primary">Acacia</span> Village
 				</h1>
-				<p class="text-sm text-[#2D2E2E] font-[500] leading-loose">
+				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
 					Our range of air-conditioned Single Apartments, Poolside Studios, and Cottages boast a
 					double bed, satellite TV, Workstation and an ensuite bathroom. We provide clean, modern,
 					cozy and functional accommodation all managed by our friendly staff. Whether you are on a
 					long-term work rotation or a romantic weekend getaway, you can be sure of a relaxing stay.
 				</p>
-				<p class="text-sm font-[500] text-[#2D2E2E] leading-loose">
+				<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
 					Acacia Village is guarded 24/7 by VSS, South Sudan’s largest private security company and
 					us surrounded by a 2.2m perimeter wall topped with razor wire, an electric fence,
 					perimeter lighting, lined with anti-vehicle-ram protection

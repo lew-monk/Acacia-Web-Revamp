@@ -85,9 +85,9 @@
 
 <section class=" bg-[#F6F6EF] grid items-center py-24 gap-12">
 	<div class="">
-		<div class="w-full flex justify-center">
+		<!-- <div class="w-full flex justify-center">
 			<h2 class="text-xl text-primary relative oasis">Our Services</h2>
-		</div>
+		</div> -->
 		<div class="w-full h-full flex justify-center items-center flex-col">
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
 				What we <span class="text-primary">Offer</span>

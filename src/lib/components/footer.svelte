@@ -7,7 +7,9 @@
 <section class="py-12 divide-y gap-12">
 	<div class="w-full flex">
 		<div class="">
-			<img src={Maris} alt="" class="w-1/2" />
+			<a href="https://marisafrica.com/">
+				<img src={Maris} alt="" class="w-1/2" />
+			</a>
 		</div>
 		<div class="">
 			<p>
@@ -16,7 +18,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="pt-12">
+	<!-- <div class="pt-12">
 		<div class="col-span-2 grid grid-cols-3 w-full">
 			<div class="grid gap-4">
 				<h1 class="font-semibold">About</h1>
@@ -42,7 +44,7 @@
 				</form>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="pt-12">
 		<div class="col-span-2 grid grid-cols-2 w-full">
 			<h1 class="font-extralight text-xs">Copyright © 2024 | All Rights Reserved</h1>

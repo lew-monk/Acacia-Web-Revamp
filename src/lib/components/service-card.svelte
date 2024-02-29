@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="grid grid-cols-1 justify-items-center items-center h-[408px] w-full border-primary border-[3px] rounded-[8px]"
+	class="grid grid-cols-1 justify-items-center items-center h-[320px] w-full border-primary border-[3px] rounded-[8px]"
 >
 	<div class="w-5/6 grid gap-4 min-h-[75%] text-[#2D2E2E]">
 		<div class="grid gap-4">
@@ -13,7 +13,7 @@
 			<h1 class="font-[600] text-3xl">{service}</h1>
 			<p class="text-[#2D2E2E]">{description}</p>
 		</div>
-		<a class="flex" href="/"
+		<!-- <a class="flex" href="/"
 			>View More <span>
 				<svg
 					width="24"
@@ -30,6 +30,6 @@
 					/>
 				</svg>
 			</span>
-		</a>
+		</a> -->
 	</div>
 </div>
