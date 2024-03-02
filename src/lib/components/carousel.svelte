@@ -29,17 +29,14 @@
 					<Card.Root class="h-full">
 						<img
 							src={image}
-							class="object-cover h-full"
+							class="object-cover w-full h-full"
 							alt="Acacia Drinks being served in glasses"
-							loading="lazy"
 						/>
 					</Card.Root>
 				</div>
 			</Carousel.Item>
 		{/each}
 	</Carousel.Content>
-	<Carousel.Previous />
-	<Carousel.Next />
 </Carousel.Root>
 
 <style>

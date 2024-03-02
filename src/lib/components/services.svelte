@@ -105,8 +105,8 @@
 
 		<Button href="/login" class="shadow-none items-center bg-none rounded h-16 px-12 mt-12">
 			<div class="flex items-center h-8 gap-4">
-				<span>Explore Our Ammenities</span>
-				<span>
+				<span class="exp-text">Explore Our Ammenities</span>
+				<span class="exp-icon">
 					<svg
 						width="25"
 						height="24"
@@ -164,5 +164,34 @@
 		top: 50%;
 		right: 16px;
 		background: #717c26;
+	}
+
+	.exp-text {
+		animation: fadeInText 1s ease;
+		animation-timeline: view(70% 1%);
+	}
+	@keyframes fadeInText {
+		0% {
+			opacity: 0;
+			transform: translateY(100px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	.exp-icon {
+		animation: fadeInIcon 1s ease;
+		animation-timeline: view(60% 2%);
+	}
+	@keyframes fadeInIcon {
+		0% {
+			opacity: 0;
+			transform: translateX(100%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 </style>

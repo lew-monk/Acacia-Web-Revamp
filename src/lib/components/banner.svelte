@@ -62,10 +62,7 @@
 		<DatePicker />
 		<DatePicker />
 		<Select />
-		<Button
-			href="/login"
-			label="Contact Us"
-			class="shadow-none bg-none border-2 border-primary rounded h-12 px-12"
+		<Button href="/contact" class="shadow-none bg-none border-2 border-primary rounded h-12 px-12"
 			>Check Availability</Button
 		>
 	</aside>
@@ -76,30 +73,5 @@
 		display: grid;
 		grid-column: start / end;
 		grid-template-columns: 1fr 1fr;
-	}
-	.oasis {
-		position: relative;
-		padding: 0em 1.5em;
-		width: 17ch;
-	}
-	.oasis::before {
-		content: ' ';
-		display: block;
-		height: 2px;
-		width: 22px;
-		position: absolute;
-		top: 50%;
-		left: 0px;
-		background: #717c26;
-	}
-	.oasis::after {
-		content: ' ';
-		display: block;
-		height: 2px;
-		width: 22px;
-		position: absolute;
-		top: 50%;
-		right: 0px;
-		background: #717c26;
 	}
 </style>

@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="grid grid-cols-1 justify-items-center items-center h-[320px] w-full border-primary border-[3px] rounded-[8px]"
+	class="container grid grid-cols-1 justify-items-center items-center h-[320px] w-full border-primary border-[3px] rounded-[8px]"
 >
 	<div class="w-5/6 grid gap-4 min-h-[75%] text-[#2D2E2E]">
 		<div class="grid gap-4">
@@ -33,3 +33,27 @@
 		</a> -->
 	</div>
 </div>
+
+<style>
+	.container {
+		transition: all 0.3s ease;
+		animation: fadeInCards 0.5s ease;
+		animation-timeline: view();
+		animation-range: -30%;
+		animation-fill-mode: forwards;
+		animation-delay: calc(var(--animation-delay) * 100ms);
+	}
+	.container:hover {
+		transform: translateY(-5px);
+	}
+	@keyframes fadeInCards {
+		0% {
+			opacity: 0;
+			scale: 0.8;
+		}
+		100% {
+			opacity: 1;
+			scale: 1;
+		}
+	}
+</style>
