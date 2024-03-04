@@ -16,8 +16,8 @@
 		<div class="flex-1 flex justify-center gap-12">
 			<AboutMenuItem />
 			<StayMenuItem />
-			<a href="gallery">Gallery</a>
 			<a href="/services">Our Services</a>
+			<a href="gallery">Gallery</a>
 			<a href="contact">Contact Us</a>
 		</div>
 

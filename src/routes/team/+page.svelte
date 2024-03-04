@@ -4,6 +4,10 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Bar from '$lib/images/Bar.avif';
 	import Cottages from '$lib/images/F.avif';
+	import Andy from '$lib/images/Management.jpeg';
+	import Mary from '$lib/images/Mary.jpeg';
+	import Micheal from '$lib/images/Mike Murima Staff Photo.jpg';
+	import Emmanuel from '$lib/images/Management.jpg';
 </script>
 
 <section class="">
@@ -31,9 +35,9 @@
 				</h3>
 			</div>
 		</div>
-		<div class="py-24 px-[120px] rounded grid grid-cols-2">
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
-			<div class="w-full h-full flex justify-center items-center flex-col">
+		<div class="py-24 px-[120px] rounded grid grid-cols-8">
+			<img src={Andy} class="w-4/4 col-span-2" alt="Acacia Drinks being served in glasses" />
+			<div class="w-full h-full flex justify-center col-span-6 items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">ANDY HARDY</h1>
@@ -46,8 +50,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="py-24 bg-white px-[120px] rounded grid grid-cols-2">
-			<div class="w-full h-full flex justify-center items-center flex-col">
+		<div class="py-24 bg-white px-[120px] rounded grid grid-cols-8">
+			<div class="w-full h-full flex justify-center col-span-6 items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
@@ -63,11 +67,11 @@
 					</p>
 				</div>
 			</div>
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
+			<img src={Mary} class="w-4/4 col-span-2" alt="Acacia Drinks being served in glasses" />
 		</div>
-		<div class="py-24 px-[120px] rounded grid grid-cols-2">
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
-			<div class="w-full h-full flex justify-center items-center flex-col">
+		<div class="py-24 px-[120px] rounded grid grid-cols-8">
+			<img src={Micheal} class="w-4/4 col-span-2" alt="Acacia Drinks being served in glasses" />
+			<div class="w-full h-full col-span-6 flex justify-center items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">MICHAEL MURIMA</h1>
@@ -82,8 +86,8 @@
 			</div>
 		</div>
 
-		<div class="py-24 bg-white px-[120px] rounded grid grid-cols-2">
-			<div class="w-full h-full flex justify-center items-center flex-col">
+		<div class="py-24 bg-white px-[120px] rounded grid grid-cols-8">
+			<div class="w-full h-full flex col-span-6 justify-center items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">EMMANUEL KYALO</h1>
@@ -97,7 +101,7 @@
 					</p>
 				</div>
 			</div>
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
+			<img src={Emmanuel} class="w-4/4 col-span-2" alt="Acacia Drinks being served in glasses" />
 		</div>
 	</div>
 	<Footer />
