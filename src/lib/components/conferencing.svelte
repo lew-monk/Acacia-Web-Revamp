@@ -11,10 +11,9 @@
 					Conference, Meetings and <span class="text-primary">Events</span>
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-					Acacia Village Bar & Restaurant takes pride in it menu that has delightful array of dishes
-					crafted with genuine flavours and locally-sourced ingredients. Our offerings range from
-					hearty stews and succulent grilled meats to fragrant rice dishes and invigorating
-					beverages, all elegantly reflecting the vibrant cultural heritage of the region
+					We offer both indoor and outdoor event spaces and conference facilities tailored to your
+					needs. Whether you're hosting a themed event or an executive meeting, Acacia Village
+					ensures top-notch service that meets your satisfaction.
 				</p>
 			</div>
 		</div>

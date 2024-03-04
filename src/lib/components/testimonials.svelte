@@ -9,7 +9,7 @@
 		</div> -->
 		<div class="w-full h-full flex text-center justify-center items-center flex-col">
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
-				Testimonials <span class="text-primary"></span>
+				Testimonials <span class="text-primary wha"></span>
 			</h1>
 			<p class="text-center">
 				Here is what some of our customers had to say about their stay at Acacia Village
@@ -91,6 +91,22 @@
 		100% {
 			opacity: 1;
 			transform: translateX(0);
+		}
+	}
+	.what {
+		border-right: 6px solid #dde0c7;
+		padding-right: 1rem;
+		border-radius: 0.1rem;
+		animation-timeline: view();
+		animation: blink-caret 1s step-end infinite;
+	}
+	@keyframes blink-caret {
+		from,
+		to {
+			border-color: transparent;
+		}
+		50% {
+			border-color: #dde0c7;
 		}
 	}
 </style>

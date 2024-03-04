@@ -13,9 +13,9 @@
 <Banner />
 <AboutSection />
 <!-- <Moments /> -->
-<Services />
-<Dine />
 <Conferencing />
+<Dine />
+<Services />
 <Testimonials />
 <!-- <Socials /> -->
 <Footer />
