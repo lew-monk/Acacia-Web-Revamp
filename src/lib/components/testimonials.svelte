@@ -9,11 +9,9 @@
 		</div> -->
 		<div class="w-full h-full flex text-center justify-center items-center flex-col">
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
-				Testimonials <span class="text-primary wha"></span>
+				What our clients have to say
+				<span class="text-primary wha"></span>
 			</h1>
-			<p class="text-center">
-				Here is what some of our customers had to say about their stay at Acacia Village
-			</p>
 		</div>
 	</div>
 	<div class="w-full">

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card/index.js';
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
-	import { onMount } from 'svelte';
 	import BannerImg from '../images/bannerImg.avif';
 	import BannerImg1 from '../images/Bar-2.avif';
 	import BannerImg3 from '../images/Bar.avif';
@@ -9,20 +8,21 @@
 	import BannerImg4 from '../images/Bar-3.avif';
 	import Autoplay from 'embla-carousel-autoplay';
 
-	const images = [BannerImg, BannerImg1, BannerImg2, BannerImg3, BannerImg4];
+	export let images = [BannerImg, BannerImg1, BannerImg2, BannerImg3, BannerImg4];
+	export let jump = true;
 </script>
 
 <Carousel.Root
 	plugins={[
 		Autoplay({
 			delay: 4000,
-			jump: true
+			jump: jump
 		})
 	]}
 	opts={{ loop: true, slidesToScroll: 'auto' }}
 	class="w-full h-full"
 >
-	<Carousel.Content class="h-[80vh] ">
+	<Carousel.Content class="h-[80vh] w-full ">
 		{#each images as image, i (i)}
 			<Carousel.Item class="h-full ">
 				<div class="h-full">

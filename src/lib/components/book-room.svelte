@@ -5,13 +5,19 @@
 	import Lounge from '../images/Rectangle 20 (1).avif';
 	import RadioGroup from './radio-group.svelte';
 	import Button from './ui/button/button.svelte';
+	import Carousel from './carousel.svelte';
 </script>
 
+<div class="car-container carousel h-[80vh] flex justify-center items-center w-full relative">
+	<Carousel jump={true} />
+	<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
+	<div class="z-10 absolute text-white grid gap-8 text-center">
+		<h1 class="text-2xl font-bold">Accomodation</h1>
+		<h3 class="font">Home - Accomodation</h3>
+	</div>
+</div>
 <section class=" bg-[#DDE0C7] grid items-center py-12 gap-12">
 	<div class="w-full">
-		<div class="w-full flex">
-			<h2 class="text-xl text-left text-primary relative oasis">Accomadation</h2>
-		</div>
 		<div class="w-full flex justify-center items-center flex-col">
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
 				Book a <span class="text-primary">Room</span>
@@ -20,9 +26,9 @@
 		<div class="w-full grid grid-cols-3 gap-4">
 			<div class="w-full col-span-2">
 				<div class="bg-white flex py-4 rounded-tr rounded-tl">
-					<h1 class="px-4">Luxury</h1>
 					<h1 class="px-4">Apartments</h1>
 					<h1 class="px-4">Cottages</h1>
+					<h1 class="px-4">Pool Rooms</h1>
 				</div>
 				<div class="flex flex-col w-full grid-rows-2 gap-2">
 					<div>
@@ -77,6 +83,11 @@
 		display: grid;
 		grid-column: start / end;
 		grid-template-columns: subgrid;
+		place-items: center;
+	}
+	.car-container {
+		display: grid;
+		grid-column: start / end;
 		place-items: center;
 	}
 	section > div {

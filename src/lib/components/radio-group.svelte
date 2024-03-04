@@ -73,7 +73,7 @@
 		/>
 		<Label for="r3" class="grid w-full gap-2">
 			<div class="flex w-full justify-between">
-				<h1 class="font-bold">Luxury Villas</h1>
+				<h1 class="font-bold">Pool Rooms</h1>
 				<h1 class="font-bold">USD $250</h1>
 			</div>
 			<div>
@@ -81,10 +81,6 @@
 					<li>Writing Desk</li>
 					<li>Fridge</li>
 					<li>Safe</li>
-					<li>Air Conditioning</li>
-					<li>Satellite TV</li>
-					<li>Wifi</li>
-					<li>Laundry services</li>
 				</ul>
 			</div>
 		</Label>

@@ -2,6 +2,7 @@
 	import { Button } from './ui/button';
 	import Logo from '../images/AcaciaLogo.avif';
 	import AboutMenuItem from './about-menu-item.svelte';
+	import StayMenuItem from './stay-menu-item.svelte';
 </script>
 
 <nav class=" w-full items-center shadow-sm relative z-100 h-[80px]">
@@ -14,8 +15,8 @@
 		</a>
 		<div class="flex-1 flex justify-center gap-12">
 			<AboutMenuItem />
-			<a href="/#stay">Your Stay</a>
-			<a href="/#gallery">Gallery</a>
+			<StayMenuItem />
+			<a href="gallery">Gallery</a>
 			<a href="/services">Our Services</a>
 			<a href="contact">Contact Us</a>
 		</div>
