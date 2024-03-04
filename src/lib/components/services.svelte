@@ -83,7 +83,7 @@
 	];
 </script>
 
-<section class=" bg-[#F6F6EF] grid items-center py-24 gap-12">
+<section class=" bg-[#DDE0C7] grid items-center py-24 gap-12">
 	<div class="">
 		<!-- <div class="w-full flex justify-center">
 			<h2 class="text-xl text-primary relative oasis">Our Services</h2>
