@@ -26,18 +26,18 @@
 		</div>
 		<div class="w-full grid grid-cols-3 gap-4">
 			<div class="w-full col-span-2">
-				<div class="bg-white flex pt-4 rounded-tr rounded-tl">
+				<div class="bg-white flex pt-4 pb-2 rounded-tr rounded-tl">
 					<button
 						on:click={() => (roomType = 'apartment')}
-						class={roomType !== 'apartment' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						class={roomType !== 'apartment' ? `px-4` : `px-2 border-b-4 border-primary`}
 						>Apartments</button
 					>
 					<button
-						class={roomType !== 'cottages' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						class={roomType !== 'cottages' ? `px-4` : `px-2 border-b-4 border-primary`}
 						on:click={() => (roomType = 'cottages')}>Cottages</button
 					>
 					<button
-						class={roomType !== 'pool' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						class={roomType !== 'pool' ? `px-4` : `px-2 border-b-4 border-primary`}
 						on:click={() => (roomType = 'pool')}>Pool Rooms</button
 					>
 				</div>
