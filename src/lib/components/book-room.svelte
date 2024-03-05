@@ -26,10 +26,20 @@
 		</div>
 		<div class="w-full grid grid-cols-3 gap-4">
 			<div class="w-full col-span-2">
-				<div class="bg-white flex py-4 rounded-tr rounded-tl">
-					<button on:click={() => (roomType = 'apartment')} class="px-4">Apartments</button>
-					<button on:click={() => (roomType = 'cottages')} class="px-4">Cottages</button>
-					<button on:click={() => (roomType = 'pool')} class="px-4">Pool Rooms</button>
+				<div class="bg-white flex pt-4 rounded-tr rounded-tl">
+					<button
+						on:click={() => (roomType = 'apartment')}
+						class={roomType !== 'apartment' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						>Apartments</button
+					>
+					<button
+						class={roomType !== 'cottages' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						on:click={() => (roomType = 'cottages')}>Cottages</button
+					>
+					<button
+						class={roomType !== 'pool' ? `px-4` : `px-2 border-b-4 rounded border-primary`}
+						on:click={() => (roomType = 'pool')}>Pool Rooms</button
+					>
 				</div>
 				{#if roomType === 'apartment'}
 					<LuxuryTab />

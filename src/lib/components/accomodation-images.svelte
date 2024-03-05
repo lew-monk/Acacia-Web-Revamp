@@ -14,7 +14,12 @@
 	</div>
 	<div class="grid grid-cols-4 gap-4">
 		{#each images as image}
-			<img src={image} alt="" class="w-full rounded object-cover h-32" />
+			<img
+				src={image}
+				on:click={() => (selectedImage = image)}
+				alt=""
+				class="w-full rounded object-cover h-32"
+			/>
 		{/each}
 	</div>
 </div>
