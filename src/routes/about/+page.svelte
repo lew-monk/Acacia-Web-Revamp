@@ -2,11 +2,16 @@
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Cottages from '$lib/images/F.avif';
+	import Bar from '$lib/images/Bar.avif';
+	import Outdoor from '$lib/images/DSC00375.avif';
+	import Outdoor2 from '$lib/images/DSC_0768-HDR.avif';
+
+	const images = [Bar, Cottages, Outdoor];
 </script>
 
 <section class="">
 	<div class=" carousel h-[80vh] flex justify-center items-center w-full relative">
-		<Carousel jump={true} />
+		<Carousel jump={true} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">About Us</h1>
@@ -15,7 +20,11 @@
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="py-24 px-[120px] rounded grid grid-cols-2">
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
+			<img
+				src={Outdoor2}
+				class="w-4/4 h-full object-cover rounded"
+				alt="Acacia Drinks being served in glasses"
+			/>
 			<div class="w-full h-full flex justify-center items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->

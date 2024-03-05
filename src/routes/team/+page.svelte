@@ -3,16 +3,18 @@
 	import Footer from '$lib/components/footer.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Bar from '$lib/images/Bar.avif';
-	import Cottages from '$lib/images/F.avif';
+	import Chef from '$lib/images/Convert.avif';
 	import Andy from '$lib/images/Management.jpeg';
 	import Mary from '$lib/images/Mary.jpeg';
 	import Micheal from '$lib/images/Mike Murima Staff Photo.jpg';
 	import Emmanuel from '$lib/images/Management.jpg';
+
+	const images = [Bar, Chef];
 </script>
 
 <section class="">
 	<div class=" carousel h-[80vh] flex justify-center items-center w-full relative">
-		<Carousel jump={true} />
+		<Carousel jump={true} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">Our Team</h1>

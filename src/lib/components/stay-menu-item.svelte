@@ -1,6 +1,8 @@
 <script lang="ts">
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Location from '$lib/images/Location-2.avif';
+	import Gate from '$lib/images/Gate.avif';
+	import Pool from '$lib/images/Pool.avif';
 </script>
 
 <Menubar.Root>
@@ -10,9 +12,9 @@
 		</Menubar.Trigger>
 		<Menubar.Content class="shadow-none py-4 grid grid-cols-3 rounded w-1/2 z-10 h-[40vh]">
 			<Menubar.Item>
-				<a href="book" class="bg-transpart">
+				<a href="book" class="bg-transpart h-[200px]">
 					<img
-						src={Location}
+						src={Pool}
 						width={800}
 						height={400}
 						class="rounded w-full h-full object-cover"
@@ -22,11 +24,11 @@
 				</a>
 			</Menubar.Item>
 			<Menubar.Item>
-				<a href="security" class="bg-transpart">
+				<a href="security" class="bg-transpart h-[200px]">
 					<img
-						src={Location}
-						height={200}
-						width={200}
+						src={Gate}
+						height={800}
+						width={400}
 						class="rounded h-full object-cover"
 						alt="Acacia Entrance"
 					/>
@@ -34,8 +36,14 @@
 				</a>
 			</Menubar.Item>
 			<Menubar.Item>
-				<a href="services">
-					<img src={Location} height={200} width={200} class="rounded" alt="Acacia Entrance" />
+				<a href="services" class="h-[200px]">
+					<img
+						src={Location}
+						height={800}
+						width={200}
+						class="rounded h-full w-full"
+						alt="Acacia Entrance"
+					/>
 					<h1 class="">Our Services</h1>
 				</a>
 			</Menubar.Item>

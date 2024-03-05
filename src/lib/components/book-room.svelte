@@ -1,11 +1,12 @@
 <script>
-	import Banner from '../images/bannerImg.avif';
-	import Food from '../images/Rectangle (1).avif';
-	import Bed from '../images/bedroom.avif';
-	import Lounge from '../images/Rectangle 20 (1).avif';
 	import RadioGroup from './radio-group.svelte';
 	import Button from './ui/button/button.svelte';
 	import Carousel from './carousel.svelte';
+	import LuxuryTab from './luxury-tab.svelte';
+	import CottageTabs from './cottage-tabs.svelte';
+	import PoolRoomTabs from './pool-room-tabs.svelte';
+
+	let roomType = 'apartment';
 </script>
 
 <div class="car-container carousel h-[80vh] flex justify-center items-center w-full relative">
@@ -26,21 +27,17 @@
 		<div class="w-full grid grid-cols-3 gap-4">
 			<div class="w-full col-span-2">
 				<div class="bg-white flex py-4 rounded-tr rounded-tl">
-					<h1 class="px-4">Apartments</h1>
-					<h1 class="px-4">Cottages</h1>
-					<h1 class="px-4">Pool Rooms</h1>
+					<button on:click={() => (roomType = 'apartment')} class="px-4">Apartments</button>
+					<button on:click={() => (roomType = 'cottages')} class="px-4">Cottages</button>
+					<button on:click={() => (roomType = 'pool')} class="px-4">Pool Rooms</button>
 				</div>
-				<div class="flex flex-col w-full grid-rows-2 gap-2">
-					<div>
-						<img src={Bed} alt="" class="w-full rounded" />
-					</div>
-					<div class="grid grid-cols-4 gap-4">
-						<img src={Bed} alt="" class="w-full rounded object-cover h-32" />
-						<img src={Food} alt="" class="w-full rounded object-cover h-32" />
-						<img src={Banner} alt="" class="w-full rounded object-cover h-32" />
-						<img src={Lounge} alt="" class="w-full rounded object-cover h-32" />
-					</div>
-				</div>
+				{#if roomType === 'apartment'}
+					<LuxuryTab />
+				{:else if roomType === 'cottages'}
+					<CottageTabs />
+				{:else}
+					<PoolRoomTabs />
+				{/if}
 			</div>
 			<div class="bg-white h-full p-6 flex flex-col gap-4 justify-between rounded">
 				<h1 class="font-bold">Choose Room Type</h1>

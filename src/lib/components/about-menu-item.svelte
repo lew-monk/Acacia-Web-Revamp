@@ -1,6 +1,8 @@
 <script lang="ts">
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Location from '$lib/images/Location-2.avif';
+	import Maris from '$lib/images/Ac.png';
+	import Gate from '$lib/images/Gate (1).avif';
 </script>
 
 <Menubar.Root>
@@ -10,7 +12,7 @@
 		</Menubar.Trigger>
 		<Menubar.Content class="shadow-none py-4 grid grid-cols-3 rounded w-1/2 z-10 h-[40vh]">
 			<Menubar.Item>
-				<a href="about" class="bg-transpart">
+				<a href="about" class="bg-transpart h-[200px]">
 					<img
 						src={Location}
 						width={800}
@@ -22,11 +24,11 @@
 				</a>
 			</Menubar.Item>
 			<Menubar.Item>
-				<a href="team" class="bg-transpart">
+				<a href="team" class="bg-transpart h-[200px]">
 					<img
-						src={Location}
-						height={200}
-						width={200}
+						src={Gate}
+						height={800}
+						width={400}
 						class="rounded h-full object-cover"
 						alt="Acacia Entrance"
 					/>
@@ -40,8 +42,14 @@
 				</a>
 			</Menubar.Item> -->
 			<Menubar.Item>
-				<a href="https://marisafrica.com/">
-					<img src={Location} height={200} width={200} class="rounded" alt="Acacia Entrance" />
+				<a href="https://marisafrica.com/" class="h-[200px]">
+					<img
+						src={Maris}
+						height={200}
+						width={200}
+						class="rounded h-full w-full object-contain"
+						alt="Acacia Entrance"
+					/>
 					<h1 class="">The Maris Group</h1>
 				</a>
 			</Menubar.Item>
