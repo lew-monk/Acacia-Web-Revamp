@@ -1,11 +1,21 @@
 <script>
-	import Cottages from '../images/F.avif';
+	import Pool from '$lib/images/Pool-2.avif';
+	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';
+
+	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 </script>
 
 <section class=" bg-[#F6F6EF] flex items-center" id="stay">
 	<div class="py-24">
-		<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
+		<img
+			use:lazyimage
+			src={placeholder}
+			data-src={Pool}
+			loading="eager"
+			class="w-4/4 h-full object-cover rounded img-animate"
+			alt="Acacia Drinks being served in glasses"
+		/>
 		<div class="w-full h-full flex justify-center items-center flex-col">
 			<div class="w-5/6 flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
@@ -67,29 +77,21 @@
 		grid-template-columns: 0.8fr 1fr;
 		place-items: center;
 	}
-	.oasis {
-		position: relative;
-		padding: 0em 1.5em;
-		width: 16ch;
+	.img-animate {
+		transition: all 2s ease-in-out;
+		animation: animate-in;
+		animation-timeline: view();
+		animation-fill-mode: forwards;
+		animation-range: -20%;
 	}
-	.oasis::before {
-		content: ' ';
-		display: block;
-		height: 2px;
-		width: 22px;
-		position: absolute;
-		top: 50%;
-		left: 0px;
-		background: #717c26;
-	}
-	.oasis::after {
-		content: ' ';
-		display: block;
-		height: 2px;
-		width: 22px;
-		position: absolute;
-		top: 50%;
-		right: 8px;
-		background: #717c26;
+	@keyframes animate-in {
+		0% {
+			opacity: 0.6;
+			transform: translateX(-200px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 </style>

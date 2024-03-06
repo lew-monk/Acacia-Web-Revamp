@@ -2,7 +2,7 @@
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Location from '$lib/images/Location-2.avif';
 	import Maris from '$lib/images/Ac.png';
-	import Gate from '$lib/images/Gate (1).avif';
+	import Gate from '$lib/images/Convert.avif';
 </script>
 
 <Menubar.Root>
@@ -19,6 +19,7 @@
 						height={400}
 						class="rounded w-full h-full object-cover"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">About Us</h1>
 				</a>
@@ -31,6 +32,7 @@
 						width={400}
 						class="rounded h-full object-cover"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">Our Team</h1>
 				</a>
@@ -42,13 +44,14 @@
 				</a>
 			</Menubar.Item> -->
 			<Menubar.Item>
-				<a href="https://marisafrica.com/" class="h-[200px]">
+				<a target="_blank" href="https://marisafrica.com/" class="h-[200px]">
 					<img
 						src={Maris}
 						height={200}
 						width={200}
 						class="rounded h-full w-full object-contain"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">The Maris Group</h1>
 				</a>

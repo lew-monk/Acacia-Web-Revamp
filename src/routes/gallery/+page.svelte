@@ -2,9 +2,6 @@
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Moments from '$lib/components/moments.svelte';
-	import Button from '$lib/components/ui/button/button.svelte';
-	import Bar from '$lib/images/Bar.avif';
-	import Cottages from '$lib/images/F.avif';
 </script>
 
 <section class="">
@@ -13,7 +10,6 @@
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">Gallery</h1>
-			<h3 class="font">Home - Gallery</h3>
 		</div>
 	</div>
 	<Moments />

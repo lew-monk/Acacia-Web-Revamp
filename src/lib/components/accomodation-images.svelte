@@ -19,6 +19,7 @@
 				on:click={() => (selectedImage = image)}
 				alt=""
 				class="w-full rounded object-cover h-32"
+				loading="eager"
 			/>
 		{/each}
 	</div>

@@ -19,6 +19,7 @@
 						height={400}
 						class="rounded w-full h-full object-cover"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">Accomodation</h1>
 				</a>
@@ -31,6 +32,7 @@
 						width={400}
 						class="rounded h-full object-cover"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">Security</h1>
 				</a>
@@ -43,6 +45,7 @@
 						width={200}
 						class="rounded h-full w-full"
 						alt="Acacia Entrance"
+						loading="eager"
 					/>
 					<h1 class="">Our Services</h1>
 				</a>

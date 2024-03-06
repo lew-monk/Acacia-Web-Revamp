@@ -5,5 +5,4 @@
 </script>
 
 <BookRoom />
-<AboutSection />
 <Footer />

@@ -20,7 +20,7 @@
 		<Label for="r1" class="grid w-full gap-2">
 			<div class="flex w-full justify-between">
 				<h1 class="font-bold">Cottages</h1>
-				<h1 class="font-bold">USD $90</h1>
+				<h1 class="font-bold">USD $120</h1>
 			</div>
 			<div>
 				<ul class="list-disc opacity-40 grid gap-1">
@@ -47,7 +47,7 @@
 		<Label for="r2" class="grid w-full gap-2">
 			<div class="flex w-full justify-between">
 				<h1 class="font-bold">Apartments</h1>
-				<h1 class="font-bold">USD $100</h1>
+				<h1 class="font-bold">USD $120</h1>
 			</div>
 			<div>
 				<ul class="list-disc opacity-40 grid gap-1">
@@ -74,7 +74,7 @@
 		<Label for="r3" class="grid w-full gap-2">
 			<div class="flex w-full justify-between">
 				<h1 class="font-bold">Pool Rooms</h1>
-				<h1 class="font-bold">USD $250</h1>
+				<h1 class="font-bold">USD $120</h1>
 			</div>
 			<div>
 				<ul class="list-disc opacity-40 grid gap-1">

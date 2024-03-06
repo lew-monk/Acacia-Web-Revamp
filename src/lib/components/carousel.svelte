@@ -3,12 +3,9 @@
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 	import BannerImg from '../images/bannerImg.avif';
 	import BannerImg1 from '../images/Bar-2.avif';
-	import BannerImg3 from '../images/Bar.avif';
-	import BannerImg2 from '../images/bedroom.avif';
-	import BannerImg4 from '../images/Bar-3.avif';
 	import Autoplay from 'embla-carousel-autoplay';
 
-	export let images = [BannerImg, BannerImg1, BannerImg2, BannerImg3, BannerImg4];
+	export let images = [BannerImg1, BannerImg];
 	export let jump = true;
 </script>
 
@@ -31,6 +28,7 @@
 							src={image}
 							class="object-cover w-full h-full"
 							alt="Acacia Drinks being served in glasses"
+							loading="eager"
 						/>
 					</Card.Root>
 				</div>

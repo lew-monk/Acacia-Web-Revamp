@@ -14,7 +14,6 @@
 	<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 	<div class="z-10 absolute text-white grid gap-8 text-center">
 		<h1 class="text-2xl font-bold">Accomodation</h1>
-		<h3 class="font">Home - Accomodation</h3>
 	</div>
 </div>
 <section class=" bg-[#DDE0C7] grid items-center py-12 gap-12">
@@ -27,11 +26,11 @@
 		<div class="w-full grid grid-cols-3 gap-4">
 			<div class="w-full col-span-2">
 				<div class="bg-white flex pt-4 pb-2 rounded-tr rounded-tl">
-					<button
+					<!-- <button
 						on:click={() => (roomType = 'apartment')}
 						class={roomType !== 'apartment' ? `px-4` : `px-2 border-b-4 border-primary`}
 						>Apartments</button
-					>
+					> -->
 					<button
 						class={roomType !== 'cottages' ? `px-4` : `px-2 border-b-4 border-primary`}
 						on:click={() => (roomType = 'cottages')}>Cottages</button

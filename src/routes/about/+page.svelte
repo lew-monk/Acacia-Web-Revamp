@@ -6,7 +6,7 @@
 	import Outdoor from '$lib/images/DSC00375.avif';
 	import Outdoor2 from '$lib/images/DSC_0768-HDR.avif';
 
-	const images = [Bar, Cottages, Outdoor];
+	const images = [Bar];
 </script>
 
 <section class="">
@@ -15,7 +15,6 @@
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">About Us</h1>
-			<h3 class="font">Home - About us</h3>
 		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
@@ -24,6 +23,7 @@
 				src={Outdoor2}
 				class="w-4/4 h-full object-cover rounded"
 				alt="Acacia Drinks being served in glasses"
+				loading="eager"
 			/>
 			<div class="w-full h-full flex justify-center items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">

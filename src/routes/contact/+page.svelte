@@ -16,7 +16,7 @@
 					<Call />
 					<div>
 						<p class="font-semibold">Give us a call</p>
-						<p class="font-light text-sm">+249000000000</p>
+						<p class="font-light text-sm">+211 911 252 613</p>
 					</div>
 				</div>
 				<div class="flex items-center gap-4">

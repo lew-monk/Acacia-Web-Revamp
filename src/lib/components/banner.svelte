@@ -1,9 +1,10 @@
 <script>
-	import BannerImg from '../images/bannerImg.avif';
+	import BannerImg from '../images/pooloom-1.avif';
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
-	import Carousel from './carousel.svelte';
+	import { lazyimage } from 'svelte-lazyimage-cache';
+	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 </script>
 
 <section class="relative h-[80vh]">
@@ -48,13 +49,15 @@
 		</div>
 	</div>
 	<div class="w-full h-full">
-		<!-- <img
-			src={BannerImg}
-			class="object-cover w-full"
+		<img
+			use:lazyimage
+			data-src={BannerImg}
+			src={placeholder}
+			class="object-cover h-[80vh] w-full"
 			alt="Acacia Drinks being served in glasses"
 			loading="lazy"
-		/> -->
-		<Carousel />
+		/>
+		<!-- 		<Carousel /> -->
 	</div>
 	<aside
 		class="h-24 flex justify-center px-8 items-center gap-4 rounded w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"

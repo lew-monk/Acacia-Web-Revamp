@@ -1,9 +1,8 @@
 <script>
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import Button from '$lib/components/ui/button/button.svelte';
-	import Bar from '$lib/images/Bar.avif';
-	import Cottages from '$lib/images/F.avif';
+	import Cottages from '$lib/images/Gate.avif';
+	import Pool from '$lib/images/Pool-2.avif';
 </script>
 
 <section class="">
@@ -12,12 +11,16 @@
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">Safety and Security</h1>
-			<h3 class="font">Home - Safety and Security</h3>
 		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="py-24 bg-white px-[120px] rounded grid grid-cols-2">
-			<img src={Cottages} class="w-4/4" alt="Acacia Drinks being served in glasses" />
+			<img
+				src={Cottages}
+				loading="eager"
+				class="w-4/4 h-full object-cover"
+				alt="Acacia Drinks being served in glasses"
+			/>
 			<div class="w-full h-full flex justify-center items-center flex-col">
 				<div class="w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
@@ -77,9 +80,10 @@
 				</div>
 			</div>
 			<img
-				src={Cottages}
-				class="w-4/4 h-full object-cover"
-				alt="Acacia Drinks being served in glasses"
+				src={Pool}
+				class="w-4/4 h-full object-cover img-2"
+				alt="Acacia Drinks being served in glasses img-2"
+				loading="eager"
 			/>
 		</div>
 	</div>
@@ -97,5 +101,39 @@
 	}
 	.secondary {
 		grid-column: start / end;
+	}
+	.img-2 {
+		transition: all 2s ease-in-out;
+		animation: animate-in-left;
+		animation-timeline: view();
+		animation-fill-mode: forwards;
+		animation-range: -20%;
+	}
+	@keyframes animate-in-left {
+		0% {
+			opacity: 0.6;
+			transform: translateX(200px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+	img {
+		transition: all 2s ease-in-out;
+		animation: animate-in;
+		animation-timeline: view();
+		animation-fill-mode: forwards;
+		animation-range: -20%;
+	}
+	@keyframes animate-in {
+		0% {
+			opacity: 0.6;
+			transform: translateX(-200px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 </style>
