@@ -1,8 +1,6 @@
 <script>
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import Button from '$lib/components/ui/button/button.svelte';
-	import Bar from '$lib/images/Bar.avif';
 	import Chef from '$lib/images/Convert.avif';
 	import Andy from '$lib/images/Management.jpeg';
 	import Mary from '$lib/images/Mary.jpeg';
@@ -18,7 +16,6 @@
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
 			<h1 class="text-2xl font-bold">Our Team</h1>
-			<h3 class="font">Home - Our Team</h3>
 		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
