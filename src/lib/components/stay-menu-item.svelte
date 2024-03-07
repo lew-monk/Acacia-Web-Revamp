@@ -21,7 +21,7 @@
 						alt="Acacia Entrance"
 						loading="eager"
 					/>
-					<h1 class="">Accomodation</h1>
+					<h1 class="">Accommodation</h1>
 				</a>
 			</Menubar.Item>
 			<Menubar.Item>

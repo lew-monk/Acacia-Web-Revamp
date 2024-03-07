@@ -13,7 +13,7 @@
 	<Carousel jump={true} />
 	<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 	<div class="z-10 absolute text-white grid gap-8 text-center">
-		<h1 class="text-2xl font-bold">Accomodation</h1>
+		<h1 class="text-2xl font-bold">Accommodation</h1>
 	</div>
 </div>
 <section class=" bg-[#DDE0C7] grid items-center py-12 gap-12">

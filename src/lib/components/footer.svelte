@@ -49,6 +49,7 @@
 		<div class="col-span-2 grid grid-cols-2 w-full">
 			<h1 class="font-extralight text-xs">Copyright © 2024 | All Rights Reserved</h1>
 			<div class="flex items-center w-full justify-end gap-4">
+				<h1 class="font-bold">Follow Us</h1>
 				<a href="http://www.facebook.com/AcaciaVillage">
 					<svg
 						width="11"

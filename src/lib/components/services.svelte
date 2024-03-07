@@ -16,7 +16,7 @@
 
 	let data = [
 		{
-			service: 'Accomodation',
+			service: 'Accommodation',
 			description:
 				'We offer various room standards, ranging from apartments, cottages and villas. Book a room based on your budget. ',
 			Icon: Accomodation
@@ -34,8 +34,7 @@
 		},
 		{
 			service: 'Catering',
-			description:
-				'We offer various room standards, ranging from apartments, cottages and villas. Book a room based on your budget. ',
+			description: 'World class catering for our multi-cultural guests',
 			Icon: Catering
 		},
 		{

@@ -14,10 +14,10 @@
 			</h1>
 		</div>
 	</div>
-	<div class="w-full">
-		<div class="grid gap-4 grid-cols-2 w-full">
+	<div class="w-full overflow-x-scroll">
+		<div class="gap-4 flex w-full overflow-x-scroll no-scrollbar overflow-y-hidden">
 			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] w-full border-[#CBD5E1] border rounded-[8px]"
+				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
 			>
 				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
 					<div class="grid gap-4">
@@ -30,7 +30,7 @@
 						</p>
 					</div>
 					<div class="flex gap-4 items-center">
-						<img src={Face} alt="" />
+						<!-- <img src={Face} alt="" /> -->
 						<div>
 							<h1 class="font-bold">Holly Suzzane</h1>
 							<p>Guest</p>
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] w-full border-[#CBD5E1] border rounded-[8px]"
+				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
 			>
 				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
 					<div class="grid gap-4">
@@ -51,9 +51,54 @@
 						</p>
 					</div>
 					<div class="flex gap-4 items-center">
-						<img src={Face} alt="" />
+						<!-- 						<img src={Face} alt="" /> -->
 						<div>
 							<h1 class="font-bold">Steven G</h1>
+							<p>Guest</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
+			>
+				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+					<div class="grid gap-4">
+						<slot name="icon" />
+						<h1 class="font-[600] text-3xl">“A flavor of Kenyan holiday”</h1>
+						<p class="text-[#2D2E2E]">
+							Acacia is undoubtedly the best place to stay and live in Juba, with the flavour of a
+							Kenyan holiday resort where guests can enjoy the transparent waters of the pool, the
+							shade of the trees and the quietness of the outdoors
+						</p>
+					</div>
+					<div class="flex gap-4 items-center">
+						<!-- 						<img src={Face} alt="" /> -->
+						<div>
+							<h1 class="font-bold">French Ambassador to South Sudan</h1>
+							<p>Guest</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
+			>
+				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+					<div class="grid gap-4">
+						<slot name="icon" />
+						<h1 class="font-[600] text-3xl">“Acacia can be your home”</h1>
+						<p class="text-[#2D2E2E]">
+							“I lived at Acacia for four years. It is an oasis of calm, peace, friendly service and
+							comfortable accommodation in a turbulent city. It is protected by VSS, the only armed
+							security company in South Sudan. We have a special relationship with Acacia Village
+							and ensure it is the best protected lodge in Juba.”
+						</p>
+					</div>
+					<div class="flex gap-4 items-center">
+						<!-- 						<img src={Face} alt="" /> -->
+						<div>
+							<h1 class="font-bold">Simon Falkner</h1>
 							<p>Guest</p>
 						</div>
 					</div>
