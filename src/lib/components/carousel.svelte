@@ -23,7 +23,7 @@
 		{#each images as image, i (i)}
 			<Carousel.Item class="h-full ">
 				<div class="h-full">
-					<Card.Root class="h-full">
+					<Card.Root class="w-full h-full">
 						<img
 							src={image}
 							class="object-cover w-full h-full"
