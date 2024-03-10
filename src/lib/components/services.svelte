@@ -9,7 +9,6 @@
 	import Office from '$lib/images/svg/office.svelte';
 	import Swimming from '$lib/images/svg/swimming.svelte';
 	import TableGames from '$lib/images/svg/table-games.svelte';
-	import Tennis from '$lib/images/svg/tennis.svelte';
 	import Transport from '$lib/images/svg/transport.svelte';
 	import ServiceCard from './service-card.svelte';
 	import Button from './ui/button/button.svelte';

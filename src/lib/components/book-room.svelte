@@ -8,13 +8,13 @@
 	import Pool from '$lib/images/pooloom-1.avif';
 	import Pool2 from '$lib/images/Pool.avif';
 
-	let roomType = 'apartment';
+	let roomType = 'cottages';
 	const images = [Pool, Pool2];
 </script>
 
 <div class="car-container carousel h-[80vh] flex justify-center items-center w-full relative">
 	<Carousel jump={true} {images} />
-	<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
+	<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
 	<div class="z-10 absolute text-white grid gap-8 text-center">
 		<h1 class="text-2xl font-bold">Accommodation</h1>
 	</div>

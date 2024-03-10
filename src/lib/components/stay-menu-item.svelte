@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as Menubar from '$lib/components/ui/menubar';
-	import Location from '$lib/images/Location-2.avif';
+	import Location from '$lib/images/Bar-3.avif';
 	import Gate from '$lib/images/Gate.avif';
 	import Pool from '$lib/images/Pool.avif';
 </script>
