@@ -93,7 +93,7 @@
 		</div>
 	</div>
 	<div class="w-full">
-		<div class="grid gap-4 grid-cols-3 w-full">
+		<div class="grid gap-2 grid-cols-3 w-full">
 			{#each data as { service, description, Icon }}
 				<ServiceCard {service} {description}>
 					<Icon slot="icon" />
