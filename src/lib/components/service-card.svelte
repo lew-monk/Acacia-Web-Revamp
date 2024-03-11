@@ -13,7 +13,7 @@
 				<slot name="icon" />
 			</div>
 			<div class="col-span-3">
-				<h1 class="font-[600] text-3xl">{service}</h1>
+				<h1 class="font-[600] text-xl">{service}</h1>
 				<p class="text-[#2D2E2E]">{description}</p>
 			</div>
 		</div>
