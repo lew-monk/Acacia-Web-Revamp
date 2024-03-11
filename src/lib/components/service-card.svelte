@@ -8,7 +8,7 @@
 	class="container grid grid-cols-1 justify-items-start p-4 items-start min-h-[220px] w-full rounded-[8px]"
 >
 	<div class="w-6/6 grid gap-1 min-h-[7 text-[#2D2E2E]">
-		<div class="grid grid-cols-4 gap-2">
+		<div class="grid grid-cols-4 gap-8">
 			<div>
 				<slot name="icon" />
 			</div>
