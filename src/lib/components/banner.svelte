@@ -11,8 +11,9 @@
 	<div class="w-full bg-bgDark flex justify-center flex-col">
 		<div class="w-5/6 flex gap-8 flex-col -mt-40 ml-[120px]">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
-			<h1 class="text-6xl leading-snug text-textPrimary font-medium">
-				Welcome to - <span class="text-primary">Acacia Village</span> An Oasis in Juba
+			<h1 class="text-3xl leading-snug text-textPrimary font-medium">
+				Welcome to - <span class="text-primary">Acacia Village</span>
+				<span class="text-md">An Oasis in Juba</span>
 			</h1>
 			<!-- <p class="text-base w-10/12 leading-snug font-medium">
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
