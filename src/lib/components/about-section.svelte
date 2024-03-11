@@ -1,5 +1,5 @@
 <script>
-	import Pool from '$lib/images/Pool-2.avif';
+	import Pool from '$lib/images/pool-3.jpeg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';
 
