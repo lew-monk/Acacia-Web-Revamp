@@ -4,22 +4,28 @@
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
 	import { lazyimage } from 'svelte-lazyimage-cache';
+	import Carousel from './carousel.svelte';
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
+	import Bar from '$lib/images/Bar.avif';
+
+	const images = [BannerImg, Bar];
 </script>
 
 <section class="relative h-[80vh]">
-	<div class="w-full bg-bgDark flex justify-center flex-col">
-		<div class="w-6/6 flex gap-8 flex-col -mt-40 ml-[120px]">
+	<div class=" carousel h-full flex justify-center items-center w-full relative">
+		<Carousel jump={true} {images} />
+		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
+		<div class="w-6/6 absolute flex gap-8 flex-col">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
-			<h1 class="text-3xl leading-snug text-textPrimary font-medium">
-				Welcome to - <span class="text-primary">Acacia Village</span>
+			<h1 class="text-5xl text-white text-center leading-snug text-textPrimary font-medium">
+				Welcome to - <span class="text-white">Acacia Village</span>
 				<br />
 				<span class="text-base">An Oasis in Juba</span>
 			</h1>
 			<!-- <p class="text-base w-10/12 leading-snug font-medium">
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
 			</p> -->
-			<div>
+			<div class="w-full flex justify-center gap-4">
 				<Button href="/book" class="shadow-none items-center bg-none rounded h-16 px-12">
 					<div class="flex items-center h-8 gap-4">
 						<span>Book Now</span>
@@ -45,21 +51,11 @@
 				<Button
 					variant="outline"
 					href="/contact"
-					class="shadow-none bg-none border-2 border-primary rounded h-16 px-12">Contact Us</Button
+					class="shadow-none bg-none text-white border-2 border-primary rounded h-16 px-12"
+					>Contact Us</Button
 				>
 			</div>
 		</div>
-	</div>
-	<div class="w-full h-full">
-		<img
-			use:lazyimage
-			data-src={BannerImg}
-			src={placeholder}
-			class="object-cover h-[80vh] w-full"
-			alt="Acacia Drinks being served in glasses"
-			loading="lazy"
-		/>
-		<!-- 		<Carousel /> -->
 	</div>
 	<aside
 		class="h-24 flex justify-center px-8 items-center gap-4 rounded w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"
@@ -77,6 +73,6 @@
 	section {
 		display: grid;
 		grid-column: start / end;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 </style>
