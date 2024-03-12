@@ -12,6 +12,7 @@
 	import Transport from '$lib/images/svg/transport.svelte';
 	import ServiceCard from './service-card.svelte';
 	import Button from './ui/button/button.svelte';
+	import { page } from '$app/stores';
 
 	let data = [
 		{
@@ -19,12 +20,6 @@
 			description:
 				'We offer various room standards, ranging from apartments, cottages and villas. Book a room based on your budget. ',
 			Icon: Accomodation
-		},
-		{
-			service: 'Office Space',
-			description:
-				'It’s business as usual at Acacia village. Our team can create an office to suit your needs',
-			Icon: Office
 		},
 		{
 			service: 'Transport',
@@ -42,9 +37,9 @@
 			Icon: Laundry
 		},
 		{
-			service: 'Tennis Court',
-			description: 'Hit a tennis ball on Juba’s only full size tennis court',
-			Icon: TableGames
+			service: 'Connectivity',
+			description: 'High speed, uncapped internet activity ensuring you are always connected',
+			Icon: Connectivity
 		},
 		{
 			service: 'Conferencing',
@@ -57,9 +52,10 @@
 			Icon: Swimming
 		},
 		{
-			service: 'Connectivity',
-			description: 'High speed, uncapped internet activity ensuring you are always connected',
-			Icon: Connectivity
+			service: 'Office Space',
+			description:
+				'It’s business as usual at Acacia village. Our team can create an office to suit your needs',
+			Icon: Office
 		},
 		{
 			service: 'Table Games',
@@ -73,12 +69,23 @@
 			Icon: Gym
 		},
 		{
+			service: 'Tennis Court',
+			description: 'Hit a tennis ball on Juba’s only full size tennis court',
+			Icon: TableGames
+		},
+		{
 			service: 'Renewable Energy',
 			description:
 				'Experience sustainability and comfort at our hotel, powered by renewable energy.',
 			Icon: Energy
 		}
 	];
+
+	let dataSeg = data.slice(0, 6);
+
+	$: if ($page.url.pathname === '/services') {
+		dataSeg = [...data.slice(5, data.length - 1)];
+	}
 </script>
 
 <section class=" bg-[#DDE0C7] grid items-center py-24 gap-12">
@@ -94,7 +101,7 @@
 	</div>
 	<div class="w-full">
 		<div class="grid gap-2 grid-cols-3 w-full">
-			{#each data as { service, description, Icon }}
+			{#each dataSeg as { service, description, Icon }}
 				<ServiceCard {service} {description}>
 					<Icon slot="icon" />
 				</ServiceCard>
