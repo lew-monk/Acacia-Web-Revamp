@@ -4,7 +4,7 @@
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
 	import Carousel from './carousel.svelte';
-	import Bar from '$lib/images/Bar.avif';
+	import Bar from '$lib/images/bar-2-comp.jpeg';
 
 	const images = [BannerImg, Bar];
 </script>
