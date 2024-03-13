@@ -1,5 +1,5 @@
 <script>
-	import BannerImg from '../images/pooloom-1.avif';
+	import BannerImg from '../images/pool-3.jpeg';
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
@@ -11,7 +11,7 @@
 
 <section class="relative h-[80vh]">
 	<div class=" carousel h-full flex justify-center items-center w-full relative">
-		<Carousel jump={true} {images} />
+		<Carousel jump={false} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="w-6/6 absolute flex gap-8 flex-col">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->

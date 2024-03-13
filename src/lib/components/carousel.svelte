@@ -13,7 +13,8 @@
 	plugins={[
 		Autoplay({
 			delay: 4000,
-			jump: jump
+			jump: jump,
+			duration: 500
 		})
 	]}
 	opts={{ loop: true, slidesToScroll: 'auto' }}
