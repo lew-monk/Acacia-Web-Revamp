@@ -48,17 +48,20 @@
 		},
 		{
 			service: 'Swimming Pool',
+			long: 'The pool is perfect for swimming and relaxation. After your swim, stay refreshed by the poolside as you stretch on the sun lounger with a drink at hand',
 			description: 'Cool off in our private outdoor swimming pool',
 			Icon: Swimming
 		},
 		{
 			service: 'Office Space',
+			long: 'Let us tailor and handle all of your office needs in our fully furnished and air-conditions office units adjacent to our conference rooms and restaurant.',
 			description:
 				'It’s business as usual at Acacia village. Our team can create an office to suit your needs',
 			Icon: Office
 		},
 		{
 			service: 'Table Games',
+			long: 'Where strategic minds come together for thrilling moments of skill, luck, and friendly competition.',
 			description:
 				'Enjoy a game of pool, table tennis or table football, whilst watching the sport in our games area by the bar.',
 			Icon: TableGames
@@ -66,15 +69,18 @@
 		{
 			service: 'Gym Access',
 			description: 'Rejuvenate and recharging in our private gym.',
+			long: 'While at Acacia village, there is no need to let your fitness regime slip. We offer a fully equipped gym area, including running and rowing machines, as well as various weights machines.',
 			Icon: Gym
 		},
 		{
 			service: 'Tennis Court',
 			description: 'Hit a tennis ball on Juba’s only full size tennis court',
+			long: 'The best maintained tennis court in Juba, available to residents and to our Tennis Members. Call Reception to join!',
 			Icon: TableGames
 		},
 		{
 			service: 'Renewable Energy',
+			long: '',
 			description:
 				'Experience sustainability and comfort at our hotel, powered by renewable energy.',
 			Icon: Energy
@@ -100,35 +106,37 @@
 		</div>
 	</div>
 	<div class="w-full">
-		<div class="grid gap-2 grid-cols-3 w-full">
-			{#each dataSeg as { service, description, Icon }}
-				<ServiceCard {service} {description}>
+		<div class="grid gap-6 grid-cols-3 w-full">
+			{#each dataSeg as { service, description, long, Icon }}
+				<ServiceCard {service} {description} {long}>
 					<Icon slot="icon" />
 				</ServiceCard>
 			{/each}
 		</div>
 
-		<Button href="services" class="shadow-none items-center bg-none rounded h-16 px-12 mt-12">
-			<div class="flex items-center h-8 gap-4">
-				<span class="exp-text">Explore Our Ammenities</span>
-				<span class="exp-icon">
-					<svg
-						width="25"
-						height="24"
-						viewBox="0 0 25 24"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M20.1446 13.1063L20.071 13.1915L16.495 16.922C16.1129 17.3207 15.4798 17.334 15.0811 16.9519C14.7131 16.5991 14.6734 16.0326 14.9701 15.6339L15.0512 15.538L17.0061 13.4991L4.34914 13.4995C3.8363 13.4995 3.41364 13.1134 3.35587 12.6161L3.34914 12.4995C3.34914 11.9866 3.73518 11.564 4.23252 11.5062L4.34914 11.4995L17.0071 11.4991L15.0512 9.46007C14.6691 9.06137 14.6824 8.42835 15.0811 8.04617C15.4492 7.69339 16.0169 7.67766 16.4026 7.99091L16.495 8.07607L20.1049 11.8426L20.1746 11.9338L20.2246 12.0149L20.2713 12.1113L20.3148 12.2379C20.3819 12.4811 20.3594 12.751 20.2226 12.9898L20.1446 13.1063Z"
-							fill="white"
-						/>
-					</svg>
-				</span>
-			</div>
-		</Button>
+		{#if $page.url.pathname === '/'}
+			<Button href="services" class="shadow-none items-center bg-none rounded h-16 px-12 mt-12">
+				<div class="flex items-center h-8 gap-4">
+					<span class="exp-text">Explore Our Ammenities</span>
+					<span class="exp-icon">
+						<svg
+							width="25"
+							height="24"
+							viewBox="0 0 25 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M20.1446 13.1063L20.071 13.1915L16.495 16.922C16.1129 17.3207 15.4798 17.334 15.0811 16.9519C14.7131 16.5991 14.6734 16.0326 14.9701 15.6339L15.0512 15.538L17.0061 13.4991L4.34914 13.4995C3.8363 13.4995 3.41364 13.1134 3.35587 12.6161L3.34914 12.4995C3.34914 11.9866 3.73518 11.564 4.23252 11.5062L4.34914 11.4995L17.0071 11.4991L15.0512 9.46007C14.6691 9.06137 14.6824 8.42835 15.0811 8.04617C15.4492 7.69339 16.0169 7.67766 16.4026 7.99091L16.495 8.07607L20.1049 11.8426L20.1746 11.9338L20.2246 12.0149L20.2713 12.1113L20.3148 12.2379C20.3819 12.4811 20.3594 12.751 20.2226 12.9898L20.1446 13.1063Z"
+								fill="white"
+							/>
+						</svg>
+					</span>
+				</div>
+			</Button>
+		{/if}
 	</div>
 </section>
 

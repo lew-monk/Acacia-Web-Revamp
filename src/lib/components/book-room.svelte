@@ -5,7 +5,7 @@
 	import LuxuryTab from './luxury-tab.svelte';
 	import CottageTabs from './cottage-tabs.svelte';
 	import PoolRoomTabs from './pool-room-tabs.svelte';
-	import Pool from '$lib/images/pooloom-1.avif';
+	import Pool from '$lib/images/F.avif';
 	import Pool2 from '$lib/images/Pool.avif';
 
 	let roomType = 'cottages';
