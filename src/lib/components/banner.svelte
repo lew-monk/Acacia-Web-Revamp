@@ -3,9 +3,7 @@
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
-	import { lazyimage } from 'svelte-lazyimage-cache';
 	import Carousel from './carousel.svelte';
-	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 	import Bar from '$lib/images/Bar.avif';
 
 	const images = [BannerImg, Bar];
@@ -17,7 +15,7 @@
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="w-6/6 absolute flex gap-8 flex-col">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
-			<h1 class="text-5xl text-white text-center leading-snug text-textPrimary font-medium">
+			<h1 class="text-5xl text-white text-center leading-snug font-medium">
 				Welcome to - <span class="text-white">Acacia Village</span>
 				<br />
 				<span class="text-base">An Oasis in Juba</span>

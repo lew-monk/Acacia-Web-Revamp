@@ -1,5 +1,5 @@
 <script>
-	import Face from '$lib/images/Group 239778.png';
+	import * as Carousel from '$lib/components/ui/carousel';
 </script>
 
 <section class=" bg-[#F6F6EF] grid items-center py-24 gap-12">
@@ -14,97 +14,106 @@
 			</h1>
 		</div>
 	</div>
-	<div class="w-full overflow-x-scroll">
-		<div class="gap-4 flex w-full overflow-x-scroll no-scrollbar overflow-y-hidden">
-			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
-			>
-				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
-					<div class="grid gap-4">
-						<slot name="icon" />
-						<h1 class="font-[600] text-3xl">“The place like no other in Juba.”</h1>
-						<p class="text-[#2D2E2E]">
-							“With only a short drive, Acacia Village is a heavenly escape from the chaos and noise
-							of Juba. I have stayed a couple of times with friends and without doubt would
-							recommend it."
-						</p>
-					</div>
-					<div class="flex gap-4 items-center">
-						<!-- <img src={Face} alt="" /> -->
-						<div>
-							<h1 class="font-bold">Holly Suzzane</h1>
-							<p>Guest</p>
+	<div class="w-full mx-2">
+		<Carousel.Root
+			opts={{
+				align: 'start'
+			}}
+			class="w-full "
+		>
+			<Carousel.Content class="flex px-12 gap-4">
+				<Carousel.Item
+					class="container grid grid-cols-1 basis-1/2 justify-items-center items-center h-[320px]  border-[#CBD5E1] border rounded-[8px]"
+				>
+					<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+						<div class="grid gap-4">
+							<slot name="icon" />
+							<h1 class="font-[600] text-3xl">“The place like no other in Juba.”</h1>
+							<p class="text-[#2D2E2E]">
+								“With only a short drive, Acacia Village is a heavenly escape from the chaos and
+								noise of Juba. I have stayed a couple of times with friends and without doubt would
+								recommend it."
+							</p>
+						</div>
+						<div class="flex gap-4 items-center">
+							<!-- <img src={Face} alt="" /> -->
+							<div>
+								<h1 class="font-bold">Holly Suzzane</h1>
+								<p>Guest</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
-			>
-				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
-					<div class="grid gap-4">
-						<slot name="icon" />
-						<h1 class="font-[600] text-3xl">“I choose Acacia Village anytime”</h1>
-						<p class="text-[#2D2E2E]">
-							“If you have to stay in Juba, then Acacia Village is the place to stay. I was lucky
-							enough to have found it and it made my stay in Juba a great experience. ”
-						</p>
-					</div>
-					<div class="flex gap-4 items-center">
-						<!-- 						<img src={Face} alt="" /> -->
-						<div>
-							<h1 class="font-bold">Steven G</h1>
-							<p>Guest</p>
+				</Carousel.Item>
+				<Carousel.Item
+					class="container grid grid-cols-1 basis-1/2 justify-items-center items-center h-[320px]  border-[#CBD5E1] border rounded-[8px]"
+				>
+					<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+						<div class="grid gap-4">
+							<slot name="icon" />
+							<h1 class="font-[600] text-3xl">“I choose Acacia Village anytime”</h1>
+							<p class="text-[#2D2E2E]">
+								“If you have to stay in Juba, then Acacia Village is the place to stay. I was lucky
+								enough to have found it and it made my stay in Juba a great experience. ”
+							</p>
+						</div>
+						<div class="flex gap-4 items-center">
+							<!-- 						<img src={Face} alt="" /> -->
+							<div>
+								<h1 class="font-bold">Steven G</h1>
+								<p>Guest</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
-			>
-				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
-					<div class="grid gap-4">
-						<slot name="icon" />
-						<h1 class="font-[600] text-3xl">“A flavor of Kenyan holiday”</h1>
-						<p class="text-[#2D2E2E]">
-							Acacia is undoubtedly the best place to stay and live in Juba, with the flavour of a
-							Kenyan holiday resort where guests can enjoy the transparent waters of the pool, the
-							shade of the trees and the quietness of the outdoors
-						</p>
-					</div>
-					<div class="flex gap-4 items-center">
-						<!-- 						<img src={Face} alt="" /> -->
-						<div>
-							<h1 class="font-bold">French Ambassador to South Sudan</h1>
-							<p>Guest</p>
+				</Carousel.Item>
+				<Carousel.Item
+					class="container basis-1/2 grid grid-cols-1 justify-items-center items-center h-[320px]  border-[#CBD5E1] border rounded-[8px]"
+				>
+					<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+						<div class="grid gap-4">
+							<slot name="icon" />
+							<h1 class="font-[600] text-3xl">“A flavor of Kenyan holiday”</h1>
+							<p class="text-[#2D2E2E]">
+								Acacia is undoubtedly the best place to stay and live in Juba, with the flavour of a
+								Kenyan holiday resort where guests can enjoy the transparent waters of the pool, the
+								shade of the trees and the quietness of the outdoors
+							</p>
+						</div>
+						<div class="flex gap-4 items-center">
+							<!-- 						<img src={Face} alt="" /> -->
+							<div>
+								<h1 class="font-bold">French Ambassador to South Sudan</h1>
+								<p>Guest</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div
-				class="container grid grid-cols-1 justify-items-center items-center h-[320px] min-w-[500px] border-[#CBD5E1] border rounded-[8px]"
-			>
-				<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
-					<div class="grid gap-4">
-						<slot name="icon" />
-						<h1 class="font-[600] text-3xl">“Acacia can be your home”</h1>
-						<p class="text-[#2D2E2E]">
-							“I lived at Acacia for four years. It is an oasis of calm, peace, friendly service and
-							comfortable accommodation in a turbulent city. It is protected by VSS, the only armed
-							security company in South Sudan. We have a special relationship with Acacia Village
-							and ensure it is the best protected lodge in Juba.”
-						</p>
-					</div>
-					<div class="flex gap-4 items-center">
-						<!-- 						<img src={Face} alt="" /> -->
-						<div>
-							<h1 class="font-bold">Simon Falkner</h1>
-							<p>Guest</p>
+				</Carousel.Item>
+				<Carousel.Item
+					class="container  basis-1/2 grid grid-cols-1 justify-items-center items-center h-[320px]  border-[#CBD5E1] border rounded-[8px]"
+				>
+					<div class="w-6/6 grid gap-6 text-[#2D2E2E]">
+						<div class="grid gap-4">
+							<slot name="icon" />
+							<h1 class="font-[600] text-3xl">“Acacia can be your home”</h1>
+							<p class="text-[#2D2E2E]">
+								“I lived at Acacia for four years. It is an oasis of calm, peace, friendly service
+								and comfortable accommodation in a turbulent city. It is protected by VSS, the only
+								armed security company in South Sudan. We have a special relationship with Acacia
+								Village and ensure it is the best protected lodge in Juba.”
+							</p>
+						</div>
+						<div class="flex gap-4 items-center">
+							<!-- 						<img src={Face} alt="" /> -->
+							<div>
+								<h1 class="font-bold">Simon Falkner</h1>
+								<p>Guest</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+				</Carousel.Item>
+			</Carousel.Content>
+			<Carousel.Previous />
+			<Carousel.Next />
+		</Carousel.Root>
 	</div>
 </section>
 
