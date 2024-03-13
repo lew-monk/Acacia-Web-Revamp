@@ -10,7 +10,7 @@
 			use:lazyimage
 			src={placeholder}
 			data-src={Food}
-			loading="eager"
+			loading="lazy"
 			class="w-4/4 h-full object-cover rounded img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>

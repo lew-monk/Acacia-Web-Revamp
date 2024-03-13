@@ -5,8 +5,9 @@
 	import Select from './select.svelte';
 	import Carousel from './carousel.svelte';
 	import Bar from '$lib/images/bar-2-comp.jpeg';
+	import Tennis from '$lib/images/tennis-comp.jpeg';
 
-	const images = [BannerImg, Bar];
+	const images = [Tennis, BannerImg, Bar];
 </script>
 
 <section class="relative h-[80vh]">
