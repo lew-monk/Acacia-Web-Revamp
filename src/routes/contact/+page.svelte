@@ -1,35 +1,32 @@
 <script>
 	import Footer from '$lib/components/footer.svelte';
 	import { Button } from '$lib/components/ui/button';
-	import Call from '$lib/images/svg/call.svelte';
+	import Call from '$lib/images/phone.png';
 	import Location from '$lib/images/svg/location.svelte';
 	import Sms from '$lib/images/svg/sms.svelte';
 </script>
 
 <section class="">
 	<div class="main text-white">
-		<div class="w-full contact flex justify-center">
-			<div class=" py-24 w-1/2 grid gap-4">
+		<div class="w-full contact flex justify-center gap-4">
+			<div class=" py-24 lg:w-1/2 px-12 lg:px-0 grid gap-4">
 				<h1 class="text-5xl">Contact Us</h1>
-				<p>Kindly fill in the form to contact us. A callback will be made to the number provide</p>
+				<p>A callback will be made to the number provide</p>
 				<div class="flex items-center gap-4">
-					<Call />
+					<img src={Call} alt="" height="64" width="64" class="h-full" />
 					<div>
-						<p class="font-semibold">Give us a call</p>
 						<p class="font-light text-sm">+211 911 252 613</p>
 					</div>
 				</div>
 				<div class="flex items-center gap-4">
 					<Sms />
 					<div>
-						<p class="font-semibold">Send us a message</p>
 						<p class="text-sm font-light">manager@acaciavillage.com</p>
 					</div>
 				</div>
 				<div class="flex items-center gap-4">
 					<Location />
 					<div>
-						<p class="font-semibold">Location</p>
 						<p class="text-sm font-light">
 							Mundri Rd, Gudele II, Juba,<br /> South Sudan. 15 minute drive<br /> from Juba Airport
 						</p>
@@ -37,20 +34,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="form w-full h-full flex items-center justify-center">
+		<div class="form w-full h-full flex items-center justify-center py-12 lg:py-0">
 			<form action="" class="w-3/4">
 				<div class="grid gap-4 grid-cols-2">
 					<div class="flex flex-col gap-2">
 						<label for="name">Name</label>
-						<input type="text" id="name" class="" placeholder="Enter Your Name" />
+						<input type="text" id="name" class="" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="email">Email</label>
-						<input type="email" id="email" class="" placeholder="Enter Your Email" />
+						<input type="email" id="email" class="" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="phone">Phone</label>
-						<input type="tel" id="phone" class="" placeholder="Enter Your Phone Number" />
+						<input type="tel" id="phone" class="" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="message">Subject</label>
@@ -58,17 +55,11 @@
 							name="message"
 							id="message"
 							class=" appearance-none bg-transparent border-b border-primary"
-							placeholder="How can we help ?"
 						/>
 					</div>
 					<div class="flex flex-col gap-2 col-span-2">
 						<label for="message">Message</label>
-						<textarea
-							placeholder="Enter Your Message"
-							name="message"
-							id="message"
-							class="p-4 rounded-lg"
-						></textarea>
+						<textarea name="message" id="message" class="p-4"></textarea>
 					</div>
 					<div class="">
 						<Button
@@ -95,6 +86,11 @@
 		grid-template-columns: 1fr 1fr;
 		place-items: center;
 		grid-column: start / end;
+	}
+	@media (max-width: 768px) {
+		.main {
+			grid-template-columns: 1fr;
+		}
 	}
 	.contact {
 		background-color: #717c26;

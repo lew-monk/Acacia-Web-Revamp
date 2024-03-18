@@ -5,17 +5,34 @@
 </script>
 
 <section class=" bg-[#DDE0C7] flex items-center" id="stay">
-	<div class="py-24">
-		<div class="w-full h-full flex justify-center items-center flex-col">
-			<div class="w-5/6 flex gap-4 flex-col">
+	<div class="py-12 lg:py-24">
+		<div class="w-full h-full flex gap-4 justify-center items-center flex-col">
+			<h1
+				class="text-2xl flex gap-2 lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
+			>
+				Conference, Workshops and <span class="text-primary">Events</span>
+			</h1>
+			<img
+				use:lazyimage
+				src={placeholder}
+				data-src={Food}
+				class="w-4/4 flex lg:hidden rounded h-full object-cover lg:img-animate"
+				alt="Acacia Drinks being served in glasses img-animate"
+			/>
+			<div class="lg:w-5/6 w-full flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
-				<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
-					Conference, Meetings and <span class="text-primary">Events</span>
+				<h1 class="text-5xl hidden lg:block leading-snug w-full text-textPrimary font-medium">
+					Conference, Workshops and <span class="text-primary">Events</span>
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-					We offer both indoor and outdoor event spaces and conference facilities tailored to your
-					needs. Whether you're hosting a themed event or an executive meeting, Acacia Village
-					ensures top-notch service that meets your satisfaction.
+					We offer a range of both indoor and outdoor event and conference facilities, for groups of
+					up to 50 people. Our packages can be tailored to your needs, including tea, coffee,
+					freshly made snacks, and lunch catering if required.
+				</p>
+				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
+					Our conference spaces are also fitted with video equipment to enable virtual attendees.
+					Whether you’re hosting a themed workshop event or an executive conference meeting, Acacia
+					Village can satisfy your requirements.
 				</p>
 			</div>
 		</div>
@@ -24,7 +41,7 @@
 			use:lazyimage
 			src={placeholder}
 			data-src={Food}
-			class="w-4/4 rounded h-full object-cover img-animate"
+			class="w-4/4 hidden lg:flex rounded h-full object-cover lg:img-animate"
 			alt="Acacia Drinks being served in glasses img-animate"
 		/>
 	</div>
@@ -41,6 +58,12 @@
 		grid-column: content / content-end;
 		grid-template-columns: 1fr 1fr;
 		place-items: center;
+	}
+	@media (max-width: 768px) {
+		section > div {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
 	}
 	.img-animate {
 		transition: all 2s ease-in-out;

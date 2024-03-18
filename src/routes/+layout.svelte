@@ -46,8 +46,13 @@
 <style>
 	section {
 		display: grid;
-		grid-template-columns: [start] 120px [content] 1fr [content-end] 120px[end];
+		grid-template-columns: [start] 100px [content] 1fr [content-end] 100px[end];
 		align-items: start;
+	}
+	@media (max-width: 768px) {
+		section {
+			grid-template-columns: [start] 20px [content] 1fr [content-end] 20px[end];
+		}
 	}
 	@keyframes fade-in {
 		from {

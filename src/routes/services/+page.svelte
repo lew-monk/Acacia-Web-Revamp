@@ -8,7 +8,7 @@
 </script>
 
 <section>
-	<div class=" carousel h-[80vh] flex justify-center items-center w-full relative">
+	<div class=" carousel lg:h-[80vh] h-[60vh] flex justify-center items-center w-full relative">
 		<Carousel jump={true} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
 		<div class="z-10 absolute text-white grid w-full gap-8 text-center">

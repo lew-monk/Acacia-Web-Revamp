@@ -10,16 +10,16 @@
 	const images = [Tennis, BannerImg, Bar];
 </script>
 
-<section class="relative h-[80vh]">
+<section class="relative lg:h-[80vh] h-[60vh]">
 	<div class=" carousel h-full flex justify-center items-center w-full relative">
 		<Carousel jump={false} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
 		<div class="w-6/6 absolute flex gap-8 flex-col">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
-			<h1 class="text-5xl text-white text-center leading-snug font-medium">
+			<h1 class="lg:text-5xl md:text-3xl text-2xl text-white text-center leading-snug font-medium">
 				Welcome to - <span class="text-white">Acacia Village</span>
 				<br />
-				<span class="text-base">An Oasis in Juba</span>
+				<span class="text-base">Your home in Juba</span>
 			</h1>
 			<!-- <p class="text-base w-10/12 leading-snug font-medium">
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
@@ -28,22 +28,6 @@
 				<Button href="/book" class="shadow-none items-center bg-none rounded h-16 px-12">
 					<div class="flex items-center h-8 gap-4">
 						<span>Book Now</span>
-						<span>
-							<svg
-								width="25"
-								height="24"
-								viewBox="0 0 25 24"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
-									d="M20.1446 13.1063L20.071 13.1915L16.495 16.922C16.1129 17.3207 15.4798 17.334 15.0811 16.9519C14.7131 16.5991 14.6734 16.0326 14.9701 15.6339L15.0512 15.538L17.0061 13.4991L4.34914 13.4995C3.8363 13.4995 3.41364 13.1134 3.35587 12.6161L3.34914 12.4995C3.34914 11.9866 3.73518 11.564 4.23252 11.5062L4.34914 11.4995L17.0071 11.4991L15.0512 9.46007C14.6691 9.06137 14.6824 8.42835 15.0811 8.04617C15.4492 7.69339 16.0169 7.67766 16.4026 7.99091L16.495 8.07607L20.1049 11.8426L20.1746 11.9338L20.2246 12.0149L20.2713 12.1113L20.3148 12.2379C20.3819 12.4811 20.3594 12.751 20.2226 12.9898L20.1446 13.1063Z"
-									fill="white"
-								/>
-							</svg>
-						</span>
 					</div>
 				</Button>
 
@@ -57,12 +41,16 @@
 		</div>
 	</div>
 	<aside
-		class="h-24 flex justify-center px-8 items-center gap-4 rounded w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"
+		class="lg:h-24 py-2 grid grid-cols-2 md:grid-cols-4 justify-center md:px-8 px-2 items-center gap-4 rounded w-5/6 lg:w-3/4 bg-white absolute -bottom-0 transform translate-y-1/2 left-1/2 transform -translate-x-1/2"
 	>
-		<DatePicker />
-		<DatePicker />
-		<Select />
-		<Button href="/contact" class="shadow-none bg-none border-2 border-primary rounded h-12 px-12"
+		<DatePicker title="Arrival Date" />
+		<DatePicker title="Depature Date" />
+		<div class="col-span-2 md:col-span-1">
+			<Select />
+		</div>
+		<Button
+			href="/contact"
+			class="shadow-none bg-none col-span-2 md:col-span-1 border-2 border-primary rounded h-12 px-12"
 			>Check Availability</Button
 		>
 	</aside>

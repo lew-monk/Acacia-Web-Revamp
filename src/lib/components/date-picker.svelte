@@ -11,6 +11,7 @@
 	});
 
 	let value: DateValue | undefined = undefined;
+	export let title: string = 'Select a date';
 </script>
 
 <Popover.Root openFocus>
@@ -23,7 +24,7 @@
 			)}
 			builders={[builder]}
 		>
-			{value ? df.format(value.toDate(getLocalTimeZone())) : 'Select a date'}
+			{value ? df.format(value.toDate(getLocalTimeZone())) : title}
 			<CalendarIcon class="mr-2 h-4 w-4" />
 		</Button>
 	</Popover.Trigger>

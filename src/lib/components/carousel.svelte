@@ -18,13 +18,13 @@
 		})
 	]}
 	opts={{ loop: true, slidesToScroll: 'auto' }}
-	class="w-full h-full"
+	class="w-full  h-full m-0"
 >
-	<Carousel.Content class="h-[80vh] w-full ">
+	<Carousel.Content class="h-[60vh] lg:h-[80vh] w-full p-0">
 		{#each images as image, i (i)}
-			<Carousel.Item class="h-full ">
-				<div class="h-full">
-					<Card.Root class="w-full h-full">
+			<Carousel.Item class="h-full w-full p-0">
+				<div class="h-full w-full p-0">
+					<Card.Root class="w-full h-full p-0">
 						<img
 							src={image}
 							class="object-cover w-full h-full"

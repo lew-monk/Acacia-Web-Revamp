@@ -5,10 +5,10 @@
 </script>
 
 <section class="py-12 divide-y gap-12">
-	<div class="w-full flex">
+	<div class="w-full flex items-center gap-4">
 		<div class="">
 			<a href="https://marisafrica.com/">
-				<img src={Maris} alt="" class="w-1/2" />
+				<img src={Maris} alt="" class="lg:w-1/2" />
 			</a>
 		</div>
 		<div class="">
@@ -49,7 +49,6 @@
 		<div class="col-span-2 grid grid-cols-2 w-full">
 			<h1 class="font-extralight text-xs">Copyright © 2024 | All Rights Reserved</h1>
 			<div class="flex items-center w-full justify-end gap-4">
-				<h1 class="font-bold">Follow Us</h1>
 				<a href="http://www.facebook.com/AcaciaVillage">
 					<svg
 						width="11"

@@ -44,14 +44,14 @@
 	</div>
 {:else}
 	<div
-		class="container grid grid-cols-1 justify-items-start p-4 items-start min-h-[140px] w-full rounded-[8px]"
+		class="container grid grid-cols-1 justify-items-start p-2 items-start min-h-[140px] w-full rounded-[8px]"
 	>
-		<div class="w-6/6 grid gap-1 min-h-[7] text-[#2D2E2E]">
-			<div class="grid grid-cols-4 gap-8">
+		<div class="w-6/6 grid gap-1 text-[#2D2E2E]">
+			<div class="grid grid-cols-3 gap-1 items-center">
 				<div>
 					<slot name="icon" />
 				</div>
-				<div class="col-span-3">
+				<div class="col-span-2">
 					<h1 class="font-[600] text-xl">{service}</h1>
 					<p class="text-[#2D2E2E]">{description}</p>
 				</div>

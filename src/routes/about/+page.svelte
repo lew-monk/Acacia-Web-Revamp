@@ -1,16 +1,14 @@
 <script>
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import Cottages from '$lib/images/F.avif';
 	import Bar from '$lib/images/Bar.avif';
-	import Outdoor from '$lib/images/DSC00375.avif';
 	import Outdoor2 from '$lib/images/DSC_0768-HDR.avif';
 
 	const images = [Bar];
 </script>
 
 <section class="">
-	<div class=" carousel h-[80vh] flex justify-center items-center w-full relative">
+	<div class=" carousel lg:h-[80vh] h-[60vh] flex justify-center items-center w-full relative">
 		<Carousel jump={true} {images} />
 		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
 		<div class="z-10 absolute text-white grid gap-8 text-center">
@@ -18,17 +16,20 @@
 		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
-		<div class="py-24 px-[120px] rounded grid grid-cols-2">
+		<div class="lg:py-24 py-12 lg:px-[120px] px-[20px] rounded grid lg:grid-cols-2 gap-4">
+			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-semibold">
+				About <span class="text-primary">Acacia</span> Village
+			</h1>
 			<img
 				src={Outdoor2}
 				class="w-4/4 h-full object-cover rounded"
 				alt="Acacia Drinks being served in glasses"
 				loading="eager"
 			/>
-			<div class="w-full h-full flex justify-center items-center flex-col">
-				<div class="w-5/6 flex gap-4 flex-col">
+			<div class="w-full h-full flex gap-4 justify-center items-center flex-col">
+				<div class="lg:w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
-					<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
+					<h1 class="text-5xl hidden lg:block leading-snug w-full text-textPrimary font-medium">
 						About <span class="text-primary">Acacia</span> Village
 					</h1>
 					<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
