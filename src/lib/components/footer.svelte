@@ -44,9 +44,9 @@
 		</div>
 	</div> -->
 	<div class="pt-12">
-		<div class="col-span-2 grid grid-cols-1 w-full">
+		<div class="col-span-2 grid grid-cols-1 w-full gap-4">
 			<h1 class="font-extralight text-xs col-span-2">Copyright © 2024 | All Rights Reserved</h1>
-			<div class="flex items-center w-full justify-end gap-4">
+			<div class="flex items-center w-full justify-start gap-4">
 				<a href="http://www.facebook.com/AcaciaVillage">
 					<svg
 						width="11"
