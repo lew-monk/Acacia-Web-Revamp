@@ -117,11 +117,11 @@
 						MICHAEL MURIMA
 					</h1>
 					<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-						Michael is our F&amp;B Manager. He has a great passion for his role, serves as the
-						F&amp;B Manager. He began his journey at Moyo Restaurant in Johannesburg, South Africa
-						back in 2004. He has refined his expertise with different establishments spanning South
-						and North Africa. With Michael in charge, you can rest assured that your dining
-						experience will be exceptional and enjoyable.
+						Michael is our F&amp;B Manager. He has a great passion for his role. He began his
+						journey at Moyo Restaurant in Johannesburg, South Africa back in 2004. He has refined
+						his expertise with different establishments spanning South and North Africa. With
+						Michael in charge, you can rest assured that your dining experience will be exceptional
+						and enjoyable.
 					</p>
 				</div>
 			</div>
