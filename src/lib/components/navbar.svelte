@@ -26,7 +26,7 @@
 			<StayMenuItem />
 			<a href="/services">Our Services</a>
 			<a href="gallery">Gallery</a>
-			<a href="contact">Contact Us</a>
+			<a href="contact">Contact</a>
 		</div>
 
 		<Button href="/book" class="shadow-none hidden lg:block">Book Your Stay</Button>
@@ -79,7 +79,7 @@
 						href="services">Gallery</a
 					>
 					<a class="block mb-2 text-lg font-semibold" on:click={() => (open = !open)} href="contact"
-						>Contact Us</a
+						>Contact</a
 					>
 				</div>
 			</aside>
