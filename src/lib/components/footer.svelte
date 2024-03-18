@@ -1,13 +1,11 @@
 <script>
 	import Maris from '$lib/images/Ac.png';
-	import { Button } from '$lib/components/ui/button';
-	import { Input } from '$lib/components/ui/input';
 </script>
 
 <section class="py-12 divide-y gap-12">
 	<div class="w-full flex items-center gap-4">
 		<div class="">
-			<a href="https://marisafrica.com/">
+			<a href="https://marisafrica.com/" target="_blank">
 				<img src={Maris} alt="" class="lg:w-1/2" />
 			</a>
 		</div>
