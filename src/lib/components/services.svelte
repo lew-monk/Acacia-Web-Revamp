@@ -43,7 +43,7 @@
 		},
 		{
 			service: 'Conferencing',
-			description: 'Flexible conferencing and workshop. Facilities for up to 40 people.',
+			description: 'Flexible conferencing and workshop and can host up to 40 people.',
 			Icon: Conference
 		},
 		{
