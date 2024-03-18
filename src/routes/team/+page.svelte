@@ -157,7 +157,7 @@
 				</div>
 			</div>
 			<img
-				src={Mary}
+				src={Emmanuel}
 				loading="eager"
 				class="w-4/4 hidden lg:block col-span-2 items-center h-full object-cover rounded"
 				alt="Acacia Drinks being served in glasses"
