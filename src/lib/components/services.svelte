@@ -28,35 +28,35 @@
 		},
 		{
 			service: 'Catering',
-			description: 'World class catering for our multi-cultural guests',
+			description: 'World class catering for our multi-cultural guests.',
 			Icon: Catering
 		},
 		{
 			service: 'Laundry Services',
-			description: 'Collected, washed and pressed for you, six days a week',
+			description: 'Collected, washed and pressed for you, six days a week.',
 			Icon: Laundry
 		},
 		{
 			service: 'Connectivity',
-			description: 'High speed, uncapped internet activity ensuring you are always connected',
+			description: 'High speed, uncapped internet activity ensuring you are always connected.',
 			Icon: Connectivity
 		},
 		{
 			service: 'Conferencing',
-			description: 'Flexible conferencing and workshop and can host up to 40 people.',
+			description: 'Flexible conferencing and workshop and can host up to 50 people.',
 			Icon: Conference
 		},
 		{
 			service: 'Swimming Pool',
-			long: 'The pool is perfect for swimming and relaxation. After your swim, stay refreshed by the poolside as you stretch on the sun lounger with a drink at hand',
-			description: 'Cool off in our private outdoor swimming pool',
+			long: 'The pool is perfect for swimming and relaxation. After your swim, stay refreshed by the poolside as you stretch on the sun lounger with a drink at hand.',
+			description: 'Relax by our private 12 metre pool.',
 			Icon: Swimming
 		},
 		{
 			service: 'Office Space',
 			long: 'Let us tailor and handle all of your office needs in our fully furnished and air-conditions office units adjacent to our conference rooms and restaurant.',
 			description:
-				'It’s business as usual at Acacia village. Our team can create an office to suit your needs',
+				'It’s business as usual at Acacia village. Our team can create an office to suit your needs.',
 			Icon: Office
 		},
 		{
@@ -74,7 +74,7 @@
 		},
 		{
 			service: 'Tennis Court',
-			description: 'Hit a tennis ball on Juba’s only full size tennis court',
+			description: 'Hit a tennis ball on Juba’s only full size tennis court.',
 			long: 'The best maintained tennis court in Juba, available to residents and to our Tennis Members. Call Reception to join!',
 			Icon: TableGames
 		},

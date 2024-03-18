@@ -2,7 +2,7 @@
 	import Maris from '$lib/images/Ac.png';
 </script>
 
-<section class="py-12 divide-y gap-12">
+<section class="py-12 gap-12">
 	<div class="w-full flex items-center gap-4">
 		<div class="">
 			<a href="https://marisafrica.com/" target="_blank">
@@ -44,8 +44,8 @@
 		</div>
 	</div> -->
 	<div class="pt-12">
-		<div class="col-span-2 grid grid-cols-2 w-full">
-			<h1 class="font-extralight text-xs">Copyright © 2024 | All Rights Reserved</h1>
+		<div class="col-span-2 grid grid-cols-1 w-full">
+			<h1 class="font-extralight text-xs col-span-2">Copyright © 2024 | All Rights Reserved</h1>
 			<div class="flex items-center w-full justify-end gap-4">
 				<a href="http://www.facebook.com/AcaciaVillage">
 					<svg

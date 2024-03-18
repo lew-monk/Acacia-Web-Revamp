@@ -35,9 +35,8 @@
 						At Acacia Village, your security is our utmost priority. Our premises are equipped with
 						state-of-the-art security systems, including 24/7 surveillance cameras, secure access
 						controls, and trained security personnel who are always vigilant and ready to respond to
-						any situation. We have taken extensive measures to ensure the safety of our guests,
-						offering a secure accommodation and office compound. We have taken the following
-						extensive measures to ensure the safety of our guests:
+						any situation. We have taken the following extensive measures to ensure the safety of
+						our guests:
 					</p>
 					<ol class="list-disc pl-4">
 						<li>
