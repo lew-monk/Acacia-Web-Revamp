@@ -63,12 +63,12 @@
 			service: 'Table Games',
 			long: 'Where strategic minds come together for thrilling moments of skill, luck, and friendly competition.',
 			description:
-				'Enjoy a game of pool, table tennis or table football, whilst watching the sport in our games area by the bar.',
+				'Indulge in a round of table tennis or pool at our gaming area while catching live matches on our large screens.',
 			Icon: TableGames
 		},
 		{
 			service: 'Gym Access',
-			description: 'Rejuvenate and recharging in our private gym.',
+			description: 'Rejuvenate and recharge in our private gym.',
 			long: 'While at Acacia village, there is no need to let your fitness regime slip. We offer a fully equipped gym area, including running and rowing machines, as well as various weights machines.',
 			Icon: Gym
 		},

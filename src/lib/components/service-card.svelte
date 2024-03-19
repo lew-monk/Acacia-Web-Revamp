@@ -26,10 +26,10 @@
 
 {#if $page.url.pathname === '/services'}
 	<div
-		class="grid grid-cols-1 bg-[#F6F6EF] shadow justify-items-start p-4 items-start min-h-[200px] w-full rounded-[8px]"
+		class=" bg-[#F6F6EF] shadow justify-items-start p-4 items-start min-h-[200px] w-full rounded-[8px]"
 	>
-		<div class="w-6/6 grid gap-4 py-2 min-h-[7 text-[#2D2E2E]">
-			<div class="w-full grid grid-cols-1 gap-8">
+		<div class="w-6/6 grid text-[#2D2E2E]">
+			<div class="w-full col-span-1 grid grid-cols-1 gap-8">
 				<img
 					src={images[sName]}
 					alt="A glimpse of service offered"
@@ -37,7 +37,7 @@
 				/>
 				<div class="grid gap-2">
 					<h1 class="font-[600] text-xl text-primary">{service}</h1>
-					<p class="text-[#2D2E2E]">{long || description}</p>
+					<p class="text-[#2D2E2E]">{description}</p>
 				</div>
 			</div>
 		</div>
