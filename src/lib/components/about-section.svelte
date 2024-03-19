@@ -1,9 +1,25 @@
-<script>
+<script lang="ts">
 	import Pool from '$lib/images/bedroom.avif';
+	import PoolRoom from '$lib/images/pool-room-comp.jpeg';
+	import Conference from '../images/conference-small.jpeg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';
+	import { onMount } from 'svelte';
+	import { type CarouselAPI } from '$lib/components/ui/carousel/context';
+	import * as Carousel from '$lib/components/ui/carousel/index.js';
 
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
+	onMount(() => {
+		const elements = document.querySelector('.first').focus();
+	});
+
+	let api: CarouselAPI;
+
+	const handleFocus = (e: FocusEvent) => {
+		const target = e.target as HTMLElement;
+		const index = target.tabIndex;
+		api.scrollTo(index);
+	};
 </script>
 
 <section class=" bg-[#F6F6EF] py-12 flex items-center" id="stay">
@@ -11,16 +27,90 @@
 		<h1
 			class="text-2xl block lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 		>
-			Your Stay at <br /> <span class="text-primary">Acacia</span> Village
+			Your Stay at <span class="text-primary">Acacia</span> Village
 		</h1>
 		<img
 			use:lazyimage
 			src={placeholder}
 			data-src={Pool}
 			loading="eager"
-			class="w-4/4 h-full object-cover rounded lg:img-animate"
+			class="w-4/4 h-full block lg:hidden object-cover rounded lg:img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>
+		<div class="hidden lg:grid gap-4">
+			<Carousel.Root bind:api class="p-0 m-0 img-animate">
+				<Carousel.Content class="p-0 m-0 flex gap-1">
+					<Carousel.Item class="m-0 p-0 basis-11/12">
+						<img
+							use:lazyimage
+							src={placeholder}
+							data-src={Pool}
+							loading="eager"
+							class="w-4/4 h-[60vh] object-cover img-animate"
+							alt="Acacia Drinks being served in glasses"
+						/>
+					</Carousel.Item>
+					<Carousel.Item class="m-0 p-0 basis-11/12">
+						<img
+							use:lazyimage
+							src={placeholder}
+							data-src={PoolRoom}
+							loading="eager"
+							class="w-4/4 h-[60vh] object-cover img-animate"
+							alt="Acacia Drinks being served in glasses"
+						/>
+					</Carousel.Item>
+					<Carousel.Item class="m-0 p-0 basis-11/12">
+						<img
+							use:lazyimage
+							src={placeholder}
+							data-src={Conference}
+							loading="eager"
+							class="w-4/4 h-[60vh] object-cover img-animate"
+							alt="Acacia Drinks being served in glasses"
+						/>
+					</Carousel.Item>
+				</Carousel.Content>
+			</Carousel.Root>
+			<div class="flex w-3/4 justify-evenly">
+				<div class="flex first items-center w-full gap-4 group" tabindex="0" on:focus={handleFocus}>
+					<div class="flex items-center w-full cursor-pointer">
+						<div class="w-1/4">
+							<div class="h-1 w-0 bg-primary group-focus:w-5/6 transition-all duration-300" />
+						</div>
+						<p
+							class="flex-1 group-focus:text-primary group-focus:font-bold group-hover:text-primary"
+						>
+							Cottage
+						</p>
+					</div>
+				</div>
+				<div class="flex items-center w-full gap-4 group" on:focus={handleFocus} tabindex="1">
+					<div class="flex items-center w-full cursor-pointer">
+						<div class="w-1/4">
+							<div class="h-1 w-0 bg-primary group-focus:w-5/6 transition-all duration-300" />
+						</div>
+						<p
+							class="flex-1 group-focus:text-primary group-focus:font-bold group-hover:text-primary"
+						>
+							Pool Rooms
+						</p>
+					</div>
+				</div>
+				<div class="flex items-center w-full gap-4 group" tabindex="2" on:focus={handleFocus}>
+					<div class="flex items-center w-full cursor-pointer">
+						<div class="w-1/4">
+							<div class="h-1 w-0 bg-primary group-focus:w-5/6 transition-all duration-300" />
+						</div>
+						<p
+							class="flex-1 group-focus:text-primary group-focus:font-bold group-hover:text-primary"
+						>
+							Conferencing
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="w-full h-full flex justify-center items-center flex-col">
 			<div class="lg:w-5/6 w-ful flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
@@ -77,11 +167,11 @@
 		}
 	}
 	.img-animate {
-		transition: all 2s ease-in-out;
+		transition: all 4s ease-in-out;
 		animation: animate-in;
 		animation-timeline: view();
 		animation-fill-mode: forwards;
-		animation-range: -20%;
+		animation-range: 0% 50%;
 	}
 	@keyframes animate-in {
 		0% {

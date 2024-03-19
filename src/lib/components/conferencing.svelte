@@ -8,7 +8,7 @@
 	<div class="py-12 lg:py-24">
 		<div class="w-full h-full flex gap-4 justify-center items-center flex-col">
 			<h1
-				class="text-2xl flex gap-2 lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
+				class="text-2xl block gap-2 lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 			>
 				Conference, Workshops and <span class="text-primary">Events</span>
 			</h1>
@@ -41,7 +41,7 @@
 			use:lazyimage
 			src={placeholder}
 			data-src={Food}
-			class="w-4/4 hidden lg:flex rounded h-full object-cover lg:img-animate"
+			class="w-4/4 hidden lg:flex rounded h-full object-cover img-animate"
 			alt="Acacia Drinks being served in glasses img-animate"
 		/>
 	</div>

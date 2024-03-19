@@ -16,7 +16,15 @@
 			src={placeholder}
 			data-src={Food}
 			loading="lazy"
-			class="w-4/4 h-full object-cover rounded lg:img-animate"
+			class="w-4/4 h-full block lg:hidden object-cover rounded lg:img-animate"
+			alt="Acacia Drinks being served in glasses"
+		/>
+		<img
+			use:lazyimage
+			src={placeholder}
+			data-src={Food}
+			loading="lazy"
+			class="w-4/4 h-full object-cover hidden lg:block rounded img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>
 		<div class="w-full h-full flex justify-center items-center flex-col">
