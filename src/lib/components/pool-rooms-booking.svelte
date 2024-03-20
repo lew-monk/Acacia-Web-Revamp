@@ -52,7 +52,7 @@
 				</div>
 			{:else}
 				<div class="grid grid-cols-4">
-					<div class="w-40 py-2">
+					<div class="w-40">
 						<div class="grid grid-cols-1 py-2">
 							<button
 								on:click={() => (selectedDetail = 'furniture')}
@@ -76,7 +76,7 @@
 					</div>
 					<div class="flex col-span-3">
 						{#if selectedDetail === 'furniture'}
-							<div class="grid">
+							<div class="grid gap-2">
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Double beds</p>
@@ -95,7 +95,7 @@
 								</div>
 							</div>
 						{:else}
-							<div class="grid">
+							<div class="grid gap-2">
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Wi-fi</p>
