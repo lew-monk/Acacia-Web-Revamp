@@ -137,6 +137,14 @@
 									<Lamp />
 									<p>Air Conditioning</p>
 								</div>
+								<div class="flex py-2 gap-2 items-center">
+									<Cupboards />
+									<p>Safe</p>
+								</div>
+								<div class="flex py-2 gap-2 items-center">
+									<Lamp />
+									<p>Fridge</p>
+								</div>
 							</div>
 						{/if}
 					</div>
@@ -144,11 +152,7 @@
 			{/if}
 		</div>
 		<div class="w-full border-t border-primary">
-			<Button
-				href="/contact"
-				label="Contact Us"
-				class="shadow-none items-center bg-none rounded h-16 my-4 px-12"
-			>
+			<Button href="/contact" class="shadow-none items-center bg-none rounded h-16 my-4 px-12">
 				Book Your Stay
 			</Button>
 		</div>

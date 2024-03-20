@@ -102,7 +102,11 @@
 								</div>
 								<div class="flex py-2 gap-2 items-center">
 									<Lamp />
-									<p>Air Conditioning</p>
+									<p>Safe</p>
+								</div>
+								<div class="flex py-2 gap-2 items-center">
+									<Lamp />
+									<p>Fridge</p>
 								</div>
 							</div>
 						{/if}
