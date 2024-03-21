@@ -26,10 +26,11 @@
 	<div class="flex flex-col gap-4">
 		<h1 class="text-5xl block text-primary font-semibold">Pool Rooms</h1>
 		<p class="block text-md font-light">
-			Our country style cottages are built to a very high standard. They come fully furnished with
-			double beds (or 2 singles), bedside cabinets with lamp, writing desk and chair, fridge,
-			cupboards, satellite TV, Wifi and Air Conditioning. The cottages are ensuite with a fully
-			tiled shower room with solar-powered hot water.
+			Our Pool-side Studio Rooms are built to a very high standard in permanent stone structures.
+			They come fully furnished with double bed (or 2 singles), bedside cabinets with lamp, writing
+			desk and chair, fridge, safe, cupboards, satellite TV, Wifi and air conditioning. The
+			apartments are ensuite with fully tiled shower room with solar-powered hot water. They have a
+			small kitchenette area with a sink, cutlery and crockery.
 		</p>
 
 		<UnderlinedTabs
