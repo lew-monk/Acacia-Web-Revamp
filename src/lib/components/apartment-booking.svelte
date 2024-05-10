@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Pool from '$lib/images/bedroom.avif';
-	import PoolRoom from '$lib/images/pool-3.jpeg';
+	import PoolRoom from '$lib/images/F.avif';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
@@ -21,15 +21,47 @@
 	let selectedDetail = 'furniture';
 </script>
 
-<div id="cottage" class="grid grid-cols-2 py-12 gap-20">
+<div id="apartments" class="grid grid-cols-2 py-12 gap-20">
+	<Carousel.Root
+		class="p-0 m-0 h-full img-animate"
+		plugins={[
+			Autoplay({
+				delay: 4000,
+				jump: false,
+				duration: 500
+			})
+		]}
+	>
+		<Carousel.Content class="p-0 m-0 flex gap-1">
+			<Carousel.Item class="m-0 p-0 basis-11/12">
+				<img
+					use:lazyimage
+					src={placeholder}
+					data-src={Pool}
+					loading="eager"
+					class="w-4/4 h-[60vh] object-cover img-animate"
+					alt="Acacia Drinks being served in glasses"
+				/>
+			</Carousel.Item>
+			<Carousel.Item class="m-0 p-0 basis-11/12">
+				<img
+					use:lazyimage
+					src={placeholder}
+					data-src={PoolRoom}
+					loading="eager"
+					class="w-4/4 h-[60vh] object-cover img-animate"
+					alt="Acacia Drinks being served in glasses"
+				/>
+			</Carousel.Item>
+		</Carousel.Content>
+	</Carousel.Root>
 	<div class="flex flex-col gap-4">
-		<h1 class="text-5xl block text-primary font-semibold">Pool Side Studios</h1>
+		<h1 class="text-5xl block text-primary font-semibold">Cottages</h1>
 		<p class="block text-md font-light">
-			Our apartments are built in permanent stone structures next to the swimming pool. They are
-			furnished with double beds (or 2 singles), bedside cabinets with lamp, a work station, fridge,
-			safe, cupboards, satellite TV, Wifi and air conditioning. The apartments are ensuite with
-			fully tiled shower rooms with solar-powered hot water. They have a small kitchenette area with
-			a sink, cutlery and crockery.
+			The Single apartments consist of one-bedroom units. These residences are fully furnished, and
+			designed to ensure utmost comfort for guests staying for short or extended periods. They are
+			spacious have well-maintained gardens and feature an outdoor seating area, providing a serene
+			environment for relaxation.
 		</p>
 
 		<UnderlinedTabs
@@ -74,7 +106,7 @@
 							></div>
 						</div>
 					</div>
-					<div class="flex col-span-3">
+					<div class="flex col-span-2">
 						{#if selectedDetail === 'furniture'}
 							<div class="grid gap-2">
 								<div class="flex py-2 gap-2 items-center">
@@ -95,13 +127,17 @@
 								</div>
 							</div>
 						{:else}
-							<div class="grid gap-2">
+							<div class="grid">
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Wi-fi</p>
 								</div>
 								<div class="flex py-2 gap-2 items-center">
 									<Lamp />
+									<p>Air Conditioning</p>
+								</div>
+								<div class="flex py-2 gap-2 items-center">
+									<Cupboards />
 									<p>Safe</p>
 								</div>
 								<div class="flex py-2 gap-2 items-center">
@@ -115,49 +151,11 @@
 			{/if}
 		</div>
 		<div class="w-full border-t border-primary">
-			<Button
-				href="/contact"
-				label="Contact Us"
-				class="shadow-none items-center bg-none rounded h-16 my-4 px-12"
-			>
+			<Button href="/contact" class="shadow-none items-center bg-none rounded h-16 my-4 px-12">
 				Book Your Stay
 			</Button>
 		</div>
 	</div>
-
-	<Carousel.Root
-		class="p-0 m-0 h-full img-animate"
-		plugins={[
-			Autoplay({
-				delay: 4000,
-				jump: false,
-				duration: 500
-			})
-		]}
-	>
-		<Carousel.Content class="p-0 m-0 flex gap-1">
-			<Carousel.Item class="m-0 p-0 basis-11/12">
-				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={Pool}
-					loading="eager"
-					class="w-4/4 h-[60vh] object-cover img-animate"
-					alt="Acacia Drinks being served in glasses"
-				/>
-			</Carousel.Item>
-			<Carousel.Item class="m-0 p-0 basis-11/12">
-				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={PoolRoom}
-					loading="eager"
-					class="w-4/4 h-[60vh] object-cover img-animate"
-					alt="Acacia Drinks being served in glasses"
-				/>
-			</Carousel.Item>
-		</Carousel.Content>
-	</Carousel.Root>
 </div>
 
 <style>

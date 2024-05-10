@@ -25,7 +25,7 @@
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
 			</p> -->
 			<div class="w-full flex justify-center gap-4">
-				<Button href="/book" class="shadow-none items-center bg-none rounded h-16 px-12">
+				<Button href="/your-stay" class="shadow-none items-center bg-none rounded h-16 px-12">
 					<div class="flex items-center h-8 gap-4">
 						<span>Book Now</span>
 					</div>

@@ -1,4 +1,5 @@
 <script>
+	import ApartmentBooking from '$lib/components/apartment-booking.svelte';
 	import CottageBooking from '$lib/components/cottage-booking.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import PoolRoomsBooking from '$lib/components/pool-rooms-booking.svelte';
@@ -6,7 +7,8 @@
 
 	const tabs = [
 		{ title: 'Cottages', content: 'cottage' },
-		{ title: 'Pool Rooms', content: 'poolrooms' }
+		{ title: 'Pool Rooms', content: 'poolrooms' },
+		{ title: 'Apartments', content: 'apartments' }
 	];
 </script>
 
@@ -21,6 +23,9 @@
 	<CottageBooking />
 	<div id="poolrooms" class="w-full bg-[#DDE0C7] px-[120px] py-12">
 		<PoolRoomsBooking />
+	</div>
+	<div id="poolrooms" class="w-full bg-white px-[120px] py-12">
+		<ApartmentBooking />
 	</div>
 	<Footer />
 </section>

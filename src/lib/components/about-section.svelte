@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Pool from '$lib/images/bedroom.avif';
-	import PoolRoom from '$lib/images/pool-room-comp.jpeg';
+	import PoolRoom from '$lib/images/pooloom-2.avif';
 	import Conference from '../images/conference-small.jpeg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';

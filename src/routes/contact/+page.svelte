@@ -11,7 +11,6 @@
 		<div class="w-full contact flex justify-center gap-4">
 			<div class=" py-24 lg:w-1/2 px-12 lg:px-0 grid gap-4">
 				<h1 class="text-5xl">Contact</h1>
-				<p>A callback will be made to the number provide</p>
 				<div class="flex items-center gap-4">
 					<img src={Call} alt="" height="64" width="64" class="h-full" />
 					<div>

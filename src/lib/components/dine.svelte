@@ -40,7 +40,7 @@
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
 					Our offerings range from hearty stews and succulent grilled meats to fragrant rice dishes
 					and invigorating beverages, all elegantly reflecting the vibrant cultural heritage of the
-					region
+					region.
 				</p>
 			</div>
 		</div>

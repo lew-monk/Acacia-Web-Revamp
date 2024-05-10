@@ -9,7 +9,6 @@
 	import Lamp from '$lib/images/svg/lamp.svelte';
 	import Desk from '$lib/images/svg/desk.svelte';
 	import Cupboards from '$lib/images/svg/cupboards.svelte';
-	import { fade } from 'svelte/transition';
 	import Button from './ui/button/button.svelte';
 
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
@@ -59,10 +58,9 @@
 	<div class="flex flex-col gap-4">
 		<h1 class="text-5xl block text-primary font-semibold">Cottages</h1>
 		<p class="block text-md font-light">
-			Our country style cottages are built to a very high standard. They come fully furnished with
-			double beds (or 2 singles), bedside cabinets with lamp, writing desk and chair, fridge,
-			cupboards, satellite TV, Wifi and Air Conditioning. The cottages are ensuite with a fully
-			tiled shower room with solar-powered hot water.
+			Our country-style cottages are built to a very high standard. They come fully furnished with
+			double bed (or 2 singles), bedside cabinets with lamp, work station, fridge, cupboards,
+			satellite TV, Wifi and air-conditioning.
 		</p>
 
 		<UnderlinedTabs

@@ -29,7 +29,7 @@
 			<a href="contact">Contact</a>
 		</div>
 
-		<Button href="/book" class="shadow-none hidden lg:block">Book Your Stay</Button>
+		<Button href="/your-stay" class="shadow-none hidden lg:block">Book Your Stay</Button>
 		<div class="lg:hidden">
 			<button
 				class="text-gray-500 hover:text-gray-700 cursor-pointer mr-4 border-none focus:outline-none"
