@@ -56,7 +56,7 @@
 		</Carousel.Content>
 	</Carousel.Root>
 	<div class="flex flex-col gap-4">
-		<h1 class="text-5xl block text-primary font-semibold">Cottages</h1>
+		<h1 class="text-5xl block text-primary font-semibold">Single Apartments</h1>
 		<p class="block text-md font-light">
 			The Single apartments consist of one-bedroom units. These residences are fully furnished, and
 			designed to ensure utmost comfort for guests staying for short or extended periods. They are
