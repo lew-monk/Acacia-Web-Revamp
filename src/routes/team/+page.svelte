@@ -2,10 +2,10 @@
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Chef from '$lib/images/Convert.avif';
-	import Andy from '$lib/images/Management.jpeg';
-	import Mary from '$lib/images/Mary.jpeg';
-	import Micheal from '$lib/images/Mike Murima Staff Photo.jpg';
-	import Emmanuel from '$lib/images/Management.jpg';
+	import Andy from '$lib/images/Andy.jpg';
+	import Mary from '$lib/images/Mary.jpg';
+	import Micheal from '$lib/images/Michael.jpg';
+	import Emmanuel from '$lib/images/Emmanuel.jpg';
 
 	const images = [Chef];
 </script>
