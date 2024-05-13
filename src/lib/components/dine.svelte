@@ -1,5 +1,5 @@
 <script>
-	import Food from '../images/Images.avif';
+	import Food from '../images/Kitchen3.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 </script>

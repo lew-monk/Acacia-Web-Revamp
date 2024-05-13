@@ -1,30 +1,30 @@
 <script>
-	import BannerImg from '../images/pool-3.jpeg';
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
 	import Carousel from './carousel.svelte';
-	import Bar from '$lib/images/bar-2-comp.jpeg';
-	import Tennis from '$lib/images/tennis-comp.jpeg';
+	import Restaurant1 from '$lib/images/restaurant1-new.jpg';
+	import SwimmingPool1 from '$lib/images/SwimmingPool1.jpg';
+	import Kitchen1 from '$lib/images/Kitchen2.jpg';
 
-	const images = [Tennis, BannerImg, Bar];
+	const images = [Restaurant1, SwimmingPool1, Kitchen1];
 </script>
 
 <section class="relative lg:h-[80vh] h-[60vh]">
 	<div class=" carousel h-full flex justify-center items-center w-full relative">
 		<Carousel jump={false} {images} />
-		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-70"></div>
+		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-10"></div>
 		<div class="w-6/6 absolute flex gap-8 flex-col">
 			<!-- <h2 class="text-xl text-primary relative oasis">An Oasis in Juba</h2> -->
-			<h1 class="lg:text-5xl md:text-3xl text-2xl text-white text-center leading-snug font-medium">
+			<!-- <h1 class="lg:text-5xl md:text-3xl text-2xl text-white text-center leading-snug font-medium">
 				Welcome to - <span class="text-white">Acacia Village</span>
 				<br />
 				<span class="text-base">Your home in Juba</span>
-			</h1>
+			</h1> -->
 			<!-- <p class="text-base w-10/12 leading-snug font-medium">
 				Welcome to one of Juba’s safest and most comfortable residential compounds.
 			</p> -->
-			<div class="w-full flex justify-center gap-4">
+			<!-- <div class="w-full flex justify-center gap-4">
 				<Button href="/your-stay" class="shadow-none items-center bg-none rounded h-16 px-12">
 					<div class="flex items-center h-8 gap-4">
 						<span>Book Now</span>
@@ -37,7 +37,7 @@
 					class="shadow-none bg-none text-white border-2 border-primary rounded h-16 px-12"
 					>Contact Us</Button
 				>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<aside

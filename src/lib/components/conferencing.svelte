@@ -1,5 +1,5 @@
 <script>
-	import Food from '../images/conference-small.jpeg';
+	import Conference from '../images/Conference2.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 </script>
@@ -15,7 +15,7 @@
 			<img
 				use:lazyimage
 				src={placeholder}
-				data-src={Food}
+				data-src={Conference}
 				class="w-4/4 flex lg:hidden rounded h-full object-cover lg:img-animate"
 				alt="Acacia Drinks being served in glasses img-animate"
 			/>
@@ -40,7 +40,7 @@
 		<img
 			use:lazyimage
 			src={placeholder}
-			data-src={Food}
+			data-src={Conference}
 			class="w-4/4 hidden lg:flex rounded h-full object-cover img-animate"
 			alt="Acacia Drinks being served in glasses img-animate"
 		/>

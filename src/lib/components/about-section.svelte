@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Pool from '$lib/images/bedroom.avif';
-	import PoolRoom from '$lib/images/pooloom-2.avif';
-	import Conference from '../images/conference-small.jpeg';
+	import Cottage1 from '$lib/images/Cottage1.jpg';
+	import PoolRoom from '$lib/images/PoolRoom1.jpg';
+	import Conference from '$lib/images/Conference1.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';
 	import { onMount } from 'svelte';
@@ -32,7 +32,7 @@
 		<img
 			use:lazyimage
 			src={placeholder}
-			data-src={Pool}
+			data-src={Cottage1}
 			loading="eager"
 			class="w-4/4 h-full block lg:hidden object-cover rounded lg:img-animate"
 			alt="Acacia Drinks being served in glasses"
@@ -44,7 +44,7 @@
 						<img
 							use:lazyimage
 							src={placeholder}
-							data-src={Pool}
+							data-src={Cottage1}
 							loading="eager"
 							class="w-4/4 h-[60vh] object-cover img-animate"
 							alt="Acacia Drinks being served in glasses"
