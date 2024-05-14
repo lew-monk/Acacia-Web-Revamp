@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Gate from '$lib/images/Gate.avif';
-	import Pool from '$lib/images/Pool.avif';
+	import Pool from '$lib/images/Cottage2.jpg';
 	import Esg from '$lib/images/Pool-2.avif';
 </script>
 
@@ -12,7 +12,7 @@
 		</Menubar.Trigger>
 		<Menubar.Content class="shadow-none py-4 grid grid-cols-3 rounded w-1/2 z-10 h-[300px]">
 			<Menubar.Item>
-				<a href="book" class="bg-transpart h-[200px]">
+				<a href="your-stay" class="bg-transpart h-[200px]">
 					<img
 						src={Pool}
 						width={800}

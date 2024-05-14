@@ -1,8 +1,7 @@
 <script>
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import Cottages from '$lib/images/Gate.avif';
-	import Pool from '$lib/images/Pool-2.avif';
+	import Pool from '$lib/images/Compound1.jpg';
 	const images = [Pool];
 </script>
 
