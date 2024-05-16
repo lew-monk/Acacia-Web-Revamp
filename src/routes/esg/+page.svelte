@@ -1,17 +1,14 @@
 <script>
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
-	import Pool from '$lib/images/Compound1.jpg';
+	import Pool from '$lib/images/Solar.jpg';
+	import Compound from '$lib/images/Compound1.jpg';
 	const images = [Pool];
 </script>
 
 <section class="">
 	<div class=" carousel lg:h-[80vh] h-[60vh] flex justify-center items-center w-full relative">
 		<Carousel jump={true} {images} />
-		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
-		<div class="z-10 absolute text-white grid gap-8 text-center">
-			<h1 class="text-2xl font-bold">ENVIRONMENTAL & SOCIAL GOVERNANCE</h1>
-		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="lg:py-24 py-12 lg:px-[120px] px-[20px] rounded grid gap-4 lg:grid-cols-2">
@@ -48,7 +45,7 @@
 				</div>
 			</div>
 			<img
-				src={Pool}
+				src={Compound}
 				class="w-4/4 h-full object-cover hidden lg:flex img-2"
 				alt="Acacia Drinks being served in glasses img-2"
 				loading="eager"

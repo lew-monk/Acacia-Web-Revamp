@@ -2,7 +2,7 @@
 	import Carousel from '$lib/components/carousel.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Bar from '$lib/images/Bar.avif';
-	import Outdoor2 from '$lib/images/DSC_0768-HDR.avif';
+	import Outdoor2 from '$lib/images/FoodDrink1.jpg';
 
 	const images = [Bar];
 </script>
@@ -10,10 +10,6 @@
 <section class="">
 	<div class=" carousel lg:h-[80vh] h-[60vh] flex justify-center items-center w-full relative">
 		<Carousel jump={true} {images} />
-		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
-		<div class="z-10 absolute text-white grid gap-8 text-center">
-			<h1 class="text-2xl font-bold">About Us</h1>
-		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="lg:py-24 py-12 lg:px-[120px] px-[20px] rounded grid lg:grid-cols-2 gap-4">
