@@ -22,12 +22,7 @@
 			Icon: Accomodation
 		},
 		{
-			service: 'Transport',
-			description: 'Assistance with all local transport, security and immigration requirements.',
-			Icon: Transport
-		},
-		{
-			service: 'Catering',
+			service: 'Bar and Restaurant',
 			description: 'World class catering for our multi-cultural guests.',
 			Icon: Catering
 		},
@@ -45,6 +40,12 @@
 			service: 'Conferencing',
 			description: 'Flexible conferencing and workshop and can host up to 50 people.',
 			Icon: Conference
+		},
+		{
+			service: 'Transport and Logistics',
+			description: 'Assistance with all local transport, security and immigration requirements.',
+			Icon: Transport,
+			long: 'Acacia Village is just 15 minutes from the airport, and we are happy to provide free airport transfers to our guests. We also offer assistance with all local transport, security and immigration requirements.'
 		},
 		{
 			service: 'Swimming Pool',

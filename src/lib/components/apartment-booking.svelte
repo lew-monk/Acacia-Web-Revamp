@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Pool from '$lib/images/bedroom.avif';
-	import PoolRoom from '$lib/images/F.avif';
+	import Pool from '$lib/images/Apartment1.jpg';
+	import Apartment from '$lib/images/Apartment3.jpg';
+	import PoolRoom from '$lib/images/Apartment2.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
@@ -38,6 +39,16 @@
 					use:lazyimage
 					src={placeholder}
 					data-src={Pool}
+					loading="eager"
+					class="w-4/4 h-[60vh] object-cover img-animate"
+					alt="Acacia Drinks being served in glasses"
+				/>
+			</Carousel.Item>
+			<Carousel.Item class="m-0 p-0 basis-11/12">
+				<img
+					use:lazyimage
+					src={placeholder}
+					data-src={Apartment}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"

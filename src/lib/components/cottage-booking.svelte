@@ -1,8 +1,7 @@
 <script lang="ts">
-	import Pool from '$lib/images/Cottage2.jpg';
-	import PoolRoom from '$lib/images/Cottage1.jpg';
-	import Cottage from '$lib/images/Cottage3.jpg';
-	import Cottage2 from '$lib/images/Cottage4.jpg';
+	import CottageLast from '$lib/images/Cottage6.jpg';
+	import Cottage from '$lib/images/Cottage5.jpg';
+	import Cottage2 from '$lib/images/Cottage2.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
@@ -59,37 +58,7 @@
 				<img
 					use:lazyimage
 					src={placeholder}
-					data-src={Pool}
-					loading="eager"
-					class="w-4/4 h-[60vh] object-cover img-animate"
-					alt="Acacia Drinks being served in glasses"
-				/>
-			</Carousel.Item>
-			<Carousel.Item class="m-0 p-0 basis-11/12">
-				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={PoolRoom}
-					loading="eager"
-					class="w-4/4 h-[60vh] object-cover img-animate"
-					alt="Acacia Drinks being served in glasses"
-				/>
-			</Carousel.Item>
-			<Carousel.Item class="m-0 p-0 basis-11/12">
-				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={Pool}
-					loading="eager"
-					class="w-4/4 h-[60vh] object-cover img-animate"
-					alt="Acacia Drinks being served in glasses"
-				/>
-			</Carousel.Item>
-			<Carousel.Item class="m-0 p-0 basis-11/12">
-				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={PoolRoom}
+					data-src={CottageLast}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"

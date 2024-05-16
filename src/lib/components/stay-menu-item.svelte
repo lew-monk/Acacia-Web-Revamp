@@ -2,7 +2,7 @@
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Gate from '$lib/images/Gate.avif';
 	import Pool from '$lib/images/Cottage2.jpg';
-	import Esg from '$lib/images/Pool-2.avif';
+	import Esg from '$lib/images/Solar.jpg';
 </script>
 
 <Menubar.Root>
@@ -43,7 +43,7 @@
 						src={Esg}
 						height={800}
 						width={200}
-						class="rounded h-full w-full"
+						class="rounded object-fill h-full w-full"
 						alt="Acacia Entrance"
 						loading="eager"
 					/>

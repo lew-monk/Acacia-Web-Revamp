@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import Conference from '../images/Conference1.jpg';
-	import SwimmingPool from '$lib/images/SwimmingPool1.jpg';
+	import SwimmingPool from '$lib/images/SwimmingPool4.jpg';
 	import office from '$lib/images/office-comp.jpeg';
-	import poolTable from '$lib/images/pool-table-comp.jpeg';
+	import poolTable from '$lib/images/PoolTable1.jpg';
 	import gymaccess from '$lib/images/gym-comp.jpeg';
 	import Tennis from '$lib/images/tennis-comp.jpeg';
+	import Transport from '$lib/images/Transport1.jpg';
 
 	export let service = 'Service Title';
 	export let description =
@@ -19,7 +20,8 @@
 		officespace: office,
 		tablegames: poolTable,
 		gymaccess: gymaccess,
-		tenniscourt: Tennis
+		tenniscourt: Tennis,
+		'transportand logistics': Transport
 	};
 	const sName: string = `${service.toLowerCase().replace(' ', '')}`;
 </script>
@@ -37,7 +39,7 @@
 				/>
 				<div class="grid gap-2">
 					<h1 class="font-[600] text-xl text-primary">{service}</h1>
-					<p class="text-[#2D2E2E]">{description}</p>
+					<p class="text-[#2D2E2E]">{long}</p>
 				</div>
 			</div>
 		</div>

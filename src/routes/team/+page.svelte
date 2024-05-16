@@ -13,10 +13,6 @@
 <section class="">
 	<div class=" carousel lg:h-[80vh] h-[60vh] flex justify-center items-center w-full relative">
 		<Carousel jump={true} {images} />
-		<div class="overlay h-full w-full bg-black absolute top-0 left-0 opacity-50"></div>
-		<div class="z-10 absolute text-white grid gap-8 text-center">
-			<h1 class="text-2xl font-bold">Our Team</h1>
-		</div>
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="w-full bg-white text-center flex justify-center py-12">

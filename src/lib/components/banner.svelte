@@ -4,7 +4,7 @@
 	import Select from './select.svelte';
 	import Carousel from './carousel.svelte';
 	import Restaurant1 from '$lib/images/restaurant1-new.jpg';
-	import SwimmingPool1 from '$lib/images/SwimmingPool1.jpg';
+	import SwimmingPool1 from '$lib/images/SwimmingPool2.jpg';
 	import Kitchen1 from '$lib/images/Kitchen2.jpg';
 
 	const images = [Restaurant1, SwimmingPool1, Kitchen1];
