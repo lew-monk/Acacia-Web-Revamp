@@ -1,17 +1,18 @@
 <script>
-	import Cottages from '../images/F.avif';
-	import Banner from '../images/bannerImg.avif';
-	import Food from '../images/Rectangle (1).avif';
-	import Bed from '../images/bedroom.avif';
-	import Lounge from '../images/Rectangle 20 (1).avif';
-	import Lounger2 from '../images/Rectangle 20.avif';
-	import Bar from '../images/Bar.avif';
-	import Bar2 from '../images/Bar-2.avif';
-	import Bar3 from '../images/Bar-3.avif';
+	import Cottages from '../images/Bar1.jpg';
+	import Banner from '../images/Cottage4.jpg';
+	import SwimmingPool from '../images/SwimmingPool5.jpg';
+	import Kitchen from '../images/Kitchen4.jpg';
+	import Food from '../images/Food2.jpg';
+	import Bar2 from '../images/Bar2.jpg';
+	import Food3 from '../images/Food3.jpg';
+	import Games from '../images/Games1.jpg';
+	import Gym from '../images/Gym1.jpg';
+	import Bed from '../images/Cottage1.jpg';
+	import Lounge from '../images/Restaurant1.jpg';
+	import Lounger2 from '../images/Food4.jpg';
 	import { MoveLeft, MoveRight } from 'lucide-svelte';
 	import { Button } from './ui/button';
-
-	const images = [Food, Banner, Lounge, Cottages, Bed, Lounger2, Bar, Bar2, Bar3];
 </script>
 
 <section id="gallery" class="py-24 bg-[#DDE0C7] flex items-center">
@@ -22,7 +23,7 @@
 			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
 				Moments at <span class="text-primary">Acacia</span>
 			</h1>
-			<div class="flex gap-4">
+			<!-- <div class="flex gap-4">
 				<Button
 					variant="outline"
 					class="shadow-none h-16 w-16 rounded-full border-2 border-primary"
@@ -37,17 +38,27 @@
 				>
 					<MoveRight class="h-4 w-4" />
 				</Button>
-			</div>
+			</div> -->
 		</div>
 		<div class="grid grid-cols-3 gap-4 w-full pt-8">
-			<img src={Food} alt="" class="h-full object-cover rounded-[8px]" />
-			<img src={Banner} alt="" class="h-full rounded-[8px]" />
+			<img src={SwimmingPool} alt="" class="h-full object-fill rounded-[8px]" />
+			<img src={Banner} alt="" class="h-full object-cover rounded-[8px]" />
 			<div class="grid grid-cols-2 gap-4 grid-rows-2">
 				<img src={Lounge} alt="" class="w-full object-cover h-full rounded-[8px]" />
 				<img src={Cottages} alt="" class="w-full rounded-[8px]" />
 				<img src={Bed} alt="" class="h-full object-cover rounded-[8px]" />
 				<img src={Lounger2} alt="" class="h-full object-cover rounded-[8px]" />
 			</div>
+		</div>
+		<div class="grid grid-cols-3 gap-4 w-full pt-8">
+			<div class="grid grid-cols-2 gap-4 grid-rows-2">
+				<img src={Food3} alt="" class="w-full object-cover h-full rounded-[8px]" />
+				<img src={Games} alt="" class="w-full rounded-[8px]" />
+				<img src={Gym} alt="" class="h-full object-cover rounded-[8px]" />
+				<img src={Bar2} alt="" class="h-full object-cover rounded-[8px]" />
+			</div>
+			<img src={Kitchen} alt="" class="h-full object-fill rounded-[8px]" />
+			<img src={Food} alt="" class="h-full object-cover rounded-[8px]" />
 		</div>
 	</div>
 </section>
