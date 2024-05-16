@@ -69,7 +69,6 @@
 	}
 	.img-2 {
 		transition: all 2s ease-in-out;
-		animation: animate-in-left;
 		animation-timeline: view();
 		animation-fill-mode: forwards;
 		animation-range: -20%;
