@@ -4,13 +4,16 @@
 	const fruits = [
 		{ value: 'luxury', label: 'Single Apartment' },
 		{ value: 'cottages', label: 'Double Office' },
-		{ value: 'conferencing', label: 'Cottage Double' }
+		{ value: 'conferencing', label: 'Cottage Single Bed - $120' }
 	];
 </script>
 
 <Select.Root portal={null}>
 	<Select.Trigger class="w-full h-12 shadow-none z-10">
-		<Select.Value class="font-semibold text-primary" placeholder="Purpose" />
+		<Select.Value
+			class="font-semibold placeholder:text-muted-foreground"
+			placeholder={fruits[0].label}
+		/>
 	</Select.Trigger>
 	<Select.Content>
 		<Select.Group>

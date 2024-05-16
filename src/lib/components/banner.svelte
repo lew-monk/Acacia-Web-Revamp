@@ -43,8 +43,8 @@
 	<aside
 		class="lg:h-24 py-2 grid grid-cols-2 md:grid-cols-4 justify-center md:px-8 px-2 items-center gap-4 rounded w-5/6 lg:w-3/4 bg-white absolute -bottom-0 translate-y-1/2 left-1/2 transform -translate-x-1/2"
 	>
-		<DatePicker title="Arrival Date" />
-		<DatePicker title="Depature Date" />
+		<DatePicker title="Check-In" />
+		<DatePicker title="Check-Out" />
 		<div class="col-span-2 md:col-span-1">
 			<Select />
 		</div>
