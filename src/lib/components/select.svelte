@@ -2,13 +2,14 @@
 	import * as Select from '$lib/components/ui/select';
 
 	const fruits = [
-		{ value: 'luxury', label: 'Single Apartment' },
-		{ value: 'cottages', label: 'Double Office' },
-		{ value: 'conferencing', label: 'Cottage Single Bed - $120' }
+		{ value: 'apartments', label: 'Single Apartment' },
+		{ value: 'cottages', label: 'Cottage' },
+		{ value: 'conferencing', label: 'Conferencing' }
 	];
+	export let booking: string = '';
 </script>
 
-<Select.Root portal={null}>
+<Select.Root portal={null} onSelectedChange={(e) => (booking = e?.value)}>
 	<Select.Trigger class="w-full h-12 shadow-none z-10">
 		<Select.Value
 			class="font-semibold placeholder:text-muted-foreground"

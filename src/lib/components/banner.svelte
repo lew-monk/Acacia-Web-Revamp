@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import DatePicker from './date-picker.svelte';
 	import { Button } from './ui/button';
 	import Select from './select.svelte';
@@ -6,8 +6,14 @@
 	import Restaurant1 from '$lib/images/restaurant1-new.jpg';
 	import SwimmingPool1 from '$lib/images/SwimmingPool2.jpg';
 	import Kitchen1 from '$lib/images/Kitchen2.jpg';
+	import BookDialog from './book-dialog.svelte';
+	import type { DateValue } from '@internationalized/date';
 
 	const images = [Restaurant1, SwimmingPool1, Kitchen1];
+
+	export let checkIn: DateValue | undefined = undefined;
+	export let checkOut: DateValue | undefined = undefined;
+	export let booking: string = '';
 </script>
 
 <section class="relative lg:h-[80vh] h-[60vh]">
@@ -43,16 +49,17 @@
 	<aside
 		class="lg:h-24 py-2 grid grid-cols-2 md:grid-cols-4 justify-center md:px-8 px-2 items-center gap-4 rounded w-5/6 lg:w-3/4 bg-white absolute -bottom-0 translate-y-1/2 left-1/2 transform -translate-x-1/2"
 	>
-		<DatePicker title="Check-In" />
-		<DatePicker title="Check-Out" />
+		<DatePicker title="Check-In" bind:dateValue={checkIn} />
+		<DatePicker title="Check-Out" bind:dateValue={checkOut} />
 		<div class="col-span-2 md:col-span-1">
-			<Select />
+			<Select bind:booking />
 		</div>
-		<Button
-			href="/contact"
-			class="shadow-none bg-none col-span-2 md:col-span-1 border-2 border-primary rounded h-12 px-12"
-			>Check Availability</Button
-		>
+		<BookDialog bind:booking bind:checkIn bind:checkOut>
+			<Button
+				class="shadow-none bg-none col-span-2 md:col-span-1 border-2 border-primary rounded h-12 px-12"
+				>Check Availability</Button
+			>
+		</BookDialog>
 	</aside>
 </section>
 

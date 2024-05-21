@@ -10,7 +10,7 @@
 		dateStyle: 'long'
 	});
 
-	let value: DateValue | undefined = undefined;
+	export let dateValue: DateValue | undefined = undefined;
 	export let title: string = 'Select a date';
 </script>
 
@@ -20,15 +20,15 @@
 			variant="outline"
 			class={cn(
 				'w-full h-12 rounded shadow-none justify-between text-left font-semibold',
-				!value && 'text-muted-foreground'
+				!dateValue && 'text-muted-foreground'
 			)}
 			builders={[builder]}
 		>
-			{value ? df.format(value.toDate(getLocalTimeZone())) : title}
+			{dateValue ? df.format(dateValue.toDate(getLocalTimeZone())) : title}
 			<CalendarIcon class="mr-2 h-4 w-4" />
 		</Button>
 	</Popover.Trigger>
 	<Popover.Content class="w-auto p-0">
-		<Calendar bind:value initialFocus />
+		<Calendar bind:value={dateValue} initialFocus />
 	</Popover.Content>
 </Popover.Root>

@@ -11,6 +11,7 @@
 	import Desk from '$lib/images/svg/desk.svelte';
 	import Cupboards from '$lib/images/svg/cupboards.svelte';
 	import Button from './ui/button/button.svelte';
+	import BookDialog from './book-dialog.svelte';
 
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 
@@ -116,13 +117,11 @@
 			{/if}
 		</div>
 		<div class="w-full border-t border-primary">
-			<Button
-				href="/contact"
-				label="Contact Us"
-				class="shadow-none items-center bg-none rounded h-16 my-4 px-12"
-			>
-				Book Your Stay
-			</Button>
+			<BookDialog>
+				<Button class="shadow-none items-center bg-none rounded h-16 my-4 px-12">
+					Book Your Stay
+				</Button>
+			</BookDialog>
 		</div>
 	</div>
 
