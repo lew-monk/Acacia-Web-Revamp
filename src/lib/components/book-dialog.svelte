@@ -35,8 +35,8 @@
 			if (result.type === 'failure') {
 				loading = false;
 				error = true;
-				toast.success('Event has been created', {
-					description: 'Sunday, December 03, 2023 at 9:00 AM',
+				toast.success('Email has not been sent. Please try again Later', {
+					description: new Date().toLocaleString(),
 					action: {
 						label: 'Undo',
 						onClick: () => console.info('Undo')
@@ -108,7 +108,7 @@
 						id="name"
 						name="children"
 						type="number"
-						value="1"
+						bind:value={children}
 						class="col-span-3 h-12 mr-2 rounded-lg"
 					/>
 				</div>
