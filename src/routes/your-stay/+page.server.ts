@@ -42,7 +42,7 @@ export const actions = {
 						from: SENDER_EMAIL,
 						to: RECIPIENT_EMAIL,
 						subject: `BOOKING ENQUIRY FOR ${data.get('email')}`,
-						text: `Booking enquiry from ${data.get('email')}  for period betwween ${data.get('checkIn')} to ${data.get('checkOut')} for ${data.get('adults')} adults and ${data.get('children')} children`
+						text: `Booking enquiry from ${data.get('email')}  for period between ${data.get('checkIn')} to ${data.get('checkOut')} for ${data.get('adults')} adults and ${data.get('children')} children`
 					};
 
 					transporter.sendMail(mailOptions, (error, info) => {
