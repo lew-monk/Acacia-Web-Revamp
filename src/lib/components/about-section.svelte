@@ -131,7 +131,7 @@
 				</p>
 				<div>
 					<Button
-						href="/book"
+						href="/your-stay"
 						label="Contact Us"
 						class="shadow-none items-center bg-none rounded h-16 px-12"
 					>

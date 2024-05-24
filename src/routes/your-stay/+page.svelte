@@ -13,13 +13,15 @@
 </script>
 
 <section>
-	<UnderlinedTabs
-		{tabs}
-		handleTabClick={(e) => {
-			var el = document.getElementById(e.content);
-			window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
-		}}
-	/>
+	<div class="h- w-full container sticky top-16 z-10 bg-inherit">
+		<UnderlinedTabs
+			{tabs}
+			handleTabClick={(e) => {
+				var el = document.getElementById(e.content);
+				window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
+			}}
+		/>
+	</div>
 	<CottageBooking />
 	<div id="poolrooms" class="w-full bg-[#DDE0C7] px-[120px] py-12">
 		<PoolRoomsBooking />
@@ -36,6 +38,9 @@
 		grid-column: start / end;
 		grid-template-columns: subgrid;
 		background-color: #f6f6ef;
+	}
+	.container {
+		grid-column: start / end;
 	}
 	#poolrooms {
 		display: grid;
