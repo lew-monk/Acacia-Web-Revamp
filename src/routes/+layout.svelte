@@ -5,7 +5,9 @@
 	import Navbar from '$lib/components/navbar.svelte';
 	import { onNavigate } from '$app/navigation';
 	import { afterNavigate } from '$app/navigation';
+	import { Toaster } from '$lib/components/ui/sonner';
 	import { fade } from 'svelte/transition';
+	import { ModeWatcher } from 'mode-watcher';
 
 	// hide by default
 	let visible = false;
@@ -31,6 +33,9 @@
 	});
 </script>
 
+<Toaster theme="light" />
+
+<ModeWatcher defaultMode="light" />
 <svelte:head>
 	<title
 		>Acacia Village. Welcome to one of Juba’s safest and most comfortable residential compounds.
