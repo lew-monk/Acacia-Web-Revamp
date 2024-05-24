@@ -32,29 +32,30 @@ export const actions = {
 			}
 		});
 
-		transporter.verify(function(error, success) {
-			if (error) {
-				console.log(error);
-				fail(403);
-				return;
-			} else {
-				var mailOptions = {
-					from: SENDER_EMAIL,
-					to: RECIPIENT_EMAIL,
-					subject: 'BOOKING ENQUIRY',
-					text: `Booking enquiry from ${data.get('email')}  for period betwween ${data.get('checkIn')} to ${data.get('checkOut')} for ${data.get('adults')} adults and ${data.get('children')} children`
-				};
+		await new Promise((resolve, reject) => {
+			transporter.verify(function(error, success) {
+				if (error) {
+					reject(error);
+					fail(403);
+				} else {
+					var mailOptions = {
+						from: SENDER_EMAIL,
+						to: RECIPIENT_EMAIL,
+						subject: 'BOOKING ENQUIRY',
+						text: `Booking enquiry from ${data.get('email')}  for period betwween ${data.get('checkIn')} to ${data.get('checkOut')} for ${data.get('adults')} adults and ${data.get('children')} children`
+					};
 
-				transporter.sendMail(mailOptions, (error, info) => {
-					if (error) {
-						console.log(error);
-						fail(400);
-					} else {
-						console.log('Email Sent', info.response);
-						redirect(303, '/');
-					}
-				});
-			}
+					transporter.sendMail(mailOptions, (error, info) => {
+						if (error) {
+							console.log(error);
+							reject(fail(403));
+						} else {
+							resolve('Email Sent' + info.response);
+							redirect(303, '/');
+						}
+					});
+				}
+			});
 		});
 	}
 } satisfies Actions;
