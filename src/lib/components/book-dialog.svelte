@@ -16,6 +16,7 @@
 	export let children: number = 1;
 	let loading = false;
 	let error = false;
+	let open = false;
 
 	const df = new DateFormatter('en-US', { dateStyle: 'long' });
 </script>
@@ -32,6 +33,7 @@
 		formData.set('email', email);
 		formData.set('children', JSON.stringify(children));
 		return ({ update, result }) => {
+			open = false;
 			if (result.type === 'failure') {
 				loading = false;
 				error = true;
@@ -44,9 +46,11 @@
 				});
 			} else {
 				console.log(result);
+				open = false;
 				update().finally(async () => {
 					await invalidateAll();
 					loading = false;
+					open = false;
 					toast.success(
 						'Email has been sent and we will get back to you as soon as we this. Hold on tight',
 						{
@@ -62,7 +66,7 @@
 		};
 	}}
 >
-	<Dialog.Root>
+	<Dialog.Root bind:open>
 		<Dialog.Trigger>
 			<slot />
 		</Dialog.Trigger>
