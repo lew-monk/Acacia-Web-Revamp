@@ -29,6 +29,10 @@
 		</Button>
 	</Popover.Trigger>
 	<Popover.Content class="w-auto p-0">
-		<Calendar bind:value={dateValue} initialFocus />
+		<Calendar
+			isDateDisabled={(date) => date.toDate('utc') < new Date()}
+			bind:value={dateValue}
+			initialFocus
+		/>
 	</Popover.Content>
 </Popover.Root>
