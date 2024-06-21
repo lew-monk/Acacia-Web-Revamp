@@ -72,8 +72,8 @@
 							<h1 class="font-[600] text-lg lg:text-3xl">“Undoubtedly the best place in Juba”</h1>
 							<p class="text-[#2D2E2E]">
 								Acacia is undoubtedly the best place to stay and live in Juba, with the flavour of a
-								Kenyan holiday resort where guests can enjoy the transparent waters of the pool, the
-								shade of the trees and the quietness of the outdoors
+								holiday resort where guests can enjoy the transparent waters of the pool, the shade
+								of the trees and the quietness of the outdoors
 							</p>
 						</div>
 						<div class="flex gap-4 items-center">
