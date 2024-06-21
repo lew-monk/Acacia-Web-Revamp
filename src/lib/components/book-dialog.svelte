@@ -74,7 +74,8 @@
 			<Dialog.Header>
 				<Dialog.Title>Your Stay Details</Dialog.Title>
 				<Dialog.Description>
-					Fill in the specificity of your stay below and we will be in touch
+					Fill in the details of your stay, and we will promptly get back to you with availability
+					and a quote
 				</Dialog.Description>
 			</Dialog.Header>
 			<div class="grid gap-4 py-4">

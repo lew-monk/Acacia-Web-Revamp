@@ -72,8 +72,7 @@
 		<p class="block text-md font-light">
 			The Single apartments consist of one-bedroom units. These residences are fully furnished, and
 			designed to ensure utmost comfort for guests staying for short or extended periods. They are
-			spacious have well-maintained gardens and feature an outdoor seating area, providing a serene
-			environment for relaxation.
+			spacious, have well-manicured gardens and feature an outdoor seating area.
 		</p>
 
 		<UnderlinedTabs
@@ -86,11 +85,7 @@
 			{#if tab === 'cottage'}
 				<div class="grid gap-4">
 					<div class="flex">
-						<h1 class="w-40 font-semibold">Room Type</h1>
-						<p>20ft</p>
-					</div>
-					<div class="flex">
-						<h1 class="w-40 font-semibold">Bedding</h1>
+						<h1 class="w-40 font-semibold">Beds</h1>
 						<p>Double beds or 2 Singles</p>
 					</div>
 				</div>
@@ -124,10 +119,6 @@
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Double beds</p>
-								</div>
-								<div class="flex py-2 gap-2 items-center">
-									<Lamp />
-									<p>Bedside Cabinets with lamp</p>
 								</div>
 								<div class="flex py-2 gap-2 items-center">
 									<Desk />

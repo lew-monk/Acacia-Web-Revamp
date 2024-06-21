@@ -27,11 +27,9 @@
 	<div class="flex flex-col gap-4">
 		<h1 class="text-5xl block text-primary font-semibold">Pool Side Studios</h1>
 		<p class="block text-md font-light">
-			Our apartments are built in permanent stone structures next to the swimming pool. They are
-			furnished with double beds (or 2 singles), bedside cabinets with lamp, a work station, fridge,
-			safe, cupboards, satellite TV, Wifi and air conditioning. The apartments are ensuite with
-			fully tiled shower rooms with solar-powered hot water. They have a small kitchenette area with
-			a sink, cutlery and crockery.
+			Our Pool Rooms are situated next to the swimming pool. They are furnished with double beds,
+			bedside cabinets with lamp, a work station, fridge, safe, cupboards, satellite TV, Wifi and
+			air conditioning
 		</p>
 
 		<UnderlinedTabs
@@ -82,10 +80,6 @@
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Double beds</p>
-								</div>
-								<div class="flex py-2 gap-2 items-center">
-									<Lamp />
-									<p>Bedside Cabinets with lamp</p>
 								</div>
 								<div class="flex py-2 gap-2 items-center">
 									<Desk />

@@ -17,8 +17,7 @@
 	let data = [
 		{
 			service: 'Accommodation',
-			description:
-				'We offer various room standards, ranging from apartments, cottages and villas. Book a room based on your budget. ',
+			description: 'We have various room options suitable for short and long term stays',
 			Icon: Accomodation
 		},
 		{
@@ -28,12 +27,12 @@
 		},
 		{
 			service: 'Laundry Services',
-			description: 'Collected, washed and pressed for you, six days a week.',
+			description: 'Same day service. Washed and Pressed',
 			Icon: Laundry
 		},
 		{
-			service: 'Connectivity',
-			description: 'High speed, uncapped internet activity ensuring you are always connected.',
+			service: 'Internet',
+			description: 'Reliable, Unlimited high speed Internet',
 			Icon: Connectivity
 		},
 		{
@@ -43,39 +42,40 @@
 		},
 		{
 			service: 'Transport and Logistics',
-			description: 'Assistance with all local transport, security and immigration requirements.',
+			description:
+				'Free Airport shuttle service. We offer assistance with immigration requirements.',
 			Icon: Transport,
-			long: 'Acacia Village is just 15 minutes from the airport, and we are happy to provide free airport transfers to our guests. We also offer assistance with all local transport, security and immigration requirements.'
+			long: 'Acacia Village is just 15 minutes from the airport, and we provide free airport transfers to our guests. We also offer assistance with all local transport and immigration requirements.'
 		},
 		{
 			service: 'Swimming Pool',
-			long: 'The pool is perfect for swimming and relaxation. After your swim, stay refreshed by the poolside as you stretch on the sun lounger with a drink at hand.',
+			long: 'Enjoy cooling down on a hot Juba day and relaxing on your shaded pool lounger whilst savouring your favourite drink',
 			description: 'Relax by our private 12 metre pool.',
 			Icon: Swimming
 		},
 		{
 			service: 'Office Space',
-			long: 'Let us tailor and handle all of your office needs in our fully furnished and air-conditions office units adjacent to our conference rooms and restaurant.',
+			long: 'In need of office space? Let us tailor and handle all your office needs in our fully furnished and air-conditioned office units.',
 			description:
-				'It’s business as usual at Acacia village. Our team can create an office to suit your needs.',
+				'We have ample office space situated in a tranquil environment away from the hustle and bustle.',
 			Icon: Office
 		},
 		{
 			service: 'Table Games',
-			long: 'Where strategic minds come together for thrilling moments of skill, luck, and friendly competition.',
 			description:
-				'Indulge in a round of table tennis or pool at our gaming area while catching live matches on our large screens.',
+				'Where strategic minds come together for thrilling moments of skill, luck, and friendly competition.',
+			long: 'Enjoy our recreational games area which offers Table Tennis, Table Soccer, Pool Table and your favourite sports events on our giant screens.',
 			Icon: TableGames
 		},
 		{
 			service: 'Gym Access',
-			description: 'Rejuvenate and recharge in our private gym.',
-			long: 'While at Acacia village, there is no need to let your fitness regime slip. We offer a fully equipped gym area, including running and rowing machines, as well as various weights machines.',
+			description: 'Utilize our well-equipped gym',
+			long: 'While at Acacia village, there is no need to let your fitness regime slip. Our air-conditioned gym is fully equipped for cardio and strength training.',
 			Icon: Gym
 		},
 		{
 			service: 'Tennis Court',
-			description: 'Hit a tennis ball on Juba’s only full size tennis court.',
+			description: 'Enjoy a game of tennis on our floodlit tennis court',
 			long: 'The best maintained tennis court in Juba, available to residents and to our Tennis Members. Call Reception to join!',
 			Icon: TableGames
 		},

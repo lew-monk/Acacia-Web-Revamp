@@ -69,7 +69,7 @@
 					<div class="w-6/6 py-4 grid gap-6 text-[#2D2E2E]">
 						<div class="grid gap-4">
 							<slot name="icon" />
-							<h1 class="font-[600] text-lg lg:text-3xl">“A flavor of Kenyan holiday”</h1>
+							<h1 class="font-[600] text-lg lg:text-3xl">“Undoubtedly the best place in Juba”</h1>
 							<p class="text-[#2D2E2E]">
 								Acacia is undoubtedly the best place to stay and live in Juba, with the flavour of a
 								Kenyan holiday resort where guests can enjoy the transparent waters of the pool, the

@@ -118,16 +118,22 @@
 					Your Stay at <span class="text-primary">Acacia</span> Village
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-					Our range of air-conditions ensuite apartments and rooms all boast a double bed, mosquito
-					net, satellite TV, mini-fridge, and workstation. We provide clean, cosy, and functional
-					accommodation options, all managed by our friendly team of staff. Whether you’re on a
-					long-term work rotation or a weekend getaway, you can be sure of a relaxing stay.
+					Acacia Village was established by Maris Ltd in Juba in 2009 to offer a comfortable and
+					secure home-away-from-home. A secure accommodation and office compound, Acacia Village has
+					earned a reputation for uncompromising quality and a relaxed family-like atmosphere.
 				</p>
 				<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
-					Plus we give you peace of mind: our compound is guarded 24/7 by Veteran Security Services,
-					South Sudan’s largest private security company. It is surrounded by a fully lit 2.2m
-					permitter wall, lined with anti-vehicle-ram protection, and topped with both electric and
-					razor wire.
+					Acacia Village offers short and long term accommodation, office space, conferencing and
+					recreational facilities. Our single ensuite apartments, poolside studios, and cottages are
+					spacious and cosy. They include complementary laundry, high-speed internet, and satellite
+					TV
+				</p>
+				<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
+					Leveraging the support of the Maris Group, Acacia Village is a leading example of what can
+					be achieved with the right resources and expertise, in a challenging frontier market such
+					as Juba. Leveraging the support of the Maris Group, Acacia Village is a leading example of
+					what can be achieved with the right resources and expertise, in a challenging frontier
+					market such as Juba.
 				</p>
 				<div>
 					<Button

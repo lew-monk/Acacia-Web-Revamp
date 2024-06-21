@@ -89,7 +89,7 @@
 						<p>20ft</p>
 					</div>
 					<div class="flex">
-						<h1 class="w-40 font-semibold">Bedding</h1>
+						<h1 class="w-40 font-semibold">Beds</h1>
 						<p>Double beds or 2 Singles</p>
 					</div>
 				</div>
@@ -123,10 +123,6 @@
 								<div class="flex py-2 gap-2 items-center">
 									<Bed />
 									<p>Double beds</p>
-								</div>
-								<div class="flex py-2 gap-2 items-center">
-									<Lamp />
-									<p>Bedside Cabinets with lamp</p>
 								</div>
 								<div class="flex py-2 gap-2 items-center">
 									<Desk />
