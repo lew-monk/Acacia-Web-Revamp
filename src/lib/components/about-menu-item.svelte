@@ -2,7 +2,7 @@
 	import * as Menubar from '$lib/components/ui/menubar';
 	import Location from '$lib/images/Location-2.avif';
 	import Maris from '$lib/images/Ac.png';
-	import Gate from '$lib/images/Convert.avif';
+	import Gate from '$lib/images/FoodDrink1.jpg';
 </script>
 
 <Menubar.Root>
@@ -28,9 +28,7 @@
 				<a href="team" class="bg-transpart h-[200px]">
 					<img
 						src={Gate}
-						height={800}
-						width={400}
-						class="rounded h-full object-cover"
+						class="rounded h-full w-full object-fill"
 						alt="Acacia Entrance"
 						loading="eager"
 					/>
