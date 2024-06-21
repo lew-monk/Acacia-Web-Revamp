@@ -86,7 +86,7 @@
 				<div class="grid gap-4">
 					<div class="flex">
 						<h1 class="w-40 font-semibold">Beds</h1>
-						<p>Double beds or 2 Singles</p>
+						<p>Double</p>
 					</div>
 				</div>
 			{:else}

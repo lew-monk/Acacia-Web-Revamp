@@ -25,7 +25,7 @@
 
 <div id="cottage" class="grid grid-cols-2 py-12 gap-20">
 	<div class="flex flex-col gap-4">
-		<h1 class="text-5xl block text-primary font-semibold">Pool Side Studios</h1>
+		<h1 class="text-5xl block text-primary font-semibold">Pool Rooms</h1>
 		<p class="block text-md font-light">
 			Our Pool Rooms are situated next to the swimming pool. They are furnished with double beds,
 			bedside cabinets with lamp, a work station, fridge, safe, cupboards, satellite TV, Wifi and
