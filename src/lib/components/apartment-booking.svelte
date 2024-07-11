@@ -15,11 +15,8 @@
 
 	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 
-	const roomTabs = [
-		{ title: 'Room Type', content: 'cottage' },
-		{ title: 'Ammenities', content: 'poolrooms' }
-	];
-	let tab = 'cottage';
+	const roomTabs = [{ title: 'Ammenities', content: 'poolrooms' }];
+	let tab = 'cottages';
 	let selectedDetail = 'furniture';
 </script>
 
