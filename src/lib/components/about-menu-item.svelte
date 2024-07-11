@@ -9,7 +9,7 @@
 		<Menubar.Trigger class="shadow-none border-none"
 			><p class="shadow-none text-base border-none">About</p>
 		</Menubar.Trigger>
-		<Menubar.Content class="shadow-none py-4 grid grid-cols-2 rounded w-1/2 z-10 h-[350px]">
+		<Menubar.Content class="shadow-none py-4 grid grid-cols-2 rounded w-1/3 z-10 h-[350px]">
 			<Menubar.Item>
 				<a href="about" class="bg-transpart h-[200px]">
 					<img
