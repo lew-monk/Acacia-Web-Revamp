@@ -20,7 +20,7 @@
 	let selectedDetail = 'furniture';
 </script>
 
-<div id="cottage" class="grid grid-cols-2 py-12 gap-20">
+<div id="cottage" class="grid md:grid-cols-2 py-16 gap-20">
 	<Carousel.Root
 		class="p-0 m-0 h-full img-animate"
 		plugins={[
@@ -91,7 +91,7 @@
 					</div>
 				</div>
 			{:else}
-				<div class="grid grid-cols-4">
+				<div class="grid lg:grid-cols-4 grid-cols-3">
 					<div class="w-40">
 						<div class="grid grid-cols-1 py-2">
 							<button

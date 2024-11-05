@@ -17,9 +17,9 @@
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="w-full bg-white text-center flex justify-center py-12">
 			<div class="w-2/2 h-full gap-4 flex justify-center items-center flex-col">
-				<h1 class="text-base lg:w-1/2 w-10/12 leading-snug text-textPrimary font-bold">
-					Our staff consists expatriates and nationals who are fully dedicated to ensure your stay
-					at Acacia Village is a memorable one.
+				<h1 class="text-base lg:w-1/2 w-10/12 leading-snug text-textPrimary font-semibold">
+					Our staff consists of both expatriates and nationals, fully dedicated to ensuring your
+					stay at Acacia Village is a memorable one
 				</h1>
 
 				<h3 class="lg:w-3/4 w-11/12">

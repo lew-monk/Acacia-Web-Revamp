@@ -2,8 +2,8 @@
 	import Maris from '$lib/images/Ac.png';
 </script>
 
-<section class="py-12 gap-12">
-	<div class="w-full flex items-center gap-4">
+<section class="py-12 md:gap-12">
+	<div class="w-full flex flex-col items-center md:gap-4 gap-4">
 		<div class="">
 			<a href="https://marisafrica.com/" target="_blank">
 				<img src={Maris} alt="" class="lg:w-1/2" />
@@ -106,5 +106,10 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column: content / content-end;
+	}
+	@media (max-width: 768px) {
+		section > div {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>

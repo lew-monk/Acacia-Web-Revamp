@@ -16,7 +16,7 @@
 				use:lazyimage
 				src={placeholder}
 				data-src={Conference}
-				class="w-4/4 flex lg:hidden rounded h-full object-cover lg:img-animate"
+				class="w-4/4 lg:hidden object-contain rounded lg:img-animate"
 				alt="Acacia Drinks being served in glasses img-animate"
 			/>
 			<div class="lg:w-5/6 w-full flex gap-4 flex-col">

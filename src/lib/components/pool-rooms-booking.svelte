@@ -20,7 +20,7 @@
 	let selectedDetail = 'furniture';
 </script>
 
-<div id="cottage" class="grid grid-cols-2 py-12 gap-20">
+<div id="cottage" class="grid md:grid-cols-2 py-12 gap-20">
 	<div class="flex flex-col gap-4">
 		<h1 class="text-5xl block text-primary font-semibold">Pool Rooms</h1>
 		<p class="block text-md font-light">
@@ -48,7 +48,7 @@
 					</div>
 				</div>
 			{:else}
-				<div class="grid grid-cols-4">
+				<div class="grid md:grid-cols-4 grid-cols-3">
 					<div class="w-40">
 						<div class="grid grid-cols-1 py-2">
 							<button

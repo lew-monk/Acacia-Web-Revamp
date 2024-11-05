@@ -7,9 +7,9 @@
 <aside class="border-b border-primary h-16 my-4">
 	<ul class="px-4 flex w-full h-full gap-4">
 		{#each tabs as tab}
-			<li class="w-[200px] h-full">
+			<li class="w-fit h-full">
 				<button
-					class="h-full text-sm w-full justify-center flex items-center border-b-4 border-transparent text-center"
+					class="h-full text-sm w-full justify-start flex items-center border-b-4 border-transparent text-center"
 					class:selectedTab={selectedTab === tab}
 					on:click={() => {
 						handleTabClick(tab);

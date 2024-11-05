@@ -12,8 +12,8 @@
 	];
 </script>
 
-<section>
-	<div class="h- w-full container sticky top-16 z-10 bg-inherit">
+<section class="w-full overflow-x-hidden relative">
+	<div class="h- w-full container sticky top-1 lg:top-16 z-10 bg-inherit">
 		<UnderlinedTabs
 			{tabs}
 			handleTabClick={(e) => {
@@ -23,10 +23,10 @@
 		/>
 	</div>
 	<CottageBooking />
-	<div id="poolrooms" class="w-full bg-[#DDE0C7] px-[120px] py-12">
+	<div id="poolrooms" class="w-full bg-[#DDE0C7] md:px-[120px] px-5 py-12">
 		<PoolRoomsBooking />
 	</div>
-	<div id="poolrooms" class="w-full bg-white px-[120px] py-12">
+	<div id="poolrooms" class="w-full bg-white md:px-[120px] px-5 py-12">
 		<ApartmentBooking />
 	</div>
 	<Footer />

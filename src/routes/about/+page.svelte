@@ -13,7 +13,9 @@
 	</div>
 	<div class="secondary bg-[#DDE0C7]">
 		<div class="lg:py-24 py-12 lg:px-[120px] px-[20px] rounded grid lg:grid-cols-2 gap-4">
-			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-semibold">
+			<h1
+				class="text-5xl text-center lg:hidden block leading-snug w-full text-textPrimary font-semibold"
+			>
 				About <span class="text-primary">Acacia</span> Village
 			</h1>
 			<img

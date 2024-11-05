@@ -62,7 +62,7 @@
 					>
 					{#if isExpanded === 'stay'}
 						<ul class="gap-2 grid text-base mb-4 ml-2" transition:slide>
-							<a class="block" on:click={() => (open = !open)} href="book">Accommodation</a>
+							<a class="block" on:click={() => (open = !open)} href="your-stay">Accommodation</a>
 							<a class="block" on:click={() => (open = !open)} href="security"
 								>Safety and Security</a
 							>
@@ -73,10 +73,8 @@
 						on:click={() => (open = !open)}
 						href="services">Our Services</a
 					>
-					<a
-						class="block mb-2 text-lg font-semibold"
-						on:click={() => (open = !open)}
-						href="services">Gallery</a
+					<a class="block mb-2 text-lg font-semibold" on:click={() => (open = !open)} href="gallery"
+						>Gallery</a
 					>
 					<a class="block mb-2 text-lg font-semibold" on:click={() => (open = !open)} href="contact"
 						>Contact</a

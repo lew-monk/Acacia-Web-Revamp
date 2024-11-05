@@ -34,7 +34,7 @@
 			src={placeholder}
 			data-src={Cottage1}
 			loading="eager"
-			class="w-4/4 h-full block lg:hidden object-cover rounded lg:img-animate"
+			class="w-4/4 lg:hidden object-contain rounded lg:img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>
 		<div class="hidden lg:grid gap-4">

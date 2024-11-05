@@ -101,7 +101,7 @@
 			<h2 class="text-xl text-primary relative oasis">Our Services</h2>
 		</div> -->
 		<div class="w-full h-full flex justify-center items-center flex-col">
-			<h1 class="text-5xl leading-snug w-full text-textPrimary font-medium">
+			<h1 class="text-5xl text-center leading-snug w-full text-textPrimary font-medium">
 				What we <span class="text-primary">Offer</span>
 			</h1>
 		</div>

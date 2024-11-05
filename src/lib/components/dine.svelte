@@ -16,7 +16,7 @@
 			src={placeholder}
 			data-src={Food}
 			loading="lazy"
-			class="w-4/4 h-full block lg:hidden object-cover rounded lg:img-animate"
+			class="w-4/4 lg:hidden object-contain rounded lg:img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>
 		<img
