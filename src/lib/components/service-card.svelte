@@ -21,7 +21,7 @@
 		tablegames: poolTable,
 		gymaccess: gymaccess,
 		tenniscourt: Tennis,
-		'transportand logistics': Transport
+		transport: Transport
 	};
 	const sName: string = `${service.toLowerCase().replace(' ', '')}`;
 </script>
