@@ -54,14 +54,12 @@
 		<div class="col-span-2 md:col-span-1">
 			<Select bind:booking />
 		</div>
-		<div class="col-span-2">
-			<BookDialog bind:booking bind:checkIn bind:checkOut>
-				<Button
-					class="shadow-none bg-none col-span-3 md:col-span-1 border-2 border-primary rounded h-12 px-12 w-full"
-					>Check Availability</Button
-				>
-			</BookDialog>
-		</div>
+		<BookDialog bind:booking bind:checkIn bind:checkOut>
+			<Button
+				class="shadow-none bg-none col-span-3 md:col-span-1 border-2 border-primary rounded h-12 px-12 w-full"
+				>Check Availability</Button
+			>
+		</BookDialog>
 	</aside>
 </section>
 
