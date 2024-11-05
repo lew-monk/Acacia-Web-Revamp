@@ -41,7 +41,7 @@
 			Icon: Conference
 		},
 		{
-			service: 'Transport and Logistics',
+			service: 'Transport',
 			description:
 				'Free Airport shuttle service. We offer assistance with immigration requirements.',
 			Icon: Transport,
