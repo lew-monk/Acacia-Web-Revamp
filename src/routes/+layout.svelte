@@ -42,7 +42,7 @@
 	</title>
 </svelte:head>
 {#if visible}
-	<section in:fade={{ duration }}>
+	<section in:fade={{ duration }} class="w-screen overflow-x-hidden relative">
 		<Navbar />
 		<slot />
 	</section>

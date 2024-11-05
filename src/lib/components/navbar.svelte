@@ -13,7 +13,7 @@
 	}
 </script>
 
-<nav class=" w-full items-center shadow-sm relative z-100 lg:h-[80px]">
+<nav class=" w-full h-fit items-center shadow-sm z-100 lg:h-[80px] fixed top-0">
 	<!-- <div class="sec-nav h-[40px] bg-primary w-full py-2 px-4 flex justify-end">
 		contact us at: +211 911 252 613
 	</div> -->
@@ -88,13 +88,13 @@
 <style>
 	nav {
 		grid-column: start / end;
-		display: grid;
 		grid-template-columns: subgrid;
 		view-transition-name: fade;
-		position: sticky;
+		position: fixed;
+		padding-left: 12px;
 		z-index: 100;
 		background: white;
-		top: 0;
+		top: 0px;
 	}
 	.nav-items {
 		grid-column: content / content-end;
