@@ -6,7 +6,7 @@
 	import poolTable from '$lib/images/PoolTable1.jpg';
 	import gymaccess from '$lib/images/gym-comp.jpeg';
 	import Tennis from '$lib/images/tennis-comp.jpeg';
-	import Transport from '$lib/images/Transport1.jpg';
+	import Transport from '$lib/images/transport.jpg';
 
 	export let service = 'Service Title';
 	export let description =
