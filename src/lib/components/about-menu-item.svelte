@@ -16,7 +16,7 @@
 						src={Location}
 						width={800}
 						height={400}
-						class="rounded w-full h-full object-cover"
+						class="rounded w-full h-full object-contain"
 						alt="Acacia Entrance"
 						loading="eager"
 					/>
@@ -27,7 +27,7 @@
 				<a href="team" class="bg-transpart h-[200px]">
 					<img
 						src={Gate}
-						class="rounded h-full w-full object-fill"
+						class="rounded h-full w-full object-contain"
 						alt="Acacia Entrance"
 						loading="eager"
 					/>
