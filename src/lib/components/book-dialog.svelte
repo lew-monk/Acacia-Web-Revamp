@@ -24,6 +24,7 @@
 <form
 	action="your-stay"
 	method="post"
+	class="col-span-2 w-full pl-12"
 	id="sendmail"
 	use:enhance={({ formData }) => {
 		loading = true;
