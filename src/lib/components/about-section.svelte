@@ -25,9 +25,11 @@
 <section class=" bg-[#F6F6EF] py-12 flex items-center" id="stay">
 	<div class="pt-24 pb-12 gap-4">
 		<h1
-			class="text-2xl block lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
+			class="text-2xl inline-flex lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 		>
-			Your Stay at <span class="text-primary">Acacia</span> Village
+			<span class="inline-flex">
+				Your Stay at <span class="text-primary">Acacia</span> Village
+			</span>
 		</h1>
 		<img
 			use:lazyimage
@@ -38,7 +40,7 @@
 			alt="Acacia Drinks being served in glasses"
 		/>
 		<div class="hidden lg:grid gap-4">
-			<Carousel.Root bind:api class="p-0 m-0 img-animate">
+			<Carousel.Root bind:api class="p-0 m-0 ">
 				<Carousel.Content class="p-0 m-0 flex gap-1">
 					<Carousel.Item class="m-0 p-0 basis-11/12">
 						<img
@@ -46,7 +48,7 @@
 							src={placeholder}
 							data-src={Cottage1}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover img-animate"
+							class="w-4/4 h-[60vh] object-cover"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
@@ -56,7 +58,7 @@
 							src={placeholder}
 							data-src={PoolRoom}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover img-animate"
+							class="w-4/4 h-[60vh] object-cover"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
@@ -66,7 +68,7 @@
 							src={placeholder}
 							data-src={Conference}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover img-animate"
+							class="w-4/4 h-[60vh] object-cover"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
