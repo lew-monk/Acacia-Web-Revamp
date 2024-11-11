@@ -37,14 +37,6 @@
 						uncompromising quality and a relaxed family-like atmosphere. Residents include individuals
 						from a broad range of geographies and sectors, including development, humanitarian, and aviation.
 					</p>
-					<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
-						Acacia Village offers a range of accommodation, office, conferencing, transport, and
-						sports facilities. Our single apartments, poolside studios, and cottages all come
-						ensuite and fully furnished. They include complementary laundry, high-speed internet,
-						and satellite TV. Leveraging the support of the Maris Group, Acacia Village is a leading
-						example of what can be achieved with the right resources and expertise, in a challenging
-						frontier market such as Juba.
-					</p>
 					<div></div>
 				</div>
 			</div>
