@@ -13,10 +13,8 @@
 				Conference, Workshops and <span class="text-primary">Events</span>
 			</h1>
 			<img
-				use:lazyimage
-				src={placeholder}
-				data-src={Conference}
-				class="w-4/4 lg:hidden object-contain rounded lg:img-animate"
+				src={Conference}
+				class="w-4/4 lg:hidden object-contain rounded lg:img-animate bg-[url(/Conference.jpg)]"
 				alt="Acacia Drinks being served in glasses img-animate"
 			/>
 			<div class="lg:w-5/6 w-full flex gap-4 flex-col">
@@ -38,10 +36,8 @@
 		</div>
 
 		<img
-			use:lazyimage
-			src={placeholder}
-			data-src={Conference}
-			class="w-4/4 hidden lg:flex rounded h-full object-cover img-animate"
+			src={Conference}
+			class="w-4/4 hidden lg:flex rounded h-full object-cover img-animate bg-[url(/Conference.jpg)]"
 			alt="Acacia Drinks being served in glasses img-animate"
 		/>
 	</div>

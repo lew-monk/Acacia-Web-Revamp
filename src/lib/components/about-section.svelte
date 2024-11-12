@@ -27,9 +27,7 @@
 		<h1
 			class="text-2xl inline-flex lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 		>
-			<span class="inline-flex">
-				Your Stay at <span class="text-primary">Acacia</span> Village
-			</span>
+			<span class="inline-flex"> Your Stay at Acacia Village </span>
 		</h1>
 		<img
 			use:lazyimage
@@ -44,11 +42,10 @@
 				<Carousel.Content class="p-0 m-0 flex gap-1">
 					<Carousel.Item class="m-0 p-0 basis-11/12">
 						<img
-							use:lazyimage
 							src={placeholder}
 							data-src={Cottage1}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
@@ -117,7 +114,7 @@
 			<div class="lg:w-5/6 w-ful flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 				<h1 class="text-5xl hidden lg:flex gap-2 leading-snug w-full text-textPrimary font-medium">
-					Your Stay at <span class="text-primary">Acacia</span> Village
+					<span class="inline-flex gap-2"> Your Stay at Acacia Village </span>
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
 					Acacia Village was established by Maris Ltd in Juba in 2009 to offer a comfortable and
