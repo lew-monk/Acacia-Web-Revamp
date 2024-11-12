@@ -44,7 +44,7 @@
 						<img
 							src={Cottage1}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/Conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
@@ -52,7 +52,7 @@
 						<img
 							src={PoolRoom}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/Conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
@@ -60,7 +60,7 @@
 						<img
 							src={Conference}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/Conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
