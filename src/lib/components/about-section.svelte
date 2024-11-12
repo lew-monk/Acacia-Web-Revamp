@@ -133,9 +133,7 @@
 				<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
 					Leveraging the support of the Maris Group, Acacia Village is a leading example of what can
 					be achieved with the right resources and expertise, in a challenging frontier market such
-					as Juba. Leveraging the support of the Maris Group, Acacia Village is a leading example of
-					what can be achieved with the right resources and expertise, in a challenging frontier
-					market such as Juba.
+					as Juba.
 				</p>
 				<div>
 					<Button
