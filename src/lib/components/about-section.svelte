@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Cottage1 from '$lib/images/Cottage2.jpg';
+	import Cottage1 from '$lib/images/cottage.jpg';
 	import PoolRoom from '$lib/images/PoolRoom6.jpg';
-	import Conference from '$lib/images/Conference3.jpg';
+	import Conference from '$lib/images/Conference Image.jpg';
 	import { lazyimage } from 'svelte-lazyimage-cache';
 	import { Button } from './ui/button';
 	import { onMount } from 'svelte';

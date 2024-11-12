@@ -1,7 +1,5 @@
 <script>
-	import Food from '../images/Kitchen3.jpg';
-	import { lazyimage } from 'svelte-lazyimage-cache';
-	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
+	import Food from '../images/Kitchen.jpg';
 </script>
 
 <section class=" bg-[#F6F6EF] flex items-center" id="stay">
@@ -12,17 +10,13 @@
 			Dining <span class="text-primary">Experiences</span>
 		</h1>
 		<img
-			use:lazyimage
-			src={placeholder}
-			data-src={Food}
+			src={Food}
 			loading="lazy"
 			class="w-4/4 lg:hidden object-contain rounded lg:img-animate"
 			alt="Acacia Drinks being served in glasses"
 		/>
 		<img
-			use:lazyimage
-			src={placeholder}
-			data-src={Food}
+			src={Food}
 			loading="lazy"
 			class="w-4/4 h-full object-cover hidden lg:block rounded img-animate"
 			alt="Acacia Drinks being served in glasses"

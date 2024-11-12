@@ -1,7 +1,5 @@
 <script>
-	import Conference from '../images/Conference2.jpg';
-	import { lazyimage } from 'svelte-lazyimage-cache';
-	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
+	import Conference from '../images/Conference Image.jpg';
 </script>
 
 <section class=" bg-[#DDE0C7] flex items-center" id="stay">
