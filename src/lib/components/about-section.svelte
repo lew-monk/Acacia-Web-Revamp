@@ -42,8 +42,7 @@
 				<Carousel.Content class="p-0 m-0 flex gap-1">
 					<Carousel.Item class="m-0 p-0 basis-11/12">
 						<img
-							src={placeholder}
-							data-src={Cottage1}
+							src={Cottage1}
 							loading="eager"
 							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
@@ -51,21 +50,17 @@
 					</Carousel.Item>
 					<Carousel.Item class="m-0 p-0 basis-11/12">
 						<img
-							use:lazyimage
-							src={placeholder}
-							data-src={PoolRoom}
+							src={PoolRoom}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
 					<Carousel.Item class="m-0 p-0 basis-11/12">
 						<img
-							use:lazyimage
-							src={placeholder}
-							data-src={Conference}
+							src={Conference}
 							loading="eager"
-							class="w-4/4 h-[60vh] object-cover"
+							class="w-4/4 h-[60vh] object-cover bg-[url(/conference.jpg)]"
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
