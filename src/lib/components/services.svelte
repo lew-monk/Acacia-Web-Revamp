@@ -118,7 +118,7 @@
 		{#if $page.url.pathname === '/'}
 			<Button href="services" class="shadow-none items-center bg-none rounded h-16 px-12 ">
 				<div class="flex items-center h-8 gap-4">
-					<span class="exp-text">Explore Our Ammenities</span>
+					<span class="xp-text">Explore Our Ammenities</span>
 				</div>
 			</Button>
 		{/if}
