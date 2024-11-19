@@ -129,9 +129,7 @@
 		<Carousel.Content class="p-0 m-0 flex gap-1">
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={Pool}
+					src={Pool}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"
@@ -139,9 +137,7 @@
 			</Carousel.Item>
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={PoolRoom1}
+					src={PoolRoom1}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"
@@ -149,9 +145,7 @@
 			</Carousel.Item>
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={PoolRoom}
+					src={PoolRoom}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"

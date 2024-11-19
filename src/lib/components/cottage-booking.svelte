@@ -34,9 +34,7 @@
 		<Carousel.Content class="p-0 m-0 flex gap-1">
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={Cottage}
+					src={Cottage}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"
@@ -44,9 +42,7 @@
 			</Carousel.Item>
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={Cottage2}
+					src={Cottage2}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"
@@ -54,9 +50,7 @@
 			</Carousel.Item>
 			<Carousel.Item class="m-0 p-0 basis-11/12">
 				<img
-					use:lazyimage
-					src={placeholder}
-					data-src={CottageLast}
+					src={CottageLast}
 					loading="eager"
 					class="w-4/4 h-[60vh] object-cover img-animate"
 					alt="Acacia Drinks being served in glasses"
