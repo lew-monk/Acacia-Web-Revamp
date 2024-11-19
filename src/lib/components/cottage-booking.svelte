@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CottageLast from '$lib/images/Cottage6.jpg';
+	import CottageLast from '$lib/images/cottagelast.jpg';
 	import Cottage from '$lib/images/Cottage5.jpg';
 	import Cottage2 from '$lib/images/Cottage2.jpg';
 	import * as Carousel from '$lib/components/ui/carousel';

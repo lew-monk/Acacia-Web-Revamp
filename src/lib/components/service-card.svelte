@@ -4,7 +4,7 @@
 	import SwimmingPool from '$lib/images/swimmingpool.jpg';
 	import office from '$lib/images/office-comp.jpeg';
 	import poolTable from '$lib/images/pooltable.jpg';
-	import gymaccess from '$lib/images/gym-comp.jpeg';
+	import gymaccess from '$lib/images/Gym Photo July 2023.jpg';
 	import Tennis from '$lib/images/tennis-comp.jpeg';
 	import Transport from '$lib/images/entry2.jpg';
 
