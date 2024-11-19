@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import Conference from '../images/Conference1.jpg';
-	import SwimmingPool from '$lib/images/SwimmingPool4.jpg';
+	import SwimmingPool from '$lib/images/swimmingpool.jpg';
 	import office from '$lib/images/office-comp.jpeg';
 	import poolTable from '$lib/images/PoolTable1.jpg';
 	import gymaccess from '$lib/images/gym-comp.jpeg';
