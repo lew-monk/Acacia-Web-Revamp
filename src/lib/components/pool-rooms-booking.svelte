@@ -1,8 +1,7 @@
 <script lang="ts">
 	import Pool from '$lib/images/PoolRoom3.jpg';
 	import PoolRoom from '$lib/images/PoolRoom4.jpg';
-	import PoolRoom1 from '$lib/images/PoolRoom6.jpg';
-	import { lazyimage } from 'svelte-lazyimage-cache';
+	import PoolRoom1 from '$lib/images/Pool Room 2.jpg';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
 	import UnderlinedTabs from './underlined-tabs.svelte';
@@ -12,8 +11,6 @@
 	import Cupboards from '$lib/images/svg/cupboards.svelte';
 	import Button from './ui/button/button.svelte';
 	import BookDialog from './book-dialog.svelte';
-
-	const placeholder = 'https://media3.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif';
 
 	const roomTabs = [{ title: 'Ammenities', content: 'poolrooms' }];
 	let tab = 'cottages';
@@ -121,7 +118,7 @@
 		plugins={[
 			Autoplay({
 				delay: 4000,
-				jump: false,
+				jump: true,
 				duration: 500
 			})
 		]}

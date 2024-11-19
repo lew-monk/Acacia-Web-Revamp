@@ -26,7 +26,7 @@
 		plugins={[
 			Autoplay({
 				delay: 4000,
-				jump: false,
+				jump: true,
 				duration: 500
 			})
 		]}

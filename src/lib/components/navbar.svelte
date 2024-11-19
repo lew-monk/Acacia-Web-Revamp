@@ -17,7 +17,9 @@
 	<!-- <div class="sec-nav h-[40px] bg-primary w-full py-2 px-4 flex justify-end">
 		contact us at: +211 911 252 613
 	</div> -->
-	<div class="nav-items py-2 h-[80px] max-h-full flex w-full justify-between items-center">
+	<div
+		class="nav-items py-2 lg:px-[80px] h-[80px] max-h-full flex w-full justify-between items-center"
+	>
 		<a href="/" class="lg:w-1/12 w-[100px]">
 			<img src={Logo} alt="" class="lg:nav-img w-12/12 object-contain" />
 		</a>
