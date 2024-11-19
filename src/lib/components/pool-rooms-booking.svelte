@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Pool from '$lib/images/PoolRoom3.jpg';
-	import PoolRoom from '$lib/images/PoolRoom4.jpg';
+	import PoolRoom from '$lib/images/Pool Room 4.jpg';
 	import PoolRoom1 from '$lib/images/Pool Room 2.jpg';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
