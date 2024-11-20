@@ -45,14 +45,13 @@
 					}
 				});
 			} else {
-				console.log(result);
 				open = false;
 				update().finally(async () => {
 					await invalidateAll();
 					loading = false;
 					open = false;
 					toast.success(
-						'Email has been sent and we will get back to you as soon as we this. Hold on tight',
+						'Email has been sent and we will get back to you as soon as we see this. Hold on tight',
 						{
 							description: new Date().toLocaleString(),
 							action: {
