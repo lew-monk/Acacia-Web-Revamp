@@ -40,7 +40,7 @@
 		<div class="hidden lg:grid gap-4">
 			<Carousel.Root bind:api class="p-0 m-0 ">
 				<Carousel.Content class="p-0 m-0 flex gap-1">
-					<Carousel.Item class="m-0 p-0 basis-11/12">
+					<Carousel.Item class="m-0 p-0 basis-[98%]">
 						<img
 							src={Cottage1}
 							loading="eager"
@@ -48,7 +48,7 @@
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
-					<Carousel.Item class="m-0 p-0 basis-11/12">
+					<Carousel.Item class="m-0 p-0 basis-[98%]">
 						<img
 							src={PoolRoom}
 							loading="eager"
@@ -56,7 +56,7 @@
 							alt="Acacia Drinks being served in glasses"
 						/>
 					</Carousel.Item>
-					<Carousel.Item class="m-0 p-0 basis-11/12">
+					<Carousel.Item class="m-0 p-0 basis-[98%]">
 						<img
 							src={Conference}
 							loading="eager"
