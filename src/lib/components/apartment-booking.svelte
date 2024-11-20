@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Pool from '$lib/images/Apartment.jpg';
-	import Apartment from '$lib/images/Apartment3.jpg';
+	import Apartment from '$lib/images/Apartment 3.jpg';
 	import PoolRoom from '$lib/images/Apartment2.jpg';
 	import * as Carousel from '$lib/components/ui/carousel';
 	import Autoplay from 'embla-carousel-autoplay';
@@ -12,7 +12,7 @@
 	import Button from './ui/button/button.svelte';
 	import BookDialog from './book-dialog.svelte';
 
-	const roomTabs = [{ title: 'Ammenities', content: 'poolrooms' }];
+	const roomTabs = [{ title: 'Amenities', content: 'poolrooms' }];
 	let tab = 'cottages';
 	let selectedDetail = 'furniture';
 </script>
