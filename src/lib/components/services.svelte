@@ -164,10 +164,6 @@
 		background: #717c26;
 	}
 
-	.exp-text {
-		animation: fadeInText 1s ease;
-		animation-timeline: view(70% 1%);
-	}
 	@keyframes fadeInText {
 		0% {
 			opacity: 0;

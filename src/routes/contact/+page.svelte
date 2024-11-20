@@ -6,7 +6,7 @@
 	import Sms from '$lib/images/svg/sms.svelte';
 </script>
 
-<section class="">
+<section class="py-12">
 	<div class="main text-white">
 		<div class="w-full contact flex justify-center gap-4">
 			<div class=" py-24 lg:w-1/2 px-12 lg:px-0 grid gap-4">

@@ -120,7 +120,7 @@
 					Acacia Village offers short and long term accommodation, office space, conferencing and
 					recreational facilities. Our single ensuite apartments, poolside studios, and cottages are
 					spacious and cosy. They include complementary laundry, high-speed internet, and satellite
-					TV
+					TV.
 				</p>
 				<p class="text-md font-[500] text-[#2D2E2E] leading-loose">
 					Leveraging the support of the Maris Group, Acacia Village is a leading example of what can

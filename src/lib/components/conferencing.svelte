@@ -8,7 +8,7 @@
 			<h1
 				class="text-2xl block gap-2 lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 			>
-				Conference, Workshops and <span class="text-primary">Events</span>
+				Conferences, Workshops and <span class="text-primary">Events</span>
 			</h1>
 			<img
 				src={Conference}
@@ -18,7 +18,7 @@
 			<div class="lg:w-5/6 w-full flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 				<h1 class="text-5xl hidden lg:block leading-snug w-full text-textPrimary font-medium">
-					Conference, Workshops and <span class="text-primary">Events</span>
+					Conferences, Workshops and <span class="text-primary">Events</span>
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
 					We offer a range of both indoor and outdoor event and conference facilities, for groups of
@@ -26,9 +26,9 @@
 					freshly made snacks, and lunch catering if required.
 				</p>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-					Our conference spaces are also fitted with video equipment to enable virtual attendees.
-					Whether you’re hosting a themed workshop event or an executive conference meeting, Acacia
-					Village can satisfy your requirements.
+					Our conference rooms are equipped with video technology to accommodate virtual
+					participants. Whether you’re hosting a themed workshop event or an executive meeting,
+					Acacia Village is equiped to meet your needs.
 				</p>
 			</div>
 		</div>

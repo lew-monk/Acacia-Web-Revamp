@@ -7,7 +7,7 @@
 		<h1
 			class="text-2xl block lg:hidden leading-snug w-full text-textPrimary font-semibold lg:font-medium"
 		>
-			Dining <span class="text-primary">Experiences</span>
+			Dining <span class="text-primary">Experience</span>
 		</h1>
 		<img
 			src={Food}
@@ -25,7 +25,7 @@
 			<div class="lg:w-5/6 w-full flex gap-4 flex-col">
 				<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 				<h1 class="text-5xl hidden lg:flex gap-2 leading-snug w-full text-textPrimary font-medium">
-					Dining <span class="text-primary">Experiences</span>
+					Dining <span class="text-primary">Experience</span>
 				</h1>
 				<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
 					Acacia Village Bar & Restaurant takes pride in it menu that has delightful array of dishes
