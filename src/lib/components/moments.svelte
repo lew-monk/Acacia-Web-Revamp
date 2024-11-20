@@ -7,7 +7,7 @@
 	import Bar2 from '../images/Bar2.jpg';
 	import Food3 from '../images/Food3.jpg';
 	import Games from '../images/Games1.jpg';
-	import Gym from '../images/Gym1.jpg';
+	import Gym from '../images/Gym Photo July 2023.jpg';
 	import Bed from '../images/Cottage1.jpg';
 	import Lounge from '../images/Restaurant1.jpg';
 	import Lounger2 from '../images/Food4.jpg';
