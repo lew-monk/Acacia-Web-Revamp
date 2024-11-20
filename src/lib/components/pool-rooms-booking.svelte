@@ -12,7 +12,7 @@
 	import Button from './ui/button/button.svelte';
 	import BookDialog from './book-dialog.svelte';
 
-	const roomTabs = [{ title: 'Ammenities', content: 'poolrooms' }];
+	const roomTabs = [{ title: 'Amenities', content: 'poolrooms' }];
 	let tab = 'cottages';
 	let selectedDetail = 'furniture';
 </script>
