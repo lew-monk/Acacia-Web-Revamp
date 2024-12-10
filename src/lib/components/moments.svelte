@@ -7,12 +7,10 @@
 	import Bar2 from '../images/Bar2.jpg';
 	import Food3 from '../images/Food3.jpg';
 	import Games from '../images/Games1.jpg';
-	import Gym from '../images/Gym Photo July 2023.jpg';
+	import Gym from '../images/gyme2.jpg';
 	import Bed from '../images/Cottage1.jpg';
 	import Lounge from '../images/Restaurant1.jpg';
 	import Lounger2 from '../images/Food4.jpg';
-	import { MoveLeft, MoveRight } from 'lucide-svelte';
-	import { Button } from './ui/button';
 </script>
 
 <section id="gallery" class="py-24 bg-[#DDE0C7] flex items-center">
