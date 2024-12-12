@@ -7,6 +7,7 @@
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { toast } from 'svelte-sonner';
+	import { Info } from 'lucide-svelte';
 
 	export let checkIn: DateValue | undefined = undefined;
 	export let checkOut: DateValue | undefined = undefined;
@@ -17,6 +18,7 @@
 	let loading = false;
 	let error = false;
 	let open = false;
+	let emptyEmail = false;
 
 	const df = new DateFormatter('en-US', { dateStyle: 'long' });
 </script>
@@ -32,6 +34,11 @@
 		formData.set('adults', JSON.stringify(adults));
 		formData.set('email', email);
 		formData.set('children', JSON.stringify(children));
+		if (!email) {
+			emptyEmail = true;
+			loading = false;
+			return;
+		}
 		return ({ update, result }) => {
 			open = false;
 			if (result.type === 'failure') {
@@ -126,6 +133,12 @@
 						bind:value={email}
 						class="col-span-3 h-12 mr-2 rounded-lg"
 					/>
+					{#if emptyEmail}
+						<div class="flex gap-2 px-1 py-2 bg-red-100 items-center col-span-4 rounded">
+							<Info class="h-6 w-6 text-red-500" />
+							<p class="text-red-500 text-sm px-2">Email is required</p>
+						</div>
+					{/if}
 				</div>
 			</div>
 			<Dialog.Footer>

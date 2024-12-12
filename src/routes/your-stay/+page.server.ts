@@ -13,7 +13,6 @@ import {
 export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
-		console.log(data);
 
 		let transporter = nodemailer.createTransport({
 			host: 'smtp.gmail.com',
