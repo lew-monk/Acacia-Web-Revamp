@@ -14,6 +14,8 @@ export const actions = {
 	default: async ({ request }) => {
 		const data = await request.formData();
 
+		if (data.get('email') === '' || data.get('email') === 'undefined') return;
+
 		let transporter = nodemailer.createTransport({
 			host: 'smtp.gmail.com',
 			port: 587,
