@@ -39,24 +39,24 @@
 			</div> -->
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pt-8">
-			<img src={SwimmingPool} alt="" class="h-full object-fill rounded-[8px]" />
-			<img src={Banner} alt="" class="h-full object-cover rounded-[8px]" />
+			<img src={SwimmingPool} alt="" class="h- object-contain rounded-[8px] w-full" />
+			<img src={Banner} alt="" class="object-cover rounded-[8px]" />
 			<div class="grid grid-cols-2 gap-4 grid-rows-2">
-				<img src={Lounge} alt="" class="w-full object-contain h-fit rounded-[8px]" />
+				<img src={Lounge} alt="" class="w-full object-contain rounded-[8px]" />
 				<img src={Cottages} alt="" class="w-full rounded-[8px]" />
-				<img src={Bed} alt="" class="h-full object-contain rounded-[8px]" />
-				<img src={Lounger2} alt="" class="h-full object-contain rounded-[8px]" />
+				<img src={Bed} alt="" class="object-contain rounded-[8px]" />
+				<img src={Lounger2} alt="" class="object-contain rounded-[8px]" />
 			</div>
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pt-8">
 			<div class="grid grid-cols-2 gap-4 grid-rows-2">
-				<img src={Food3} alt="" class="w-full object-contain h-full rounded-[8px]" />
+				<img src={Food3} alt="" class="w-full object-contain rounded-[8px]" />
 				<img src={Games} alt="" class="w-full rounded-[8px]" />
-				<img src={Gym} alt="" class="h-full object-contain rounded-[8px]" />
-				<img src={Bar2} alt="" class="h-full object-contain rounded-[8px]" />
+				<img src={Gym} alt="" class=" object-contain rounded-[8px]" />
+				<img src={Bar2} alt="" class=" object-contain rounded-[8px]" />
 			</div>
-			<img src={Kitchen} alt="" class="h-full object-contain rounded-[8px]" />
-			<img src={Food} alt="" class="h-full object-contain rounded-[8px]" />
+			<img src={Kitchen} alt="" class=" object-contain rounded-[8px]" />
+			<img src={Food} alt="" class="object-contain rounded-[8px]" />
 		</div>
 	</div>
 </section>
