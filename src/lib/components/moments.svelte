@@ -38,7 +38,7 @@
 				</Button>
 			</div> -->
 		</div>
-		<div class="grid grid-cols-3 gap-4 w-full pt-8">
+		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pt-8">
 			<img src={SwimmingPool} alt="" class="h-full object-fill rounded-[8px]" />
 			<img src={Banner} alt="" class="h-full object-cover rounded-[8px]" />
 			<div class="grid grid-cols-2 gap-4 grid-rows-2">
@@ -48,7 +48,7 @@
 				<img src={Lounger2} alt="" class="h-full object-cover rounded-[8px]" />
 			</div>
 		</div>
-		<div class="grid grid-cols-3 gap-4 w-full pt-8">
+		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pt-8">
 			<div class="grid grid-cols-2 gap-4 grid-rows-2">
 				<img src={Food3} alt="" class="w-full object-cover h-full rounded-[8px]" />
 				<img src={Games} alt="" class="w-full rounded-[8px]" />
