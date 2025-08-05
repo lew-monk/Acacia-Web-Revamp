@@ -58,6 +58,11 @@
 			<img src={Kitchen} alt="" class=" object-contain rounded-[8px]" />
 			<img src={Food} alt="" class="object-contain rounded-[8px]" />
 		</div>
+		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pt-8">
+			<img src="/ariel-court.jpg" alt="" class=" object-contain rounded-[8px]" />
+			<img src="/player-court.jpg" alt="" class=" object-contain h-full rounded-[8px]" />
+			<img src="/court-empty.jpg" alt="" class="object-cover h-full rounded-[8px]" />
+		</div>
 	</div>
 </section>
 
