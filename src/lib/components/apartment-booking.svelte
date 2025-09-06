@@ -59,8 +59,8 @@
 		<h1 class="text-5xl block text-primary font-semibold">Single Apartments</h1>
 		<p class="block text-md font-light">
 			The Single apartments consist of one-bedroom units. These residences are fully furnished, and
-			designed to ensure utmost comfort for guests staying for short or extended periods. They are
-			spacious, have well-manicured gardens and feature an outdoor seating area.
+			designed to ensure utmost comfort for guests staying for longterm stays. They are spacious,
+			have well-manicured gardens and feature an outdoor seating area.
 		</p>
 
 		<UnderlinedTabs
