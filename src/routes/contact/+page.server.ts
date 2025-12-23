@@ -46,7 +46,7 @@ export const actions = {
 						from: SENDER_EMAIL,
 						to: RECIPIENT_EMAIL,
 						subject: `Contact enquiry from ${data.get('email')}`,
-						text: `Contact enquiry from ${data.get('name')}  for  ${data.get('subject')} in regards to ${data.get('message')}. Kindly get back to the customer at for ${data.get('email')} or ${data.get('phone')}`
+						text: `Contact enquiry from ${data.get('name')}  for  ${data.get('subject')} in regards to ${data.get('message')}. Kindly get back to the customer at ${data.get('email')} or ${data.get('phone')}`
 					};
 
 					transporter.sendMail(mailOptions, (error, info) => {
