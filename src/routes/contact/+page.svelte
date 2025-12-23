@@ -34,35 +34,36 @@
 			</div>
 		</div>
 		<div class="form w-full h-full flex items-center justify-center py-12 lg:py-0">
-			<form action="" class="w-3/4">
+			<form action="contact" method="post" class="w-3/4">
 				<div class="grid gap-4 grid-cols-2">
 					<div class="flex flex-col gap-2">
 						<label for="name">Name</label>
-						<input type="text" id="name" class="" />
+						<input type="text" required id="name" class="" name="name" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="email">Email</label>
-						<input type="email" id="email" class="" />
+						<input type="email" required name="email" id="email" class="" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="phone">Phone</label>
-						<input type="tel" id="phone" class="" />
+						<input type="tel" required id="phone" class="" name="phone" />
 					</div>
 					<div class="flex flex-col gap-2">
 						<label for="message">Subject</label>
 						<input
-							name="message"
 							id="message"
+							required
 							class=" appearance-none bg-transparent border-b border-primary"
+							name="subject"
 						/>
 					</div>
 					<div class="flex flex-col gap-2 col-span-2">
 						<label for="message">Message</label>
-						<textarea name="message" id="message" class="p-4"></textarea>
+						<textarea name="message" required id="message" class="p-4"></textarea>
 					</div>
 					<div class="">
 						<Button
-							href="/contact"
+							type="submit"
 							class="shadow-none bg-none border-2 border-primary rounded h-16 px-12"
 							>Send message
 						</Button>
