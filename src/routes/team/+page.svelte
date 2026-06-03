@@ -5,7 +5,7 @@
 	import Andy from '$lib/images/Andy.jpg';
 	import Mary from '$lib/images/Mary.jpg';
 	import Micheal from '$lib/images/Michael.jpg';
-	import Emmanuel from '$lib/images/Emmanuel.jpg';
+	import Festus from '$lib/images/Festus.jpg';
 
 	const images = [Chef];
 </script>
@@ -127,10 +127,10 @@
 			class="lg:py-24 py-12 lg:px-[120px] bg-white px-[20px] rounded grid gap-4 lg:grid-cols-8 grid-cols-1"
 		>
 			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-medium">
-				EMMANUEL KYALO
+				FESTUS MAKAU
 			</h1>
 			<img
-				src={Emmanuel}
+				src={Festus}
 				loading="eager"
 				class="w-4/4 lg:hidden block lg:col-span-2 items-center h-full object-cover rounded"
 				alt="Acacia Drinks being served in glasses"
@@ -139,21 +139,20 @@
 				<div class="lg:w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl hidden lg:block leading-snug w-full text-textPrimary font-medium">
-						EMMANUEL KYALO
+						Festus Makau
 					</h1>
 
 					<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-						Emmanuel serves as the Finance Manager. He joined Acacia Village in March 2020, bringing
-						with him extensive experience in the fields of Finance and Accounting. He has worked
-						with firms in Kenya’s hospitality and horticulture sectors, acquiring valuable expertise
-						along the way. Emmanuel holds a Master’s Degree in Finance (KCA University) and is a
-						Certified Public Accountant of Kenya (CPA-K), showcasing his dedication to professional
-						growth and proficiency in his field.
+						A graduate of Utalii College in Kenya, Festus has extensive Food and Beverage management
+						experience dating back to 2003. Before joining Acacia, he worked with renowned hotels
+						including Fairmont The Norfolk, Serena, and Ole Sereni. He has been part of our team
+						since 2018, committed to excellence and contributing immensely to the organization's
+						growth. You can be sure an experienced and proven team prepares your food.
 					</p>
 				</div>
 			</div>
 			<img
-				src={Emmanuel}
+				src={Festus}
 				loading="eager"
 				class="w-4/4 hidden lg:block col-span-2 items-center h-full object-cover rounded"
 				alt="Acacia Drinks being served in glasses"
