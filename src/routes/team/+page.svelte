@@ -5,6 +5,7 @@
 	import Andy from '$lib/images/Andy.jpg';
 	import Mary from '$lib/images/Mary.jpg';
 	import Dishon from '$lib/images/Dishon.jpg';
+	import Festus from '$lib/images/Festus.jpg';
 
 	const images = [Chef];
 </script>
@@ -129,6 +130,12 @@
 			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-medium">
 				FESTUS MAKAU
 			</h1>
+			<img
+				src={Festus}
+				loading="eager"
+				class="w-4/4 lg:hidden block lg:col-span-2 items-center h-full object-cover rounded"
+				alt="Festus Makau"
+			/>
 			<div class="w-full h-full flex justify-center lg:col-span-6 items-center flex-col">
 				<div class="lg:w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
@@ -145,6 +152,12 @@
 					</p>
 				</div>
 			</div>
+			<img
+				src={Festus}
+				loading="eager"
+				class="w-4/4 hidden lg:block col-span-2 items-center h-full object-cover rounded"
+				alt="Festus Makau"
+			/>
 		</div>
 	</div>
 	<Footer />
