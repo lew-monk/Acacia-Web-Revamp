@@ -4,8 +4,7 @@
 	import Chef from '$lib/images/Convert.avif';
 	import Andy from '$lib/images/Andy.jpg';
 	import Mary from '$lib/images/Mary.jpg';
-	import Micheal from '$lib/images/Michael.jpg';
-	import Festus from '$lib/images/Festus.jpg';
+	import Dishon from '$lib/images/Dishon.jpg';
 
 	const images = [Chef];
 </script>
@@ -98,26 +97,27 @@
 			class="lg:py-24 py-12 lg:px-[120px] px-[20px] rounded grid gap-4 lg:grid-cols-8 grid-cols-1"
 		>
 			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-medium">
-				MICHAEL MURIMA
+				DISHON GITHAIGA
 			</h1>
 			<img
-				src={Micheal}
+				src={Dishon}
 				loading="eager"
 				class="w-4/4 col-span-2 items-center h-full object-cover rounded"
-				alt="Acacia Drinks being served in glasses"
+				alt="Dishon Githaiga"
 			/>
 			<div class="w-full h-full flex justify-center lg:col-span-6 items-center flex-col">
 				<div class="lg:w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl leading-snug hidden lg:block w-full text-textPrimary font-medium">
-						MICHAEL MURIMA
+						DISHON GITHAIGA
 					</h1>
 					<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
-						Michael is our F&amp;B Manager. He has a great passion for his role. He began his
-						journey at Moyo Restaurant in Johannesburg, South Africa back in 2004. He has refined
-						his expertise with different establishments spanning South and North Africa. With
-						Michael in charge, you can rest assured that your dining experience will be exceptional
-						and enjoyable.
+						Dishon joined Acacia in December 2025, bringing extensive finance and accounting
+						knowledge from the FMCG and service industries across both public and private sectors.
+						He holds a Bachelor of Science in Agribusiness Management from Egerton University and is
+						a Certified Public Accountant of Kenya. Prior to joining Acacia, he worked with regional
+						distributorships and manufacturing companies, rising from Accounts Assistant to Senior
+						Accountant within six years.
 					</p>
 				</div>
 			</div>
@@ -129,17 +129,11 @@
 			<h1 class="text-2xl lg:hidden block leading-snug w-full text-textPrimary font-medium">
 				FESTUS MAKAU
 			</h1>
-			<img
-				src={Festus}
-				loading="eager"
-				class="w-4/4 lg:hidden block lg:col-span-2 items-center h-full object-cover rounded"
-				alt="Acacia Drinks being served in glasses"
-			/>
 			<div class="w-full h-full flex justify-center lg:col-span-6 items-center flex-col">
 				<div class="lg:w-5/6 flex gap-4 flex-col">
 					<!-- <h2 class="text-xl text-primary relative oasis">About Section</h2> -->
 					<h1 class="text-5xl hidden lg:block leading-snug w-full text-textPrimary font-medium">
-						Festus Makau
+						FESTUS MAKAU
 					</h1>
 
 					<p class="text-md text-[#2D2E2E] font-[500] leading-loose">
@@ -151,12 +145,6 @@
 					</p>
 				</div>
 			</div>
-			<img
-				src={Festus}
-				loading="eager"
-				class="w-4/4 hidden lg:block col-span-2 items-center h-full object-cover rounded"
-				alt="Acacia Drinks being served in glasses"
-			/>
 		</div>
 	</div>
 	<Footer />
